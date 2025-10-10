@@ -1,0 +1,1 @@
+A subset $S$ of a [[Notes/Poset]] $X$ is an antichain if no two distinct elements of $S$ are related. 

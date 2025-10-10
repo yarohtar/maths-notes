@@ -1,0 +1,8 @@
+[[Notes/Schrodinger Equation]]
+[[Notes/Wave function]]
+[[Notes/Particle in Potential Well]]
+[[Notes/Scattering]]
+[[Notes/Harmonic Oscillator in QM]]
+[[Notes/Adjoint]]
+[[Notes/Quantum Measurements]]
+[[Notes/Commutator]]

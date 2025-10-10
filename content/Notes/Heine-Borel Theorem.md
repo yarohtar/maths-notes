@@ -1,0 +1,4 @@
+A subset $K\subseteq \mathbb R^n$ is compact if and only if it is closed and bounded.
+#### Proof
+Suppose $K$ is compact. Then $f:K\to\mathbb R$ by $f(x)=||x||$ is [[Notes/Compactness#Theorem\|bounded]], so $K$ is bounded. Furthermore, $K$ is [[Notes/Compact-closed\|closed]] in [[Notes/Hausdorff space]] $\mathbb R^n$. 
+Conversely, if $K$ is closed and bounded, find interval $[-M,M]$ s.t. $K\subseteq [-M,M]^n$. Then this space is a [[Notes/Tychonorff's Theorem on Finite Products\|finite product]] of [[Notes/Closed interval is compact\|compact intervals]] hence compact. But then $K$ is also [[Notes/Compact-closed\|compact]], as a closed subspace.

@@ -1,0 +1,1 @@
+The order type of a [[Notes/Well-ordered]] set $X$ is the unique [[Notes/Ordinal]] to which it's [[Notes/Order-isomorphic]].
