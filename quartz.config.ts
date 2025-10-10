@@ -69,7 +69,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, disableBrokenWikilinks: true }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest", openLinksInNewTab: true }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest", prettyLinks: true, openLinksInNewTab: true }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "mathjax" }),
       Plugin.HardLineBreaks(),
