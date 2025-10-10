@@ -1,0 +1,1 @@
+The [[Notes/Category]] of [[Notes/Metric spaces]] and [[Notes/Nonexpansive Maps]] denoted by $\mathrm{Met}$ 

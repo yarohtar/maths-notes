@@ -1,0 +1,1 @@
+Let $ON$ denote the class of all ordinals. By [[Notes/Burali-Forti paradox]], $ON$ is not a set. 
