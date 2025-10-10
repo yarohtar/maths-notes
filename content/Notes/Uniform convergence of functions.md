@@ -55,4 +55,11 @@ $$f'(x)=\sum_{n=1}^\infty f_n'(x)$$
 #### Proof sketch
 Define $f(x)=\int_c^xf' + \sum_{n=1}^\infty f_n(c)$ where $f'$ is the uniform limit of partial sums of $f_n'$. Note that by FTA, $f$ is differentiable and it's derivative is $f'$. So we just need to prove that partial sums of $f_n$ converge uniformly to $f$. 
 Let $\epsilon>0$. Find $N$ s.t. for any $n>N$ we have $|f'-\sum_{k=1}^n f_k'|<\epsilon$ AND $|\sum_{k=n+1}^\infty f_n(c)|<\epsilon$. By FTA we have $f_k(x)=\int_c^xf_k'+f_k(c)$. So:
-$$\begin{align}|f(x)-\sum_{k=1}^nf_k(x)|&=\left|\int_c^x(f'-\sum_{k=1}^nf_k')+\sum_{k={n+1}}^\infty f_n(c)\right|\\&\leq \int_c^x|f'-\sum_{k=1}^nf_k'|+|\sum_{k=n+1}^\infty f_n(c)|\\&< |x-c|\epsilon +\epsilon\leq\epsilon(1+|a-b|)\end{align}$$
+$$
+\begin{align} \\
+|f(x)-\sum_{k=1}^nf_k(x)|&=\left|\int_c^x(f'-\sum_{k=1}^nf_k')+\sum_{k={n+1}}^\infty f_n(c)\right|\\
+&\leq \int_c^x|f'-\sum_{k=1}^nf_k'|+|\sum_{k=n+1}^\infty f_n(c)| \\
+&< |x-c|\epsilon +\epsilon \\
+&\leq \epsilon(1+|a-b|) \\
+\end{align}
+$$
