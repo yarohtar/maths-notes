@@ -1,7 +1,8 @@
 ---
-title: Homepage
+{"publish":true,"title":"Homepage","created":"2025-10-10T17:04:52.534+01:00","modified":"2025-10-10T17:05:23.677+01:00","cssclasses":""}
 ---
-On this website you will find my notes as I write them throughout my time in Cambrige.
+
+On this website you will find my notes as I write them throughout my time in Cambridge.
 
 No content presented on this website is official nor endorsed by the University (or people associated with the University) 
 and it is not an accurate representation of what was lectured or what is examined.
@@ -16,35 +17,35 @@ https://github.com/yarohtar/cam-maths-notes-obsidian
 This website was created using Quartz (https://quartz.jzhao.xyz/).
 
 ## Part IA
-- [[Groups]] (taken from [[Groups, Rings and Modules]])
-- [[Probability Space]] (taken from [[Probability and Measure]])
+- [[Notes/Groups]] (taken from [[Notes/Groups, Rings and Modules]])
+- [[Notes/Probability Space]] (taken from [[Notes/Probability and Measure]])
 
 ## Part IB
-- Some of [[Methods]]
-- [[Optimisation]]
-- [[Variational principles]]
-- [[Analysis and Topology]]
-- [[Quantum mechanics]]
-- [[Groups, Rings and Modules]] (only [[Groups]] and [[Ring]])
-- [[Numerical Analysis]]
-- [[Complex Methods]]
+- Some of [[Notes/Methods]]
+- [[Notes/Optimisation]]
+- [[Notes/Variational principles]]
+- [[Notes/Analysis and Topology]]
+- [[Notes/Quantum mechanics]]
+- [[Notes/Groups, Rings and Modules]] (only [[Notes/Groups]] and [[Notes/Ring]])
+- [[Notes/Numerical Analysis]]
+- [[Notes/Complex Methods]]
 
 ## Part II
-- Some of [[Algebraic Topology]]
-- [[Linear Analysis]]
-- [[Numerical Analysis]]
-- [[Asymptotic methods]]
-- [[Automata and formal languages]]
-- Some of [[Principles of Quantum Mechanics]]
-- [[Probability and Measure]] (mostly just measure)
-- Some of [[Number theory]]
-- Some of [[Graph Theory]]
-- [[Coding and Cryptography]]
-- [[Logic and Set Theory]]
-- Some of [[Integrable systems]]
-- [[Quantum Information and Computing]]
+- Some of [[Notes/Algebraic Topology]]
+- [[Notes/Linear Analysis]]
+- [[Notes/Numerical Analysis]]
+- [[Notes/Asymptotic methods]]
+- [[Notes/Automata and formal languages]]
+- Some of [[Notes/Principles of Quantum Mechanics]]
+- [[Notes/Probability and Measure]] (mostly just measure)
+- Some of [[Notes/Number theory]]
+- Some of [[Notes/Graph Theory]]
+- [[Notes/Coding and Cryptography]]
+- [[Notes/Logic and Set Theory]]
+- Some of [[Notes/Integrable systems]]
+- [[Notes/Quantum Information and Computing]]
 
 ## Part III
-- [[Quantum Information]]
-- [[Algebraic Methods in Combinatorics]]
-- [[Category Theory]]
+- [[Notes/Quantum Information]]
+- [[Notes/Algebraic Methods in Combinatorics]]
+- [[Notes/Category Theory]]
