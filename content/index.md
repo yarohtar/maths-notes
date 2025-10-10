@@ -8,12 +8,12 @@ and it is not an accurate representation of what was lectured or what is examine
 While some notes were taken during lectures, a big part was created after lectures / during revision and heavily modified based on various resources.
 In particular, all errors are my own.
 
-The lecture notes were created in Obsidian ([[https://obsidian.md/]]). 
+The lecture notes were created in Obsidian ([[https://obsidian.md/|https://obsidian.md/]]). 
 If you want to view them in the app, you can find the setup guide here:
 
-[[https://github.com/yarohtar/cam-maths-notes-obsidian]]
+[[https://github.com/yarohtar/cam-maths-notes-obsidian|https://github.com/yarohtar/cam-maths-notes-obsidian]]
 
-This website was created using Quartz ([[https://quartz.jzhao.xyz/]]).
+This website was created using Quartz ([[https://quartz.jzhao.xyz/|https://quartz.jzhao.xyz/]]).
 
 ## Part IA
 - [[Groups]] (taken from [[Groups, Rings and Modules]])
