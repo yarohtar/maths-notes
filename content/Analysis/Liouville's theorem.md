@@ -1,0 +1,1 @@
+If $f$ is analytic and bounded on $\mathbb C$ then it is constant.
