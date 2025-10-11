@@ -1,1 +1,0 @@
-For any ring $R$ there is a unique ring homomorphism $\phi:\mathbb Z\to R$. We say $n$ is the characteristic of $R$ if $\ker\phi= n\mathbb Z$. 

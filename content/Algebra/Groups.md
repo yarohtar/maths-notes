@@ -1,8 +1,0 @@
-[[Algebra/The isomorphism theorems (Groups)]]
-[[Algebra/Simple groups]]
-[[Algebra/Group actions]]
-[[Algebra/Permutation groups]]
-[[Algebra/Alternating groups]]
-[[Algebra/Groups of prime order]]
-[[Algebra/Sylow's Theorems]]
-[[Algebra/Finite Abelian Groups]]

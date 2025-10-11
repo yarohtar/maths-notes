@@ -1,1 +1,0 @@
-A metric space is complete if every Cauchy sequence converges.

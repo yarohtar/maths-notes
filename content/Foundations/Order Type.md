@@ -1,1 +1,0 @@
-The order type of a [[Foundations/Well-ordered]] set $X$ is the unique [[Foundations/Ordinal]] to which it's [[Foundations/Order-isomorphic]].
