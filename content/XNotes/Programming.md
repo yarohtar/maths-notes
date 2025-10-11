@@ -1,1 +1,0 @@
-[[XNotes/Programming Algorithms]]

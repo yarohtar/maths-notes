@@ -1,1 +1,0 @@
-A formula with no [[XNotes/Free Variable]]s is called a sentence.

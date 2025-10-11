@@ -1,8 +1,0 @@
-[[XNotes/Schrodinger Equation]]
-[[XNotes/Wave function]]
-[[XNotes/Particle in Potential Well]]
-[[XNotes/Scattering]]
-[[XNotes/Harmonic Oscillator in QM]]
-[[Analysis/Adjoint]]
-[[XNotes/Quantum Measurements]]
-[[Algebra/Commutator]]

@@ -1,1 +1,0 @@
-$L=T-V$ where $T$ is kinetic energy and $V$ is potential energy.
