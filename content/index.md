@@ -4,8 +4,8 @@
 
 On this website you will find my notes as I write them throughout my time in Cambridge.
 
-No content presented on this website is official nor endorsed by the University (or people associated with the University) 
-and it is not an accurate representation of what was lectured or what is examined.
+No content presented on this website is official nor endorsed by the University.
+It is not an accurate representation of what was lectured or what is examined.
 While some notes were taken during lectures, a big part was created after lectures / during revision and heavily modified based on various resources.
 In particular, all errors are my own.
 
