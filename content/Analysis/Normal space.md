@@ -1,2 +1,0 @@
-A [[Analysis/Hausdorff space]] is called normal if 
-any two disjoint closed sets can be separated by disjoint open sets.
