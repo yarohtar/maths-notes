@@ -1,0 +1,1 @@
+A formula with no [[Foundations/Free Variable]]s is called a sentence.
