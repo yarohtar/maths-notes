@@ -17,35 +17,35 @@ https://github.com/yarohtar/cam-maths-notes-obsidian
 This website was created using Quartz (https://quartz.jzhao.xyz/).
 
 ## Part IA
-- [[XNotes/Groups]] (taken from [[XNotes/Groups, Rings and Modules]])
-- [[XNotes/Probability Space]] (taken from [[XNotes/Probability and Measure]])
+- [[Algebra/Groups]] (taken from [[Algebra/Groups, Rings and Modules]])
+- [[Probability/Probability Space]] (taken from [[Analysis/Probability and Measure]])
 
 ## Part IB
-- Some of [[XNotes/Methods]]
-- [[XNotes/Optimisation]]
-- [[XNotes/Variational principles]]
+- Some of [[Calculus/Methods]]
+- [[Numerical/Optimisation]]
+- [[Calculus/Variational principles]]
 - [[Analysis/Analysis and Topology]]
-- [[XNotes/Quantum mechanics]]
-- [[XNotes/Groups, Rings and Modules]] (only [[XNotes/Groups]] and [[XNotes/Ring]])
-- [[XNotes/Numerical Analysis]]
+- [[Quantum/Quantum mechanics]]
+- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Groups]] and [[Algebra/Ring]])
+- [[Numerical/Numerical Analysis]]
 - [[Analysis/Complex Methods]]
 
 ## Part II
 - Some of [[Algebra/Algebraic Topology]]
-- [[XNotes/Linear Analysis]]
-- [[XNotes/Numerical Analysis]]
+- [[Analysis/Linear Analysis]]
+- [[Numerical/Numerical Analysis]]
 - [[Asymptotic Methods/Asymptotic methods]]
 - [[Foundations/Automata and formal languages]]
-- Some of [[XNotes/Principles of Quantum Mechanics]]
-- [[XNotes/Probability and Measure]] (mostly just measure)
-- Some of [[XNotes/Number theory]]
-- Some of [[XNotes/Graph Theory]]
+- Some of [[Quantum/Principles of Quantum Mechanics]]
+- [[Analysis/Probability and Measure]] (mostly just measure)
+- Some of [[Algebra/Number theory]]
+- Some of [[Combinatorics/Graph Theory]]
 - [[Information Theory/Coding and Cryptography]]
-- [[XNotes/Logic and Set Theory]]
-- Some of [[XNotes/Integrable systems]]
-- [[XNotes/Quantum Information and Computing]]
+- [[Foundations/Logic and Set Theory]]
+- Some of [[Calculus/Integrable systems]]
+- [[Quantum/Quantum Information and Computing]]
 
 ## Part III
-- [[XNotes/Quantum Information]]
+- [[Quantum/Quantum Information]]
 - [[Combinatorics/Algebraic Methods in Combinatorics]]
 - [[Foundations/Category Theory]]
