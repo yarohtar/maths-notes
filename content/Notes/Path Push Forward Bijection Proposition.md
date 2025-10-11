@@ -1,1 +1,0 @@
-Let $p:\tilde{X}\to X$ be a [[Notes/Covering Spaces\|covering map]]. If $X$ is path connected, then for any path $\gamma:x_{0}\leadsto x_{1}$, we have that the [[Notes/Path Push Forward]] $\gamma_{*}$ is a bijection between $p ^{-1}(x_{0})$ and $p ^{-1}(x_{1})$.
