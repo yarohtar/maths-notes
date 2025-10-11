@@ -1,0 +1,1 @@
+The [[Foundations/Category]] of [[XNotes/Metric spaces]] and [[XNotes/Nonexpansive Maps]] denoted by $\mathrm{Met}$ 

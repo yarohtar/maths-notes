@@ -1,0 +1,2 @@
+Let $M=(P,Q)$ and $M'=(P',Q')$ be [[XNotes/Register Machine]]s performing [[XNotes/Partial Function]]s $F$ and $F'$ respectively. 
+Then we can construct a register machine performing operation $F'\circ F$. 

@@ -1,0 +1,1 @@
+If $\emptyset \vdash t$ then say $t$ is a theorem (simply write $\vdash t$) [[XNotes/Syntactic Entailment (Propositional Logic)]]

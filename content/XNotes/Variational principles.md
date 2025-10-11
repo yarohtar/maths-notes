@@ -1,0 +1,7 @@
+[[XNotes/Euler-Lagrange]]
+[[XNotes/Lagrange multipliers]]
+[[XNotes/Principle of least action]]
+[[XNotes/Noether Theorem]]
+[[XNotes/Legendre Transform]]
+[[XNotes/Hamiltonian]]
+[[XNotes/Second variation of functionals]]

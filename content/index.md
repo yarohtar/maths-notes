@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Homepage","created":"2025-10-10T17:04:52.534+01:00","modified":"2025-10-10T17:05:23.677+01:00","cssclasses":""}
+{"publish":true,"title":"Homepage","created":"2025-10-11T02:26:36.961+01:00","cssclasses":""}
 ---
 
 On this website you will find my notes as I write them throughout my time in Cambridge.
@@ -17,35 +17,35 @@ https://github.com/yarohtar/cam-maths-notes-obsidian
 This website was created using Quartz (https://quartz.jzhao.xyz/).
 
 ## Part IA
-- [[Notes/Groups]] (taken from [[Notes/Groups, Rings and Modules]])
-- [[Notes/Probability Space]] (taken from [[Notes/Probability and Measure]])
+- [[XNotes/Groups]] (taken from [[XNotes/Groups, Rings and Modules]])
+- [[XNotes/Probability Space]] (taken from [[XNotes/Probability and Measure]])
 
 ## Part IB
-- Some of [[Notes/Methods]]
-- [[Notes/Optimisation]]
-- [[Notes/Variational principles]]
-- [[Notes/Analysis and Topology]]
-- [[Notes/Quantum mechanics]]
-- [[Notes/Groups, Rings and Modules]] (only [[Notes/Groups]] and [[Notes/Ring]])
-- [[Notes/Numerical Analysis]]
-- [[Notes/Complex Methods]]
+- Some of [[XNotes/Methods]]
+- [[XNotes/Optimisation]]
+- [[XNotes/Variational principles]]
+- [[Analysis/Analysis and Topology]]
+- [[XNotes/Quantum mechanics]]
+- [[XNotes/Groups, Rings and Modules]] (only [[XNotes/Groups]] and [[XNotes/Ring]])
+- [[XNotes/Numerical Analysis]]
+- [[Analysis/Complex Methods]]
 
 ## Part II
-- Some of [[Notes/Algebraic Topology]]
-- [[Notes/Linear Analysis]]
-- [[Notes/Numerical Analysis]]
-- [[Notes/Asymptotic methods]]
-- [[Notes/Automata and formal languages]]
-- Some of [[Notes/Principles of Quantum Mechanics]]
-- [[Notes/Probability and Measure]] (mostly just measure)
-- Some of [[Notes/Number theory]]
-- Some of [[Notes/Graph Theory]]
-- [[Notes/Coding and Cryptography]]
-- [[Notes/Logic and Set Theory]]
-- Some of [[Notes/Integrable systems]]
-- [[Notes/Quantum Information and Computing]]
+- Some of [[Algebra/Algebraic Topology]]
+- [[XNotes/Linear Analysis]]
+- [[XNotes/Numerical Analysis]]
+- [[Asymptotic Methods/Asymptotic methods]]
+- [[Foundations/Automata and formal languages]]
+- Some of [[XNotes/Principles of Quantum Mechanics]]
+- [[XNotes/Probability and Measure]] (mostly just measure)
+- Some of [[XNotes/Number theory]]
+- Some of [[XNotes/Graph Theory]]
+- [[Information Theory/Coding and Cryptography]]
+- [[XNotes/Logic and Set Theory]]
+- Some of [[XNotes/Integrable systems]]
+- [[XNotes/Quantum Information and Computing]]
 
 ## Part III
-- [[Notes/Quantum Information]]
-- [[Notes/Algebraic Methods in Combinatorics]]
-- [[Notes/Category Theory]]
+- [[XNotes/Quantum Information]]
+- [[Combinatorics/Algebraic Methods in Combinatorics]]
+- [[Foundations/Category Theory]]
