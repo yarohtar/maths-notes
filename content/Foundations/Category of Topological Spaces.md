@@ -1,1 +1,1 @@
-The [[Foundations/Category]] of [[XNotes/Topological spaces]] and continuous maps denoted by $\mathrm{Top}$
+The [[Foundations/Category]] of [[Topology/Topological space]] and continuous maps denoted by $\mathrm{Top}$

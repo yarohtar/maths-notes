@@ -1,0 +1,7 @@
+[[Calculus/Euler-Lagrange]]
+[[Numerical/Lagrange multipliers]]
+[[Calculus/Principle of least action]]
+[[Calculus/Noether Theorem]]
+[[Analysis/Legendre Transform]]
+[[Calculus/Hamiltonian]]
+[[Calculus/Second variation of functionals]]
