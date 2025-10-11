@@ -1,0 +1,1 @@
+Say $\{ X_{i} :i\in I\}$ is nested if for all $i,j\in I$ either $X_{i}$ [[XNotes/Extends]] $X_{j}$ or $X_{j}$ [[XNotes/Extends]] $X_{i}$

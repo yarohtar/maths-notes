@@ -1,0 +1,1 @@
+The order type of a [[XNotes/Well-ordered]] set $X$ is the unique [[XNotes/Ordinal]] to which it's [[XNotes/Order-isomorphic]].

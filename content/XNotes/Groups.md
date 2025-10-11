@@ -1,0 +1,8 @@
+[[XNotes/The isomorphism theorems (Groups)]]
+[[XNotes/Simple groups]]
+[[XNotes/Group actions]]
+[[XNotes/Permutation groups]]
+[[Algebra/Alternating groups]]
+[[XNotes/Groups of prime order]]
+[[XNotes/Sylow's Theorems]]
+[[XNotes/Finite Abelian Groups]]
