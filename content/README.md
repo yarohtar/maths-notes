@@ -14,7 +14,7 @@ https://yarohtar.github.io/maths-notes/
 
 # Courses that exist currently
 ## Part IA
-- [[Algebra/Groups]] (taken from [[Algebra/Groups, Rings and Modules]])
+- [[Algebra/Group]] (taken from [[Algebra/Groups, Rings and Modules]])
 - [[Probability/Probability Space]] (taken from [[Analysis/Measure/Probability and Measure]])
 
 ## Part IB
@@ -23,7 +23,7 @@ https://yarohtar.github.io/maths-notes/
 - [[Calculus/Variational principles]]
 - [[Analysis/Analysis and Topology]]
 - [[Quantum/Quantum mechanics]]
-- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Groups]] and [[Algebra/Ring]])
+- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group]] and [[Algebra/Ring]])
 - [[Numerical/Numerical Analysis]]
 - [[Analysis/Complex Methods]]
 

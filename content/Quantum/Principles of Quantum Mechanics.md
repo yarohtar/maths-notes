@@ -1,5 +1,3 @@
-(caution: my notes on PQM could have cursed bits for somebody who actually knows physics)
-
 Notes by David Skinner
 https://www.damtp.cam.ac.uk/user/dbs26/PQM.html
 
@@ -12,7 +10,7 @@ https://www.damtp.cam.ac.uk/user/dbs26/PQM.html
 
 [[Quantum/Postulates of QM]]
 [[Algebra/Commutator]]
-[[Analysis/Hilbert Space/Adjoint]]
+[[Analysis/Hilbert Space/Hermetian]]
 [[Quantum/Observables]]
 
 [[Quantum/The Generalized Uncertainty Principle]]

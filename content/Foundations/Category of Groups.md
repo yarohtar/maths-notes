@@ -1,1 +1,1 @@
-The category of [[Algebra/Groups]] and group homomorphisms $\mathrm{Gp}$
+The category of [[Algebra/Group\|groups]] and group homomorphisms $\mathrm{Gp}$

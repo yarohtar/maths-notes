@@ -25,7 +25,9 @@ where $\psi(\underline{x})=\psi(x,y,z)$ and $\ket{\underline{x}}=\ket{x}\otimes 
 
 ### Examples
 - Hydrogen atom is described by the Hamiltonian
-$H=\frac{p_{p}^{2}}{2m_{p}}\otimes\mathbb 1_{e}+1_{p}\otimes \frac{p_{e}^2}{2m_{e}}-\frac{q^{2}}{4\pi \varepsilon_{0}} \frac{1}{|x_{e}-x_{p}|}$
+$$
+H=\frac{p_{p}^{2}}{2m_{p}}\otimes\mathbb 1_{e}+1_{p}\otimes \frac{p_{e}^2}{2m_{e}}-\frac{q^{2}}{4\pi \varepsilon_{0}} \frac{1}{|x_{e}-x_{p}|}
+$$
 - A 2-[[Quantum/Computing/Qubit]] system $\mathcal{H}\simeq \mathcal{H}_{1}\otimes \mathcal{H}_{2}=(\mathbb{C}^{2})^{\otimes 2}$
 $\{ \ket{0},\ket{1} \}$ is the onb basis of $\mathbb{C}^2$
 $\{ \ket{0}\otimes \ket{0},\ket{0}\otimes \ket{1},\ket{1}\otimes \ket{0},\ket{1}\otimes \ket{1} \}$ is the onb of $\mathcal{H}$
@@ -49,11 +51,15 @@ a_{2}b_{2}
 \end{pmatrix}
 $$
 We will also use $\ket{a}\otimes \ket{b}=\ket{a}\ket{b}=\ket{ab}$.
-- $$
+$$
 A\otimes B=\begin{pmatrix}
 a_{11}B & a_{12}B \\
  a_{21}B & a_{22}B
 \end{pmatrix}
 $$
-- $A\otimes B=(A\otimes I)(I\otimes B)$
-- $\bra{u}\bra{v}A\otimes B\ket{c}\ket{d}=\bra{u}A\ket{c}\bra{v}B\ket{d}$
+$$
+A\otimes B=(A\otimes I)(I\otimes B)
+$$
+$$
+\bra{u}\bra{v}A\otimes B\ket{c}\ket{d}=\bra{u}A\ket{c}\bra{v}B\ket{d}
+$$
