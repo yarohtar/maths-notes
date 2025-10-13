@@ -36,7 +36,7 @@ This website was created using Quartz (https://quartz.jzhao.xyz/).
 - [[Analysis/Linear Analysis]]
 - [[Numerical/Numerical Analysis]]
 - [[Asymptotic Methods/Asymptotic methods]]
-- [[Foundations/Automata and formal languages]]
+- [[Foundations/Computability/Automata and formal languages]]
 - Some of [[Quantum/Principles of Quantum Mechanics]]
 - [[Analysis/Measure/Probability and Measure]] (mostly just measure)
 - Some of [[Algebra/Number Theory/Number theory]]
@@ -49,5 +49,6 @@ This website was created using Quartz (https://quartz.jzhao.xyz/).
 ## Part III
 - [[Quantum/Information/Quantum Information]]
 - [[Combinatorics/Algebraic Methods in Combinatorics]]
-- [[Foundations/Category Theory]]
+- [[Foundations/Category Theory/Category Theory]]
 - [[Information Theory/Information Theory]]
+
