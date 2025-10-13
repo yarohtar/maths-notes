@@ -1,0 +1,1 @@
+A [[Algebra/Group Theory/Group]] is Abelian if any two elements commute.
