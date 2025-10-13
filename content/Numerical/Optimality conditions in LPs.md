@@ -1,7 +1,12 @@
 [[Numerical/Strong duality in linear programs]]
 
 ### Theorem
-Let $x$ be primal feasible, $\lambda$ be dual feasible and suppose complimentary slackness holds. Then $x$ and $\lambda$ are optimal. Conversely, if $x$ and $\lambda$ are optimal, then complimentary slackness holds.
+Let $x$ be primal feasible,
+$\lambda$ be dual feasible
+and suppose [[Numerical/Complimentary slackness]] holds. 
+Then $x$ and $\lambda$ are optimal. 
+Conversely, if $x$ and $\lambda$ are optimal, 
+then complimentary slackness holds.
 #### Proof
 [[Numerical/Dual problem in linear programs]]
 ````col
@@ -36,7 +41,7 @@ So indeed $c^Tx=\lambda^Tb$ and they are optimal.
 The other direction is similar.
 
 ### Optimality condition
-Suppose  is a BFS with non-zero indices among $B(1),\dots B(m)$.
+Suppose $c$ is a BFS with non-zero indices among $B(1),\dots B(m)$.
 Now suppose we can find $\lambda$ s.t.
 - $(c^T-\lambda^TA)_{B(i)}=0$ complimentary slackness
 - $\lambda^TA\leq c^T$ feasibility of $\lambda$

@@ -1,7 +1,7 @@
 Let $G$ be a [[Algebra/Group Theory/Group]] and $Syl_{p}(G)$ the set of [[Algebra/Group Theory/Sylow Subgroup]]s.
 The number $n_p=|Syl_p(G)|$ satisfies $n_p\equiv 1\pmod{p}$ and $n_p\mid m$.
 #### Proof
-By the [[Algebra/Group Theory/Second Sylow Theorem]], $G$ acts [[Foundations/Transitive\|Transitively]] on $Syl_p(G)$, 
+By the [[Algebra/Group Theory/Second Sylow Theorem]], $G$ acts [[Foundations/Set Theory/Transitive\|Transitively]] on $Syl_p(G)$, 
 so $n_p\mid |G|$ 
 so it suffices to show $n_p\equiv 1\pmod p$. 
 Let $P$ be a Sylow $p$-subgroup. 

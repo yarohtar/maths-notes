@@ -1,0 +1,6 @@
+[[Foundations/Category Theory/Category]]
+[[Foundations/Category Theory/Small Category]]
+[[Foundations/Computability/Quotient Category]]
+[[Foundations/Category Theory/Opposite Category]]
+[[Foundations/Category Theory/Functor]]
+[[Foundations/Category Theory/Natural Transformation]]

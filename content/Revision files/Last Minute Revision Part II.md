@@ -1,6 +1,6 @@
 # LST
 ## Knaster-Tarski Fixpoint
-Let $X$ be a [[Foundations/Complete Poset]] and $f:X\to X$ be order-preserving. 
+Let $X$ be a [[Foundations/Ordinals/Complete Poset]] and $f:X\to X$ be order-preserving. 
 Then $f$ has a fixed point.
 #### Proof
 Let $S=\{ x\in X : x\leq f(x)\}$
@@ -8,7 +8,7 @@ Let $z=supS$
 We show $f(z)=z$
 For any $x\in S$ we have $x\leq z$
 Then $x\leq f(x)\leq f(z)$ as $f$ is order-preserving
-Thus $f(z)$ is an [[Foundations/Upper Bound]] for $S$ and so $z\leq f(z)$
+Thus $f(z)$ is an [[Foundations/Ordinals/Upper Bound]] for $S$ and so $z\leq f(z)$
 It follows that $f(z)\leq f(f(z))$ and so $f(z)\in S$ and $f(z)\leq z$
 
 ## Schroder-Bernstein
@@ -31,7 +31,7 @@ Use attempts with unions.
 ## $\in$ induction
 Use $TC(\{ x \})$
 ## $\in$ recursion
-Let $G$ be a [[Foundations/Function Class]] defined everywhere.
+Let $G$ be a [[Foundations/Set Theory/Function Class]] defined everywhere.
 Then there is a function class $F$ defined everywhere
 such that:
 $$
@@ -39,9 +39,9 @@ $$
 $$
 Also $F$ is unique.
 Note $F|_{x}$ is the set $\{ (s,F(s)) : s \in x \}$
-which is a set by [[Foundations/Axiom of Replacement]]
+which is a set by [[Foundations/Set Theory/Axiom of Replacement]]
 ### Proof
-Uniqueness by [[Foundations/Principle of Epsilon-Induction]]
+Uniqueness by [[Foundations/Set Theory/Principle of Epsilon-Induction]]
 
 We say $f$ is an attempt if
 - $f$ is a function
@@ -59,7 +59,7 @@ $$
 $$
 
 ## Mostowski
-A [[Foundations/Relation Class]] $r$ is well-founded if 
+A [[Foundations/Set Theory/Relation Class]] $r$ is well-founded if 
 every nonempty set has an $r$-minimal member:
 $$
 (\forall x)(\neg(x=\emptyset) \implies(\exists y)[y\in x\land(\forall z\in x)\neg r(z,y)])
@@ -71,7 +71,7 @@ $$
 (\forall x\in a)(\forall y\in a)((\forall z\in a)(z\ r\ x \iff z \ r\ y) \implies x=y)
 $$
 
-A [[Foundations/Relation Class]] $r$ is local if 
+A [[Foundations/Set Theory/Relation Class]] $r$ is local if 
 the $r$-predecessors of a set form a set:
 $$
 (\forall x)(\exists y)(\forall z)(z\in y\iff r(z,x))
@@ -79,8 +79,8 @@ $$
 
 
 
-Let $r$ be [[Foundations/Well-Founded]], [[Foundations/Extensional]] relation on a set $a$.
-(Note that this implies $r$ is [[Foundations/Local]])
+Let $r$ be [[Foundations/Set Theory/Well-Founded]], [[Foundations/Set Theory/Extensional]] relation on a set $a$.
+(Note that this implies $r$ is [[Foundations/Set Theory/Local]])
 Then there is a transitive set $b$ and a bijection $f:a\to b$
 such that:
 $$
@@ -88,7 +88,7 @@ $$
 $$
 Moreover, the pair $(b,f)$ is unique.
 ### Note
-Similar to [[Foundations/Epsilon-recursion Theorem]] and [[Foundations/Principle of Epsilon-Induction]] 
+Similar to [[Foundations/Set Theory/Epsilon-recursion Theorem]] and [[Foundations/Set Theory/Principle of Epsilon-Induction]] 
 we can define the same concepts for $r$ (as well as $r$-closure)
 ### Proof
 Define $f$ by $r$-recursion
@@ -101,11 +101,11 @@ Everything is straightforward except $f$ injective and $(b,f)$ unique
 These we verify by $r$ induction.
 
 ## Ordinal
-An ordinal is a [[Foundations/Transitive]] set well ordered by $\in$.
+An ordinal is a [[Foundations/Set Theory/Transitive]] set well ordered by $\in$.
 Order types are defined and unique for all sets 
-by [[Foundations/Mostowski's Collapsing Theorem]]
+by [[Foundations/Set Theory/Mostowski's Collapsing Theorem]]
 ## Cardinal
-Assuming [[Foundations/Axiom of Choice]], cardinality of $x$ is 
+Assuming [[Foundations/Set Theory/Axiom of Choice]], cardinality of $x$ is 
 the smallest ordinal bijecting with $x$
 Additionally infinite cardinals are $\aleph_{\alpha}=\omega_{\alpha}$ for $\alpha \in ON$
 ## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
@@ -489,7 +489,7 @@ $$
 \frac{1}{\epsilon}\int_{a}^{b}\sqrt{ \lvert q \rvert  } = \left( n+\frac{1}{2} \right)\pi
 $$
 # Automata
-[[Foundations/Automata and formal languages]]
+[[Foundations/Computability/Automata and formal languages]]
 ## Language equations
 Let $L$ and $M$ be languages over $\Sigma$
 Consider the equation 
@@ -516,18 +516,18 @@ such that $xu^{k}yv^{k}z\in L$
 ## Fixpoints
 Let $\varphi:\mathbb{B}\dashrightarrow \mathbb{B}$ and $w\in \mathbb{B}$
 We call $w$ a fixed point of $\varphi$ if $f_{\varphi(w),1}=f_{w,1}$ 
-(using notation from [[Foundations/The Software Principle]])
+(using notation from [[Foundations/Computability/The Software Principle]])
 ### Theorem
 If $\varphi:\mathbb{B}\to \mathbb{B}$ is total, then $\varphi$ has a fixed point. 
 ### Proof
-Consider the [[Foundations/Partial Function]] 
+Consider the [[Foundations/Computability/Partial Function]] 
 $$
 g(u,v) = \begin{cases}
 f_{f_{u,1}(u),1}(v) & \text{if } u\in K \\
 \uparrow & \text{otherwise}
 \end{cases}
 $$
-Apply [[Foundations/The s-m-n Theorem]] to find a total function $h$
+Apply [[Foundations/Computability/The s-m-n Theorem]] to find a total function $h$
 such that:
 $$
 f_{h(u)}(v) = \begin{cases}
@@ -544,7 +544,9 @@ f_{\phi(w),1} = f_{f_{e,1}(e),1} = f_{h(e),1} = f_{w,1}
 $$
 Thus $w$ is a fixpoint
 ## Primitive recursive
-Suppose $f:\mathbb{N}^{k}\dashrightarrow \mathbb{N}$, $g:\mathbb{N}^{k+2}\dashrightarrow \mathbb{N}$ and $g_{1},\dots,g_{k}:\mathbb{N}^{l}\dashrightarrow \mathbb{N}$ are [[Foundations/Partial Numerical Function]]s.
+Suppose $f:\mathbb{N}^{k}\dashrightarrow \mathbb{N}$, $g:\mathbb{N}^{k+2}\dashrightarrow \mathbb{N}$ 
+and $g_{1},\dots,g_{k}:\mathbb{N}^{l}\dashrightarrow \mathbb{N}$ 
+are [[Foundations/Computability/Partial Numerical Function]]s.
 
 The partial numerical function $c$ defined by
 $$
@@ -563,11 +565,11 @@ is called the recursion of $f$ and $g$
 
 ### Definition
 The class of primitive recursive functions is 
-the smallest class of partial functions containing all [[Foundations/Basic Functions]] 
+the smallest class of partial functions containing all [[Foundations/Computability/Basic Functions]] 
 that is closed under composition and recursion.
 
 ### Theorem
-Every primitive recursive function is [[Foundations/Computable]].
+Every primitive recursive function is [[Foundations/Computability/Computable]].
 
 Given $f:\mathbb{B}^{k+1}\dashrightarrow \mathbb{B}$, a partial function, define:
 $$
@@ -580,7 +582,7 @@ $$
 the minimisation of $f$. 
 
 Partial recursive functions are the closure of 
-[[Foundations/Gödel's primitive recursive functions]] 
+[[Foundations/Computability/Gödel's primitive recursive functions]] 
 under the operation of minimisation.
 
 
@@ -631,18 +633,18 @@ $$
 and other similar things
 ## Index sets
 Let $L,L'\subseteq \mathbb{B}$. 
-A total [[Foundations/Computable]] function $f:\mathbb{B}\to \mathbb{B}$ is a reduction from $L$ to $L'$ if for all $w\in \mathbb{B}$ we have:
+A total [[Foundations/Computability/Computable]] function $f:\mathbb{B}\to \mathbb{B}$ is a reduction from $L$ to $L'$ if for all $w\in \mathbb{B}$ we have:
 $$
 w \in L \iff f(w) \in L'
 $$
 We also say that $L$ is many-to-one reducible to $L'$.
 We write $L\leq_{m} L'$
-Note that $\leq_{m}$ is a [[Foundations/Partial Preorder]]
+Note that $\leq_{m}$ is a [[Foundations/Computability/Partial Preorder]]
 
 The following proposition says that $L$ is at most as complicated as $L'$ (in the computability sense).
 ### Proposition
-If $L\leq_{m} L'$ and $L'$ is [[Foundations/Computable]], then so is $L$.
-If $L\leq_{m}L'$ and $L'$ is [[Foundations/Computably Enumerable]], then so is $L$.
+If $L\leq_{m} L'$ and $L'$ is [[Foundations/Computability/Computable]], then so is $L$.
+If $L\leq_{m}L'$ and $L'$ is [[Foundations/Computability/Computably Enumerable]], then so is $L$.
 
 
 # Coding and Cryptography
