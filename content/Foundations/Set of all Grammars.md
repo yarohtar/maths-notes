@@ -1,1 +1,0 @@
-$\mathcal{G}(\Sigma,V)$ is the set of all grammars with $\Sigma,V$. This is countable.
