@@ -1,1 +1,0 @@
-A subset $S$ of a [[Foundations/Poset]] $X$ is an antichain if no two distinct elements of $S$ are related. 

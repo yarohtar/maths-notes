@@ -1,1 +1,0 @@
-The mapping $\mathcal{C}\to \mathcal{C}^{op}$ is a [[Foundations/Covariant]] [[Foundations/Functor]] $\mathrm{Cat}\to \mathrm{Cat}$ for [[Foundations/Cateogry of Small Categories]]
