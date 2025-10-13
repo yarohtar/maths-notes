@@ -1,4 +1,4 @@
-Let $F$ be a field and $g\in F[X]$. 
+Let $F$ be a [[Algebra/Field]] and $g\in F[X]$. 
 Then the splitting field of $g$ is the smallest field extension of $F$
 such that $g$ factorizes into linear factors. 
 ### Method
@@ -21,5 +21,5 @@ Needs [[Algebra/Galois Theory]] but basically, after adding one root to $\mathbb
 we can check that the resulting field is $\mathbb{F}_{p^{n}}$ and we can also check 
 that we have added *every* root.
 This is because if $g(\alpha)=0$, then $g(\alpha^{p})=g(\alpha)^{p}=0$ etc.
-(due to [[Algebra/A Freshman's Dream]])
+(due to [[Algebra/Ring Theory/A Freshman's Dream]])
 (I THINK AT LEAST)

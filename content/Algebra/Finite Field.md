@@ -1,15 +1,16 @@
+A [[Algebra/Field]] with finitely many elements.
 ### Lemma
 A finite field has order of a prime power.
-Moreover, this is unique.
+Moreover, there is a unique finite field of each prime power.
 #### Proof
-A finite field has prime [[Algebra/Characteristic of a ring]] 
-(otherwise, it wouldn't be an [[Algebra/Integral domain]])
+A finite field has prime [[Algebra/Ring Theory/Characteristic of a ring]] 
+(otherwise, it wouldn't be an [[Algebra/Ring Theory/Integral domain]])
 
 So say that our field has characteristic $p$ where $p$ is prime.
 Then consider the field as the vector space of dimension $n$ over $\mathbb{F}_{p}$
 This has size $p^{n}$.
 ### Corollary
-[[Algebra/A Freshman's Dream]] holds in any finite field.
+[[Algebra/Ring Theory/A Freshman's Dream]] holds in any finite field.
 
 ### Lemma
 For prime $p$:

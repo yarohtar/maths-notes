@@ -2,3 +2,5 @@
 [[Foundations/Small Category]]
 [[Foundations/Quotient Category]]
 [[Foundations/Opposite Category]]
+[[Foundations/Functor]]
+[[Foundations/Natural Transformation]]

@@ -23,5 +23,6 @@ But we need to show $R_{N}=o(x^N)$ as $x\to 0^+$
 $\frac{R_{N}}{x^N}=x \int_{0}^\infty \frac{t^{n+1}e^{-t}}{1+xt}dt\leq x \int_{0}^\infty t^{N+1}e^{-t}dt=x(N+1)!$
 
 So $I(x)\sim \sum_{n=0}^\infty(-1)^nn!x^n$ as $x\to 0^+$
-This clearly doesn't converge for any $x>0$, but if we [[Asymptotic Methods/Optimal Truncation\|truncate]] it, we should get a really good approximation.
+This clearly doesn't converge for any $x>0$, 
+but if we [[Asymptotic Methods/Optimal Truncation\|truncate]] it, we should get a really good approximation.
 

@@ -44,7 +44,8 @@ Want to show
 $$
 \frac{F_{1}-\sum a_{n} \frac{\Gamma(\alpha+\beta n+1)}{x^{\alpha+\beta n+1}}}{x^{-\alpha-\beta n-1}}\to 0
 $$
-Using a property of [[Calculus/The Gamma Function]] we find that the numerator is equal to:
+Using a property of [[Calculus/The Gamma Function]] 
+we find that the numerator is equal to:
 $$
 \begin{gather}
 \left\lvert  \int_{0}^tfe^{-xt}dt-\int_{0}^\infty \sum^Na_{n}t^{\alpha+\beta n}e^{-xt}  \right\rvert =\\
@@ -63,7 +64,7 @@ R_{2} & =e^{-\epsilon x}\left\lvert  \int_{t}^\infty e^{-x(t-\epsilon)}\sum a_{n
 \end{align}
 $$
 as $x\to \infty$.
-Let $x>1$ and introduce $M\in \mathbb{Z}^+$ st $M>\alpha+\beta n$
+Let $x>1$ and introduce $M\in \mathbb{Z}^+$ s.t. $M>\alpha+\beta n$
 Get:
 $$
 R_{2}\leq \frac{e^{-\epsilon x}}{x}\left( \sum a_{n} \right)\int_{0}^\infty e^{-u}(\epsilon+u)^{M}du\leq K_{2} \frac{e^{-\epsilon x}}{x}

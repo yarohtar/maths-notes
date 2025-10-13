@@ -14,31 +14,31 @@ https://yarohtar.github.io/maths-notes/
 
 # Courses that exist currently
 ## Part IA
-- [[Algebra/Group]] (taken from [[Algebra/Groups, Rings and Modules]])
+- [[Algebra/Group Theory/Group]] (taken from [[Algebra/Groups, Rings and Modules]])
 - [[Probability/Probability Space]] (taken from [[Analysis/Measure/Probability and Measure]])
-
+- [[Algebra/Vector Spaces/Vector Space]]
 ## Part IB
 - Some of [[Calculus/Methods]]
 - [[Numerical/Optimisation]]
 - [[Calculus/Variational principles]]
 - [[Analysis/Analysis and Topology]]
 - [[Quantum/Quantum mechanics]]
-- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group]] and [[Algebra/Ring]])
+- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group Theory/Group]] and [[Algebra/Ring Theory/Ring]])
 - [[Numerical/Numerical Analysis]]
 - [[Analysis/Complex Methods]]
 
 Also useful: [[Revision files/Last minute revision Part IB]]
 
 ## Part II
-- Some of [[Algebra/Algebraic Topology]]
+- Some of [[Topology/Algebraic Topology]]
 - [[Analysis/Linear Analysis]]
 - [[Numerical/Numerical Analysis]]
 - [[Asymptotic Methods/Asymptotic methods]]
 - [[Foundations/Automata and formal languages]]
 - Some of [[Quantum/Principles of Quantum Mechanics]]
 - [[Analysis/Measure/Probability and Measure]] (mostly just measure)
-- Some of [[Algebra/Number theory]]
-- Some of [[Combinatorics/Graph Theory]]
+- Some of [[Algebra/Number Theory/Number theory]]
+- Some of [[Combinatorics/Graphs/Graph Theory]]
 - [[Information Theory/Coding and Cryptography]]
 - [[Foundations/Logic and Set Theory]]
 - Some of [[Calculus/Integrable systems]]
@@ -50,6 +50,7 @@ Also useful: [[Revision files/Last minute revision Part IB]]
 - [[Quantum/Information/Quantum Information]]
 - [[Combinatorics/Algebraic Methods in Combinatorics]]
 - [[Foundations/Category Theory]]
+- [[Information Theory/Information Theory]]
 
 # How to download (works on phones and computers)
 ## Step 1

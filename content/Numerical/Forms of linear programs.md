@@ -11,5 +11,7 @@ We can always rewrite a linear program in general form:
 Minimize $c^Tx$ subject to $Ax\leq b$.
 
 ### Standard form
-Furthermore, we can always rewrite the general form into standard form by adding a slack variable and noting that we can express $x$ as $x_+-x_-$ where $x_+,x_-\geq 0$:
+Furthermore, we can always rewrite the general form into standard form 
+by adding a slack variable 
+and noting that we can express $x$ as $x_+-x_-$ where $x_+,x_-\geq 0$:
 Minimize $c^Tx$ subject to $Ax=b$ and $x\geq 0$.

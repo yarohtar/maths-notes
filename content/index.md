@@ -17,8 +17,9 @@ https://github.com/yarohtar/cam-maths-notes-obsidian
 This website was created using Quartz (https://quartz.jzhao.xyz/).
 
 ## Part IA
-- [[Algebra/Group]] (taken from [[Algebra/Groups, Rings and Modules]])
+- [[Algebra/Group Theory/Group]] (taken from [[Algebra/Groups, Rings and Modules]])
 - [[Probability/Probability Space]] (taken from [[Analysis/Measure/Probability and Measure]])
+- some [[Algebra/Vector Spaces/Vectors and Matrices]]
 
 ## Part IB
 - Some of [[Calculus/Methods]]
@@ -26,20 +27,20 @@ This website was created using Quartz (https://quartz.jzhao.xyz/).
 - [[Calculus/Variational principles]]
 - [[Analysis/Analysis and Topology]]
 - [[Quantum/Quantum mechanics]]
-- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group]] and [[Algebra/Ring]])
+- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group Theory/Group]] and [[Algebra/Ring Theory/Ring]])
 - [[Numerical/Numerical Analysis]]
 - [[Analysis/Complex Methods]]
 
 ## Part II
-- Some of [[Algebra/Algebraic Topology]]
+- Some of [[Topology/Algebraic Topology]]
 - [[Analysis/Linear Analysis]]
 - [[Numerical/Numerical Analysis]]
 - [[Asymptotic Methods/Asymptotic methods]]
 - [[Foundations/Automata and formal languages]]
 - Some of [[Quantum/Principles of Quantum Mechanics]]
 - [[Analysis/Measure/Probability and Measure]] (mostly just measure)
-- Some of [[Algebra/Number theory]]
-- Some of [[Combinatorics/Graph Theory]]
+- Some of [[Algebra/Number Theory/Number theory]]
+- Some of [[Combinatorics/Graphs/Graph Theory]]
 - [[Information Theory/Coding and Cryptography]]
 - [[Foundations/Logic and Set Theory]]
 - Some of [[Calculus/Integrable systems]]
@@ -49,3 +50,4 @@ This website was created using Quartz (https://quartz.jzhao.xyz/).
 - [[Quantum/Information/Quantum Information]]
 - [[Combinatorics/Algebraic Methods in Combinatorics]]
 - [[Foundations/Category Theory]]
+- [[Information Theory/Information Theory]]

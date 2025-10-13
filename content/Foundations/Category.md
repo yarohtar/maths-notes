@@ -24,6 +24,9 @@ subject to:
 [[Foundations/Category of Smooth Manifolds]]
 [[Foundations/Category of Topological Groups]]
 [[Foundations/Category of Homotopy]]
+[[Foundations/Category of Matrices]]
 [[Foundations/Monoid]]
 [[Foundations/Groupoid]]
 [[Foundations/Preorder Category]]
+[[Foundations/Cateogry of Small Categories]]
+

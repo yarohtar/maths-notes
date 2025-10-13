@@ -1,9 +1,13 @@
+In general, linear programs are problems of the following form:
+Minimize $c^Tx$ subject to $Ax\leq b$.
+There are other equivalent forms they can take:
 [[Numerical/Forms of linear programs]]
 ## Solving the linear program
 
 [[Analysis/Maximum of convex function]] is always at an [[Analysis/Extreme point of convex set\|extreme point]] (of domain).
 
-So if we found all extreme points and evaluated the function there, we should have our solution.
+So if we found all extreme points and evaluated the function there, 
+we should have our solution.
 
 Consider a Linear program in standard form:
 minimize $c^Tx$ such that $Ax=b$ and $x\geq 0$ where $A\in R^{m\times n}$ and $x\in R^n$.
@@ -11,7 +15,8 @@ minimize $c^Tx$ such that $Ax=b$ and $x\geq 0$ where $A\in R^{m\times n}$ and $x
 We shall use a few assumptions:
 - Assumption A: The rows of $A$ are linearly independent.
 - Assumption B: Every set of $m$ columns of $A$ are linearly independent.
-- Assumption C: All feasible [[Numerical/Basic solutions (LP)\|basic solutions]] are non-degenerable i.e. they have exactly $m$ non-zero entries.
+- Assumption C: All feasible [[Numerical/Basic solutions (LP)\|basic solutions]] are non-degenerable 
+  i.e. they have exactly $m$ non-zero entries.
 
 Select $B(1),\dots B(m)$ the non-zero entries in $x$ (do this in $n \choose m$ ways).
 Set $B=[A_{B(1)} \dots A_{B(m)}]$.

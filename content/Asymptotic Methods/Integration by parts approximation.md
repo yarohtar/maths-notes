@@ -30,7 +30,9 @@ Repeated integration by parts:
 $$
 I=e^{xb}\left( \sum_{k=1}^N(-1)^{k-1}f^{(k-1)}(b)x^{-k}-e^{-x(b-a)}\sum_{k=1}^N(-1)^{k-1}f^{(k-1)}(a)x^{-k}+ \frac{(-1)^{N}}{x^N}\int_{a}^b f^{(N)}e^{x(t-b)}dt \right)
 $$
-The first sum is an $N$ term approximation of $I$, with $\phi_{k}=\frac{1}{x^{k}}$ as $x\to \infty$, but we need to show that the other two are $o(x^{-N})$.
+The first sum is an $N$ term approximation of $I$, 
+with $\phi_{k}=\frac{1}{x^{k}}$ as $x\to \infty$, 
+but we need to show that the other two are $o(x^{-N})$.
 
 If $f$ is infinitely differentiable we have
 $$

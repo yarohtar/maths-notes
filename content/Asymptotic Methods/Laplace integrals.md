@@ -31,7 +31,9 @@ $$
 \implies I(x)\sim  \frac{f(a)e^{x\phi(a)}}{x\lvert \phi'(a) \rvert }
 $$
 ### Case one local max
-Suppose $\phi$ has one internal maximum at $t=c$ (and this is the absolute maximum) st $\phi'(c)=0$ and $\phi''(c)<0$ and $f(c)\neq 0$.
+Suppose $\phi$ has one internal maximum at $t=c$ 
+(and this is the absolute maximum)
+s.t. $\phi'(c)=0$ and $\phi''(c)<0$ and $f(c)\neq 0$.
 $$
 \begin{gather}
 I(x)=\int_{c-\epsilon}^{c+\epsilon}f(t)e^{x\phi(t)}dt+\int_{\Omega_{\epsilon}}f(t)e^{x\phi}dt\\
@@ -68,7 +70,8 @@ Set $s=[-x\phi''(c)]^{1/2}(t-c)$
 $$
 I_{1}\approx \frac{f(c)e^{ x\phi(c) }}{[-x\phi''(c)]^{1/2}}\int_{-[-x\phi''(c)]^{1/2}\epsilon}^{[-x\phi''(c)]^{1/2}\epsilon}e^{ -s^{2}/2 }ds
 $$
-Now change limits in the integral (later see that the induced error from this is very small):
+Now change limits in the integral 
+(later see that the induced error from this is very small):
 $$
 \begin{align}
 
@@ -90,7 +93,9 @@ K_{0}(x)=\int_{0}^{\infty}\exp\left( -t-\frac{x^{2}}{4t} \right)dt
 $$
 Taking $\phi(t)=-\frac{1}{4t}$ doesn't work because $\phi$ has no internal maxima.
 
-Taking $\psi(t)=-t-\frac{x^{2}}{4t}$ we find max at $t=\frac{x}{2}$ but this is not good because it depends on $x$.
+Taking $\psi(t)=-t-\frac{x^{2}}{4t}$ 
+we find max at $t=\frac{x}{2}$ 
+but this is not good because it depends on $x$.
 
 This motivates substitution $xu=2t$, $xdu=2dt$
 So
@@ -104,17 +109,22 @@ K_{0}\sim \frac{\sqrt{ 2\pi x }}{2}e^{ -x }
 $$
 ### Example
 If $\phi$ has one internal maximum and the same max at one of the endpoints.
-Then the first order term contribution of the internal maximum dominates because endpoint $\sim \frac{e^{x\phi(b)}}{x}$ while internal is $\sim \frac{e^{x\phi(c)}}{\sqrt{ x }}$.
+Then the first order term contribution of the internal maximum dominates 
+because endpoint $\sim \frac{e^{x\phi(b)}}{x}$ while internal is $\sim \frac{e^{x\phi(c)}}{\sqrt{ x }}$.
 
 ### Example
-If $\phi$ has many internal local maxima, then only the absolute max matters. For multiple absolute maximums, we just add them up.
+If $\phi$ has many internal local maxima, 
+then only the absolute max matters. 
+For multiple absolute maximums, we just add them up.
 
 ### Example
-If $\phi$ has an absolute AND a local maximum at an endpoint, the contribution is now 
+If $\phi$ has an absolute AND a local maximum at an endpoint, 
+the contribution is now 
 $$
 \sim\frac{1}{2} \frac{f(b)e^{ x\phi(b) }}{[-x\phi''(b)]^{1/2}} \sqrt{ 2\pi }
 $$
-(this is done by doing the same manipulation as in [[Asymptotic Methods/Laplace integrals#Case one max]] but the last integral is from $-\infty$ to $0$)
+(this is done by doing the same manipulation as in [[Asymptotic Methods/Laplace integrals#Case one max]] 
+but the last integral is from $-\infty$ to $0$)
 
 ### "Wide" maximum
 Suppose 
@@ -139,7 +149,10 @@ $$
 (the $2$ came from integrating only from $0$ to $\infty$)
 
 ### Higher order terms?
-Plug in longer Taylor expansions .... wasn't done in lectures, see https://www.vle.cam.ac.uk/pluginfile.php/28347540/mod_resource/content/1/am_notes.pdf
+Plug in longer Taylor expansions .... 
+wasn't done in lectures, 
+see 
+https://www.vle.cam.ac.uk/pluginfile.php/28347540/mod_resource/content/1/am_notes.pdf
 Section 3.4.4
 
 If $f(c)=0$ then we NEED higher order terms
