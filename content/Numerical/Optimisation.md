@@ -1,7 +1,7 @@
 [[Numerical/Convex optimisation]]
 [[Numerical/Lagrange multipliers]]
 [[Numerical/The Necessity Theorem]]
-[[Numerical/Duality (Optimisation)]]
+[[Numerical/Dual Problem]]
 [[Numerical/Economist perspective]] (not important tbh)
 [[Numerical/Barrier method]]
 [[Numerical/Linear programs]]
@@ -31,8 +31,3 @@ If $X(b)$ is not empty then the problem is feasible
 $h(x)\leq b$ is the same as $h(x)+s=b$ where $s\geq 0$
 
 $x=(x_1,x_2\dots x_n)^T$, the coordinates of $x$ are called decision variables.
-
-[[Numerical/Convex optimisation]] ($f$ is convex)
-[[Numerical/Lagrange multipliers]] (solving constrained problems)
-[[Numerical/Linear programs]] ($f$ is linear, $h$ is linear)
-[[Numerical/Simplex method]]

@@ -27,8 +27,15 @@ Note that the algorithm always terminates for integer (hence also rational) valu
 but might not terminate if there are some irrational values.
 
 ## Dual problem
-$$\begin{align}L(v,x,z\lambda, \mu)&=v+\sum_{i,\ j}\mu_{ij}(c_{ij}-x_{ij}-z_{ij}) \\&+\sum_i\lambda_i(\sum_jx_{ij}-\sum_jx_{ji})-\lambda_1v+\lambda_nv\\&=v(1-\lambda_1+\lambda_n)-\sum_{i,\ j}z_{ij}\mu_{ij}\\
-&+\sum_{i,\ j}x_{ij}(\lambda_i-\mu_{ij}-\lambda_j)+\sum_{i,\ j}\mu_{ij}c_{ij}\end{align}$$
+Calculate the [[Numerical/Lagrangian\|Lagrangian]]
+$$
+\begin{align}
+L(v,x,z,\lambda, \mu)&=v+\sum_{i,\ j}\mu_{ij}(c_{ij}-x_{ij}-z_{ij}) \\
+&+\sum_i\lambda_i(\sum_jx_{ij}-\sum_jx_{ji})-\lambda_1v+\lambda_nv\\
+&=v(1-\lambda_1+\lambda_n)-\sum_{i,\ j}z_{ij}\mu_{ij}\\
+&+\sum_{i,\ j}x_{ij}(\lambda_i-\mu_{ij}-\lambda_j)+\sum_{i,\ j}\mu_{ij}c_{ij}
+\end{align}
+$$
 Now for $\lambda$ and $\mu$ feasible:
 - $1-\lambda_1+\lambda_n=0$
 - $\mu_{ij}\geq 0$
@@ -36,5 +43,5 @@ Now for $\lambda$ and $\mu$ feasible:
 Now pick an optimal solution $x$, and pick:
 $$\lambda_i=\begin{cases}1&i\in S\\0&i\in\overline S\end{cases}\quad\quad\quad\mu_{ij}=\begin{cases}1&i\in S\text{ and } j\in\overline S\\0&\text{otherwise}\end{cases}$$
 (using notation from [[Combinatorics/Graphs/The max-flow min-cut Theorem]])
-One can check that complimentary slackness holds, 
+One can check that [[Numerical/Complimentary slackness]] holds, 
 hence the dual of max-flow problem is indeed the min-cut problem.

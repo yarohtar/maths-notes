@@ -9,9 +9,12 @@ the largest possible
 Introduce $e=(1 \quad \dots \quad1)^T$ and reframe this into a [[Numerical/Linear programs\|linear program]]:
 maximise $v$ s.t. $A^Tp\geq ve$, $p\geq 0$, $e^Tp=1$.
 
-[[Numerical/Lagrange multipliers\|Lagrangian]] is 
-$$\begin{align*}L(v,p,z, q,w)&=v-q^T(ve+z-A^Tp)-w(e^Tp-1)\\&=w+p^T(Aq-we)-z^Tq+v(1-q^Te)
-\end{align*}$$
+The [[Numerical/Lagrangian\|Lagrangian]] is 
+$$
+\begin{align*}
+L(v,p,z, q,w)&=v-q^T(ve+z-A^Tp)-w(e^Tp-1)\\&=w+p^T(Aq-we)-z^Tq+v(1-q^Te)
+\end{align*}
+$$
 Now $z\geq 0$ so $q\geq 0$ and $p\geq 0$ so $Aq-we\leq 0$. 
 Also $v\in\mathbb R$, so $q^Te=1$ 
 i.e. $q$ is a distribution. 
@@ -22,10 +25,11 @@ Note that this is exactly the problem of finding the optimal strategy for Player
 Suppose we have optimal strategies $p$ and $q$.
 Complementary slackness for $p$ gives:
 $$q^TA^Tp-we^Tp=0,\quad\text{i.e.}\quad q^TA^Tp=w$$
-Also in an optimal strategy $w=v$ (by [[Numerical/Duality (Optimisation)#Strong duality\|strong duality]]). 
+Also in an optimal strategy $w=v$ (by [[Numerical/Strong Duality]]). 
 Hence, using [[Numerical/Optimality conditions in LPs\|optimality conditions]] we arrive at the following theorem:
 ## Theorem
-Suppose $p$ and $q$ are strategies for Player1 and Player2 respectively, and $v$ is a value satisfying:
+Suppose $p$ and $q$ are strategies for Player1 and Player2 respectively, 
+and $v$ is a value satisfying:
 - $A^Tp\geq ve$
 - $Aq\leq ve$
 - $v=q^TA^Tp$

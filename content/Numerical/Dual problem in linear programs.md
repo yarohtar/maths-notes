@@ -13,4 +13,6 @@ s.t. $\lambda^TA\leq c^T$
 
 Note that this is a linear program in [[Numerical/Forms of linear programs#General form]].
 
-If we try to find the dual problem of the dual problem, we should end up with the primal problem. This means that [[Numerical/Strong duality in linear programs]] holds.
+If we try to find the dual problem of the dual problem, 
+we should end up with the primal problem. 
+This means that [[Numerical/Strong duality in linear programs]] holds.

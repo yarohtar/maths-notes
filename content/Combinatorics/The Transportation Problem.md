@@ -4,11 +4,11 @@ and buyers having demands $d_1,d_2\dots d_m$.
 The transportation cost from $s_i$ to $d_j$ is $c_{ij}$.
 Hence, this is a [[Numerical/Linear programs\|linear program]]:
 minimise $\sum_{i,\ j}x_{ij}c_{ij}$ s.t. $\sum_j x_{ij}=s_i$ and $\sum_ix_{ij}=d_j$.
-Calculate the Lagrangian:
+Calculate the [[Numerical/Lagrangian\|Lagrangian]]:
 $$\begin{align}L(x,\lambda,\mu)&=\sum_{i,j}x_{ij}c_{ij}-\sum_i\lambda_i(\sum_jx_{ij}-s_i)-\sum_j\mu_j(\sum_ix_{ij}-d_j)\\&=\lambda^Ts+\mu^Td-\sum_{i,\ j}x_{ij}(c_{ij}-\lambda_i-\mu_j)\end{align}$$
 Now, as $x_{ij}\geq 0$ we certainly need $c_{ij}-\lambda_i-\mu_j\leq 0$. 
-Also, by complimentary slackness, 
-whenever $x_{ij}>0$ we need $c_{ij}=\lambda_i+\mu_j$.
+Also, by [[Numerical/Complimentary slackness]], 
+whenever $x_{ij}>0$, we need $c_{ij}=\lambda_i+\mu_j$.
 
 ## The transportation algorithm
 Firstly, find any feasible $x_{ij}$ 
@@ -16,8 +16,8 @@ Firstly, find any feasible $x_{ij}$
 This will give $n+m-1$ equations of form $c_{ij}=\lambda_i+\mu_j$. 
 Solve them (taking $\lambda_1=0$ for example). 
 If now $c_{ij}\leq \lambda_i+\mu_j$ for all $i,j$, we are done 
-because we have a feasible dual problem and complimentary slackness 
-([[Numerical/Optimality conditions in LPs\|optimality conditions]]). 
+because we have a feasible [[Numerical/Dual Problem]] and [[Numerical/Complimentary slackness]]
+([[Numerical/Optimality conditions in LPs]]). 
 Otherwise, find the largest $c_{ij}-\lambda_i-\mu_j>0$ 
 Change $x_{ij}$ to $x_{ij}+\epsilon$ while also redistributing the values in the initial flow (by $\pm\epsilon$ each) 
 so that $x_{ij}$ remains feasible. 

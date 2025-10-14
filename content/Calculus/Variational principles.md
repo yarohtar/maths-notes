@@ -1,5 +1,5 @@
 [[Calculus/Euler-Lagrange]]
-[[Numerical/Lagrange multipliers]]
+[[Numerical/Lagrange Multipliers for Functionals]]
 [[Calculus/Principle of least action]]
 [[Calculus/Noether Theorem]]
 [[Analysis/Legendre Transform]]

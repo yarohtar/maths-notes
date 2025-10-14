@@ -10,7 +10,7 @@ so we reduced $f$
 	- Identify a descent direction $V_t$
 	- Set a step-size $\eta_t$
 	- $x_{t+1}=x_t+\eta_tV_t$
-3. Stop when some crieria hold.
+3. Stop when some criteria hold.
 
 Usual assumptions in literature are [[Numerical/Beta-smooth]] and [[Analysis/Alpha-strongly convex]]
 
@@ -18,7 +18,9 @@ Now we analyse gradient descent with the update $x_{t+1}=x_t-\frac{1}{\beta}\nab
 
 ### Theorem:
 For the above version of gradient descent
-$f(x_t)-f(x^*)\leq (1-\frac{\alpha}{\beta})^t(f(x_0)-f(x*))\leq e^{-\frac{\alpha t}{\beta}}(f(x_0)-f(x^*))$
+$$
+f(x_t)-f(x^*)\leq (1-\frac{\alpha}{\beta})^t(f(x_0)-f(x*))\leq e^{-\frac{\alpha t}{\beta}}(f(x_0)-f(x^*))
+$$
 #### Proof:
 $f(x_{t+1})-f(x^*) \leq f(x_t) - f(x^*)-\frac{||\nabla f(x)||^2}{2\beta}$
 $\leq f(x_t)-f(x^*)-\frac{\alpha}{\beta}(f(x_t)-f(x^*))$

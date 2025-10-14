@@ -18,13 +18,13 @@ This website was created using Quartz (https://quartz.jzhao.xyz/).
 
 ## Part IA
 - [[Algebra/Group Theory/Group]] (taken from [[Algebra/Groups, Rings and Modules]])
-- [[Probability/Probability Space]] (taken from [[Analysis/Measure/Probability and Measure]])
 - some [[Algebra/Vector Spaces/Vectors and Matrices]]
+- [[Probability/Probability Space]] (taken from [[Analysis/Measure/Probability and Measure]])
 
 ## Part IB
-- Some of [[Calculus/Methods]]
 - [[Numerical/Optimisation]]
 - [[Calculus/Variational principles]]
+- Some of [[Calculus/Methods]]
 - [[Analysis/Analysis and Topology]]
 - [[Quantum/Quantum mechanics]]
 - [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group Theory/Group]] and [[Algebra/Ring Theory/Ring]])
@@ -51,4 +51,5 @@ This website was created using Quartz (https://quartz.jzhao.xyz/).
 - [[Combinatorics/Algebraic Methods in Combinatorics]]
 - [[Foundations/Category Theory/Category Theory]]
 - [[Information Theory/Information Theory]]
+- [[Foundations/Forcing and Continuum Hypothesis]]
 
