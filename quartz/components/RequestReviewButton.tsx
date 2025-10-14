@@ -1,9 +1,14 @@
 export default (() => {
   function RequestReviewButton() {
-    return <button id="requestReviewButton">
-      <h3>Something not loading? Broken link?</h3>
-      <h4>Click me!</h4>
-    </button>
+    return 
+    <div>
+      <h2>Equations not loading?</h2>
+      <h2>Broken link?</h2>
+      <button id="requestReviewButton">
+        <h3>Click me!</h3>
+      </button>
+      <p>This button will add this page to my log of things to fix</p>
+    </div>
   }
  
   RequestReviewButton.afterDOMLoaded = `
