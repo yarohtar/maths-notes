@@ -1,0 +1,13 @@
+name: Refresh All Files on Push
+
+on:
+  push:
+    branches:
+      - v4
+
+jobs:
+  trigger-gas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Google Apps Script Web App to Refresh
+        run: curl "https://script.google.com/macros/s/AKfycbx0qviKcllqGWPl5LkUADwtAGF85RgqtGbcK3Eu_J__kfwwgEOGQnaaRlCJUI5iS0oC/exec?token=$GAS_REFRESH_TOKEN"
