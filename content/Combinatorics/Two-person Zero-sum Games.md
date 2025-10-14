@@ -2,7 +2,9 @@ Suppose two players are playing a game
 Player1 chooses index $i$ and Player2 chooses index $j$. 
 Then Player1 gets payoff $A_{ij}$ while Player2 gets payoff $-A_{ij}$.
 We want to find a distribution of choices $p$ for Player1 which gives:
-$$\min_j((A^Tp)_j)$$
+$$
+\min_j((A^Tp)_j)
+$$
 the largest possible 
 (where $(A^Tp)_j$ is the expected payoff for Player1 given that Player2 plays $j$).
 
