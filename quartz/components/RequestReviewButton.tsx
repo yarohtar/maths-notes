@@ -1,8 +1,7 @@
 export default (() => {
   function RequestReviewButton() {
-    return 
-    <div>
-      <h2>Equations not loading?</h2>
+    return <div>
+      <h2>Equation not loading?</h2>
       <h2>Broken link?</h2>
       <button id="requestReviewButton">
         <h3>Click me!</h3>
