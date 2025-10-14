@@ -4,7 +4,8 @@ export default (() => {
   function RequestReviewButton() {
     return <div>
       <h3>Something looks off?</h3>
-      <button id="requestReviewButton" class="request-review-button">Click me!
+      <button id="requestReviewButton" class="request-review-button">
+        <h4>Click me!</h4>
       </button>
       <p>*This button will add this page to my log of things to fix.
       This includes broken links, equations not rendering correctly, etc.
