@@ -1,10 +1,13 @@
 export default (() => {
   function RequestReviewButton() {
-    return <button id="btn">Click me!</button>
+    return <button id="requestReviewButton">
+      <h3>Something not loading? Broken link?</h3>
+      <h4>Click me!</h4>
+    </button>
   }
  
   RequestReviewButton.afterDOMLoaded = `
-  document.getElementById('btn').onclick = () => {
+  document.getElementById('requestReviewButton').onclick = () => {
     alert('button clicked!')
   }
   `
