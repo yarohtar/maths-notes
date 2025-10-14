@@ -3,9 +3,9 @@ import style from "./styles/requestreview.scss"
 export default (() => {
   function RequestReviewButton() {
     return <div>
-      <h3>Something looks off?</h3>
+      <h3 style="display: inline-block; font-size=1.1rem">Something looks off?</h3>
       <button id="requestReviewButton" class="request-review-button">
-        <h4 style="text-align: center">Click me!</h4>
+        <h4>Click me!</h4>
       </button>
       <p>The button will add this page to my log of things to fix.
       Use it for broken links, equations not rendering correctly, etc.<br />
