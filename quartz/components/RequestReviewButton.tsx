@@ -5,12 +5,12 @@ export default (() => {
     return <div>
       <h3>Something looks off?</h3>
       <button id="requestReviewButton" class="request-review-button">
-        <h4>Click me!</h4>
+        <h4 style="text-align: center">Click me!</h4>
       </button>
-      <p>*This button will add this page to my log of things to fix.
-      This includes broken links, equations not rendering correctly, etc.
-      If there is a maths mistake, you're better off contacting me directly.<br />
-      You can also submit an issue on <a href="https://github.com/yarohtar/maths-notes/issues" target="_blank">GitHub</a>.</p>
+      <p>The button will add this page to my log of things to fix.
+      Use it for broken links, equations not rendering correctly, etc.<br />
+      Submit other issues on <a href="https://github.com/yarohtar/maths-notes/issues" target="_blank">GitHub</a>.
+      </p>
     </div>
   }
  
