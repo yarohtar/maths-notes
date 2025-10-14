@@ -6,7 +6,7 @@ export default (() => {
       </button>
       <p>*This button will add this page to my log of things to fix.
       This includes broken links, equations not rendering correctly, etc.
-      If there is a maths mistake, you're better off contacting me directly.<br>
+      If there is a maths mistake, you're better off contacting me directly.<br />
       You can also submit an issue on <a href="https://github.com/yarohtar/maths-notes/issues" target="_blank">GitHub</a>.</p>
     </div>
   }
