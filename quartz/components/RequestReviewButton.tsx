@@ -1,4 +1,4 @@
-import style from ./styles/requestreview.scss
+import style from "./styles/requestreview.scss"
 
 export default (() => {
   function RequestReviewButton() {
