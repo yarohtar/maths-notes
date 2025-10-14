@@ -1,0 +1,19 @@
+.request-review-button {
+    background-color: transparent;
+    border: 1px var(--lightgray) solid;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: inherit;
+    height: 2.5rem;
+    padding: 0 1rem 0 0;
+    display: flex;
+    align-items: center;
+    text-align: inherit;
+    cursor: pointer;
+    width: 100%;
+
+    & > p {
+      display: inline;
+      color: var(--gray);
+    }
+}
