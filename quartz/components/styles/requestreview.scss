@@ -8,12 +8,14 @@
     padding: 0 1rem 0 0;
     display: flex;
     align-items: center;
-    text-align: inherit;
+    text-align: center;
     cursor: pointer;
     width: 100%;
-
-    & > p {
-      display: inline;
-      color: var(--gray);
-    }
+    
+    & h4 {
+        font-size: 1rem;
+        display: inline-block;
+        margin: 0;
+        color: var(--gray);
+  }
 }
