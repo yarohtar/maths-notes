@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call Google Apps Script Web App to Refresh
-        run: curl "https://script.google.com/macros/s/AKfycbzivhviHSHlWIrQZhTa0kjF4_CkEJVTjdZ61-6-Ou_0pr7UVtGJy5PxkkdvWK_zwaRo/exec?token=$GAS_REFRESH_TOKEN"
+        run: curl -L https://script.google.com/macros/s/AKfycbzivhviHSHlWIrQZhTa0kjF4_CkEJVTjdZ61-6-Ou_0pr7UVtGJy5PxkkdvWK_zwaRo/exec?token=$GAS_REFRESH_TOKEN
