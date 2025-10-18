@@ -17,10 +17,7 @@ export default (() => {
   RequestReviewButton.afterDOMLoaded = `
   
   document.getElementById('requestReviewButton').onclick = async () => {
-    const html = await fetch("https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing", {
-    method: "GET",
-    mode: "no-cors" 
-    }).then(r=> r.text());
+    const html = await fetch("https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing").then(r=> r.text());
 
     const blob = new Blob([html], { type: "text/html" });
     const url = URL.createObjectURL(blob);
