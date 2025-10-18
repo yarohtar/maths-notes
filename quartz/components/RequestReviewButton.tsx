@@ -21,7 +21,7 @@ export default (() => {
     const trim0 = full_path.startsWith('/') ? full_path.slice(1) : full_path;
     const trim1 = trim0.slice(trim0.indexOf('/') + 1);
     let api_url = "https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=" + trim1;
-    window.open(api_url);
+    window.location.href=api_url;
   }
   `
   RequestReviewButton.css = style
