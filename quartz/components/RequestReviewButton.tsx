@@ -16,7 +16,7 @@ export default (() => {
  
   RequestReviewButton.afterDOMLoaded = `
   
-  document.getElementById('requestReviewButton').onclick = () => {
+  document.getElementById('requestReviewButton').onclick = async () => {
     const response = await fetch("https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing", {
     method: "GET",
     mode: "no-cors" // Important — avoids CORS errors but you won’t see response
