@@ -21,14 +21,15 @@ export default (() => {
     let external_url = "https://api.allorigins.win/raw?url=" + encodeURIComponent(api_url);
     const html = await fetch(external_url).then(r=> r.text());
     console.log(html);
-    
-    const blob = new Blob([html], { type: "text/html" });
-    const url = URL.createObjectURL(blob);
 
     const iframe = document.createElement("iframe");
-    iframe.src = url;
-    iframe.style.display = "none";
+    iframe.style.display = "none"; // or visible if you want to show it
     document.body.appendChild(iframe);
+
+    const doc = iframe.contentDocument;
+    doc.open();
+    doc.write(html);   // browser parses & executes scripts, loads CSS, etc.
+    doc.close();
   }
   `
   RequestReviewButton.css = style
