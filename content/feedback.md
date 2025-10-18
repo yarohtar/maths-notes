@@ -1,5 +1,7 @@
 # Thank you for your feedback!
 ### I have this page noted down to look at and fix later
+If you would like to provide more detail, please submit an issue on:
+https://github.com/yarohtar/maths-notes/issues
 
 <button style="
     background-color: transparent;
@@ -19,4 +21,5 @@
      onclick="const params = new URLSearchParams(window.location.search); const fallback = params.get('fallback_page'); window.top.location.href = fallback">
 Go Back.
 </button>
+
 
