@@ -12,6 +12,8 @@
     display: flex;
     align-items: center;
     text-align: center;
+    display:table-cell;
+    vertical-align: middle;
     cursor: pointer;
     width: 100%;"
      onclick="const params = new URLSearchParams(window.location.search); const fallback = params.get('fallback_page'); window.top.location.href = fallback">
