@@ -17,28 +17,11 @@ export default (() => {
   RequestReviewButton.afterDOMLoaded = `
   
   document.getElementById('requestReviewButton').onclick = async () => {
-    let api_url = "https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing"
-    // let external_url = "https://api.allorigins.win/raw?url=" + encodeURIComponent(api_url);
-    window.open(api_url, "_blank");
-    
-/*
-    const iframe = document.createElement("iframe");
-    iframe.style.display = "none"; // hidden
-    iframe.src = api_url; // the HTML that executes
-    document.body.appendChild(iframe);
-    
-    const html = await fetch(external_url).then(r=> r.text());
-    console.log(html);
-
-    const iframe = document.createElement("iframe");
-    iframe.style.display = "none"; // or visible if you want to show it
-    document.body.appendChild(iframe);
-
-    const doc = iframe.contentDocument;
-    doc.open();
-    doc.write(html);   // browser parses & executes scripts, loads CSS, etc.
-    doc.close();
-    */
+    const full_path = window.location.pathname;
+    const trim0 = full_path.startsWith('/') ? full_path.slice(1) : full_path;
+    const trim1 = trim0.slice(trim0.indexOf('/') + 1);
+    let api_url = "https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=" + trim1;
+    window.open(api_url);
   }
   `
   RequestReviewButton.css = style
