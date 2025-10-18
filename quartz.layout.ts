@@ -14,6 +14,9 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+let is_index = (page) => page.fileData.slug == "index"
+let is_fallback = (page) => page.fileData.slug == "feedback" || page.fileData.slug == "no-page"
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -30,9 +33,12 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs({resolveFrontmatterTitle: false,}),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => !is_index(page),
     }),
-    Component.ArticleTitle(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+        condition: (page) => !is_fallback(page),
+    }),
     //Component.ContentMeta(),
     Component.TagList(),
   ],
@@ -41,10 +47,22 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-    Component.RequestReviewButton(),
+    Component.ConditionalRender({
+      component: Component.Graph(),
+        condition: (page) => !is_fallback(page),
+    }),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.TableOfContents()),
+        condition: (page) => !is_fallback(page),
+    }),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+        condition: (page) => !is_fallback(page),
+    }),
+    Component.ConditionalRender({
+      component: Component.RequestReviewButton(),
+        condition: (page) => !is_fallback(page),
+    }),
   ],
 }
 
