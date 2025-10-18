@@ -4,4 +4,4 @@ $$
 Orb_{G}(x) = \{ g.x:g\in G \}
 $$
 Note that $y\in Orb_{G}(x)\implies Orb_{G}(y)=Orb_{G}(x)$ 
-so orbits partition the set $X$ 
+so orbits partition the set $X$.

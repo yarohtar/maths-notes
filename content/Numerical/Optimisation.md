@@ -1,11 +1,12 @@
 [[Numerical/Convex optimisation]]
+[[Numerical/Barrier method]]
 [[Numerical/Lagrange multipliers]]
 [[Numerical/The Necessity Theorem]]
 [[Numerical/Dual Problem]]
-[[Numerical/Economist perspective]] (not important tbh)
-[[Numerical/Barrier method]]
-[[Numerical/Linear programs]]
-[[Numerical/Optimality conditions in LPs]]
+[[Numerical/Complimentary Slackness]] (the most important)
+[[Numerical/Economist perspective]] (not important)
+[[Numerical/Linear Program]]
+[[Numerical/Optimality Condition in Linear Programming]]
 [[Numerical/Simplex method]]
 [[Combinatorics/Two-person Zero-sum Games]]
 [[Combinatorics/Graphs/The Maximal Flow Problem]]

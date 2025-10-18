@@ -2,7 +2,7 @@ Suppose we have a graph with nodes labelled $1,2,\dots,n$ and edge capacities $c
 We want to find the maximum flow from $1$ to $n$ 
 i.e. we want to maximize $v$ s.t. $x_{ij}\leq c_{ij}$ and for every $i$:
 $$\sum_{j=1}^nx_{ij}-\sum_{j=1}^nx_{ji}=\begin{cases}v&i=1\\0&1<i<n\\-v&i=n\end{cases}$$
-This is a [[Numerical/Linear programs\|linear program]].
+This is a [[Numerical/Linear Program\|linear program]].
 
 ## The Ford-Fulkerson Algorithm
 First assign some initial flow with value $v$ (for example, take $x_{ij}=0$).
@@ -43,5 +43,5 @@ Now for $\lambda$ and $\mu$ feasible:
 Now pick an optimal solution $x$, and pick:
 $$\lambda_i=\begin{cases}1&i\in S\\0&i\in\overline S\end{cases}\quad\quad\quad\mu_{ij}=\begin{cases}1&i\in S\text{ and } j\in\overline S\\0&\text{otherwise}\end{cases}$$
 (using notation from [[Combinatorics/Graphs/The max-flow min-cut Theorem]])
-One can check that [[Numerical/Complimentary slackness]] holds, 
+One can check that [[Numerical/Complimentary Slackness]] holds, 
 hence the dual of max-flow problem is indeed the min-cut problem.

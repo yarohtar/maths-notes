@@ -1,7 +1,10 @@
-Given a [[Information Theory/Bernoulli Source]] $X$ taking values in $\Sigma_{1}$, and a [[Information Theory/Code]] $f:\Sigma_{1}\to \Sigma_{2}^{*}$ with word lengths $s_{i}=\lvert f(\mu_{i}) \rvert$ 
+Let $X$ be a [[Information Theory/Discrete Memoryless Source]] taking values in $A$
+Let $f$ be a [[Information Theory/Code]]
+Define the word length as a [[Probability/Random Variable]] 
+$$
+S=\lvert f(X) \rvert 
+$$
 The expected word length is
 $$
-E(S)= \sum_{i=1}^{m} p_{i}s_{i}
+\mathbb{E}(S) = \sum_{\mu \in A} \mathbb{P}(X=\mu) \lvert f(\mu) \rvert 
 $$
-where $p_{i}=P(X=\mu_{i})$.
-

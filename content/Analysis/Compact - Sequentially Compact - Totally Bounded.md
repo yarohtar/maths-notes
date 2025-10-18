@@ -1,7 +1,7 @@
 For a metric space $M$, the following are equivalent:
-1. $M$ is [[Topology/Compactness\|compact]]
-2. $M$ is [[Topology/Sequential compactness\|sequentially compact]]
-3. $M$ is [[Analysis/Totally bounded\|totally bounded]] and [[Analysis/Complete Metric Space\|complete]]
+1. $M$ is [[Topology/Compact]]
+2. $M$ is [[Topology/Sequentially compact]]
+3. $M$ is [[Analysis/Totally bounded]] and [[Analysis/Complete Metric Space\|complete]]
 
 ## Proof(s)
 $(1\implies 2):$ Suppose $M$ is compact. 

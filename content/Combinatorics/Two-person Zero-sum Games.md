@@ -8,7 +8,7 @@ $$
 the largest possible 
 (where $(A^Tp)_j$ is the expected payoff for Player1 given that Player2 plays $j$).
 
-Introduce $e=(1 \quad \dots \quad1)^T$ and reframe this into a [[Numerical/Linear programs\|linear program]]:
+Introduce $e=(1 \quad \dots \quad1)^T$ and reframe this into a [[Numerical/Linear Program\|linear program]]:
 maximise $v$ s.t. $A^Tp\geq ve$, $p\geq 0$, $e^Tp=1$.
 
 The [[Numerical/Lagrangian\|Lagrangian]] is 
@@ -28,7 +28,7 @@ Suppose we have optimal strategies $p$ and $q$.
 Complementary slackness for $p$ gives:
 $$q^TA^Tp-we^Tp=0,\quad\text{i.e.}\quad q^TA^Tp=w$$
 Also in an optimal strategy $w=v$ (by [[Numerical/Strong Duality]]). 
-Hence, using [[Numerical/Optimality conditions in LPs\|optimality conditions]] we arrive at the following theorem:
+Hence, using [[Numerical/Optimality Condition in Linear Programming\|optimality conditions]] we arrive at the following theorem:
 ## Theorem
 Suppose $p$ and $q$ are strategies for Player1 and Player2 respectively, 
 and $v$ is a value satisfying:

@@ -4,6 +4,7 @@ A function $f:E\to G$ is measurable if $f^{-1}(A)\in \mathcal{E}$ for all $A\in 
 In the case $(G,\mathcal{G})=(\mathbb{R},\mathcal{B})$ ([[Analysis/Measure/Borel Sigma Algebra]]) 
 we simply call $f$ measurable on $E$.
 
-If $E$ is a topological space with $\mathcal{E}=\mathcal{B}(E)$ 
-then a measurable function on $E$ is called a Borel function.
+[[Analysis/Measure/Borel Function]]
+
+
 

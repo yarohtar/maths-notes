@@ -9,7 +9,7 @@ then it is uniformly continuous on $[a,b]$.
 #### Proof sketch
 Suppose otherwise. 
 Choose a "bad" $\epsilon$ and $\delta_n=\frac 1 n$, along with $x_n,y_n$. 
-Use [[Analysis/Boltzano-Weierstrass theorem\|BWT]] to find convergent $x_{k_n}\to x$ (which has to stay in the closed interval). 
+Use [[Analysis/Boltzano-Weierstrass Theorem\|BWT]] to find convergent $x_{k_n}\to x$ (which has to stay in the closed interval). 
 Then also $y_{k_n}\to x$. 
 Now find a contradiction with continuity at $x$.
 

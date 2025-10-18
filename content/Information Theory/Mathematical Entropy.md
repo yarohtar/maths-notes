@@ -1,22 +1,39 @@
-Consider a random variable $X$ taking values $x_{1}\dots x_{n}$ with probabilities $p_{1},\dots,p_{n}$. 
-The entropy of $X$ is:
+Let $X$ be a [[Probability/Random Variable]] taking values in a discrete set $A$, 
+following a distribution $P(x)=\mathbb{P}(X=x)$
+Let $I=-\log P(X)$ be the [[Information Theory/Information Content]] of $X$
+Mathematical entropy is defined as:
 $$
-H(X)=H(p_{1},\dots,p_{n}) = - \sum_{i=1}^{n}p_{i}\log p_{i}
+H(X) = \mathbb{E} (I)
 $$
-where we take $\log_{2}$.
+In other words:
+$$
+H(X) = - \sum_{a\in A} P(a) \log (P(a))
+$$
+By convention, we take $\log=\log_{2}$.
+We usually only care about $H(X)<\infty$.
+
 [[Information Theory/Joint Entropy]]
 [[Information Theory/Conditional Entropy]]
 [[Information Theory/Fano's Inequality]]
 [[Information Theory/Mutual Information]]
 
 ### Lemma
-$H(p_{1},\dots ,p_{n})\leq \log n$ with equality iff $p_{1}=\dots=p_{n}=\frac{1}{n}$
+For $p_{1},p_{2},\dots,p_{n}$ with $p_{1}+p_{2}+\dots+p_{n}=1$:
+$$
+H(p_{1},\dots ,p_{n})\leq \log n
+$$
+Additionally $H(p_{1},\dots,p_{n})=\log n$
+if and only if
+$$
+p_{1}=\dots=p_{n}=\frac{1}{n}
+$$
 #### Proof
 Take $q_{1}=\dots=q_{n}=\frac{1}{n}$ in [[Information Theory/Gibbs' inequality]].
 
-### Intuition
+## Intuition
 Entropy is a measure of 'randomness' or 'uncertainty'
 The entropy $H(X)$ is roughly speaking the expected number of tosses of a fair coin needed to simulate $X$
+(its a two sided coin because we use $\log_{2}$)
 #### Example 1
 Suppose $p_{1}=p_{2}=p_{3}=p_{4}=\frac{1}{4}$
 we identify $\{ x_{1},\dots x_{4} \}$ with $\{ H H, HT, TH, TT \}$
@@ -24,7 +41,7 @@ so $H(X)=2$
 #### Example 2
 $(p_{1},p_{2},p_{3},p_{4})=\left( \frac{1}{2},\frac{1}{4},\frac{1}{8},\frac{1}{8} \right)$
 $H(X)=\frac{1}{2}\cdot 1+\frac{1}{4}\cdot 2+\frac{1}{8}\cdot 3+\frac{1}{8} \cdot 3=\frac{7}{4}$
-(to get this, think of a binary tree)
+(to get this, think of a binary tree!)
 
 So Example 1 is more random than Example 2.
 

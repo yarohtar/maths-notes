@@ -1,13 +1,15 @@
-The information rate $H$ of a [[Information Theory/Source]] is the infimum of all rates at which it is [[Information Theory/Reliably encodable]]
+The information rate $H$ of a [[Information Theory/Source]] 
+is the infimum of all rates at which it is [[Information Theory/Reliably encodable]]
 ### Lemma
-The [[Information Theory/Source Information Rate]] of a [[Information Theory/Bernoulli Source]] is at most the expected word length of an [[Information Theory/Optimal Code]].
+The [[Information Theory/Source Information Rate]] of a [[Information Theory/Discrete Memoryless Source]] 
+is at most the expected word length of an [[Information Theory/Optimal Code]].
 #### Proof
 Let $c$ be an optimal code
 Let $S_{1},S_{2},\dots$ be codeword lengths when we encode $X_{1},X_{2},\dots$
 Let $\epsilon>0$
 Let 
 $$
-A_{n}=\{ x : c^{*}(x) \text{ has length less than }n(\mathbb{E}(S_{1})+\epsilon) \}
+A_{n}=\{ x : c^{*}(x) \text{ has length less than }n\cdot(\mathbb{E}(S_{1})+\epsilon) \}
 $$
 Then
 $$
@@ -28,13 +30,14 @@ $$
 So the source is [[Information Theory/Reliably encodable]] at rate $r=\mathbb{E}(S_{1})+\epsilon$ for all $\epsilon>0$. 
 Hence the information rate is at most $\mathbb{E}(s_{1})$.
 ### Corollary
-A Bernoulli source has information rate less than $H(X)+1$.
+A [[Information Theory/Discrete Memoryless Source]] has information rate less than $H(X)+1$.
 #### Proof
 [[Information Theory/Shannon's noiseless coding theorem]]
 ### Proposition
-The information rate $H$ of a Bernoulli source is at most $H(X)$. 
+The information rate $H$ of a [[Information Theory/Discrete Memoryless Source]] is at most $H(X)$. 
 #### Proof
-Encode $X_{1},X_{2},\dots$ in blocks of size $N$. Let $Y_{1}=(X_{1},\dots,X_{N})$ etc. 
+Encode $X_{1},X_{2},\dots$ in blocks of size $N$. 
+Let $Y_{1}=(X_{1},\dots,X_{N})$ etc. 
 Then if $X$ has information rate $H$, $Y$ has information rate $NH$
 Apply the previous corollary:
 $$

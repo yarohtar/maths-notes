@@ -5,10 +5,10 @@ Jean F Le Gall website CH1 & 2
 
 [[Analysis/Measure/sigma-algebra]]
 [[Analysis/Measure/Measure]]
-[[Analysis/Measure/Borel-Cantelli Lemmas]]
-[[Analysis/lim sup]]
-[[Analysis/lim inf]]
+[[Information Theory/Inclusion-Exclusion Principle]]
 [[Analysis/Measure/Measurable Function]]
+[[Analysis/Measure/First Borel-Cantelli Lemma]]
+[[Analysis/Measure/Second Borel-Cantelli Lemma]]
 [[Analysis/Measure/Integral]]
 
 [[Probability/Probability Space]]

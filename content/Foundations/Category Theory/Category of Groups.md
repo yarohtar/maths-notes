@@ -1,1 +1,2 @@
-The category of [[Algebra/Group Theory/Group\|groups]] and group homomorphisms $\mathrm{Gp}$
+The [[Foundations/Category Theory/Category]] of [[Algebra/Group Theory/Group\|groups]] and group homomorphisms $\mathrm{Gp}$
+

@@ -1,6 +1,6 @@
-Given two alphabets $\Sigma_{1}$ and $\Sigma_{2}$, we model the source as a sequence of random variables $X_{1},X_{2},\dots$ taking values in $\Sigma_{1}$.
+A source is a sequence of [[Probability/Random Variable]]s $X_{n}$
 
-[[Information Theory/Bernoulli Source]]
+We usually work with [[Information Theory/Discrete Memoryless Source]]
 [[Information Theory/Reliably encodable]]
 [[Information Theory/Source Information Rate]]
 [[Information Theory/Asymptotic Equipartition Property]]

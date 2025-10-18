@@ -13,10 +13,48 @@ GA\arrow[r,"Gf"] & GB
 \end{tikzcd}
 \end{document}
 ```
-ie $\alpha_{B}(Ff)=(Gf)\kappa_{B}$
+i.e. $\alpha_{B}(Ff)=(Gf)\alpha_{A}$
 These are called naturality squares for $\alpha$ at $f$
 Natural transformations can be composed:
-Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a nat.trans. 
-So for any two [[Foundations/Category Theory/Category\|categories]] $\mathcal{C}$ and $\mathcal{D}$ 
-we have a [[Foundations/Category Theory/Category]] $[\mathcal{C},\mathcal{D}]$ of [[Foundations/Category Theory/Functor\|functors]] and natural transformations between them
+Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a natural transformation.
+[[Foundations/Category Theory/Category of Functors]]
+[[Foundations/Category Theory/Equivalence]]
+### Lemma
+Let $F,G:\mathcal{C}\to \mathcal{D}$ be [[Foundations/Category Theory/Functor]]s
+Let $\alpha:F\to G$ be a natural transformation between them.
+Then $\alpha$ is an isomorphism in [[Foundations/Category Theory/Category of Functors]] $[\mathcal{C}, \mathcal{D}]$ 
+if and only if 
+each $\alpha_{A}$ is an isomorphism in $\mathcal{D}$
+#### Proof
+##### $\implies$
+obvious since composition in $[\mathcal{C},\mathcal{D}]$ is pointwise
+##### $\impliedby$
+Suppose each $\alpha_{A}$ has an inverse $\beta_{A}$ 
+We need to verify naturality of $\beta$
+given $A\xrightarrow{f}B$ in $\mathcal{C}$, consider:
+```tikz
+\usepackage{tikz-cd}
 
+\begin{document}
+\begin{tikzcd}
+GA 
+\arrow[r,"Gf"] 
+\arrow[d,shift left, "\beta_{A}"] 
+& GB
+\arrow[d,shift left, "\beta_{B}"]
+\\
+FA
+\arrow[u,shift left,"\alpha_{A}"]
+\arrow[r,"Ff"] 
+& FB 
+\arrow[u,shift left, "\alpha_{B}"]
+\end{tikzcd}
+\end{document}
+```
+We have 
+$$
+\beta_{B}(Gf)=\beta_{B}(Gf)\alpha_{A}\beta_{A}=\beta_{B}\alpha_{B}(Ff)\beta_{A}=(Ff)\beta_{A}
+$$ 
+### Examples
+Given permrutation representations of $G$ on $A$ and $B$, 
+a natural transformation between them is a $G$-[[Foundations/Category Theory/Equivariant]] 

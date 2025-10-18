@@ -1,1 +1,1 @@
-A metric space is complete if every Cauchy sequence converges.
+A [[Analysis/Metric space]] is complete if every [[Analysis/Cauchy Sequence]] converges.

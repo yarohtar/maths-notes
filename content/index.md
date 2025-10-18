@@ -17,9 +17,11 @@ https://github.com/yarohtar/cam-maths-notes-obsidian
 This website was created using Quartz (https://quartz.jzhao.xyz/).
 
 ## Part IA
-- [[Algebra/Group Theory/Group]] (taken from [[Algebra/Groups, Rings and Modules]])
+- [[Algebra/Group Theory/Group Theory]] (taken from [[Algebra/Groups, Rings and Modules]])
 - some [[Algebra/Vector Spaces/Vectors and Matrices]]
-- [[Probability/Probability Space]] (taken from [[Analysis/Measure/Probability and Measure]])
+- [[Probability/Probability]] (taken from [[Analysis/Measure/Probability and Measure]])
+- [[Analysis/Analysis I]]
+See also [[Combinatorics/Algebraic Methods in Combinatorics]]
 
 ## Part IB
 - [[Numerical/Optimisation]]

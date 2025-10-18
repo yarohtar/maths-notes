@@ -1,17 +1,12 @@
-Problems of the form
-Minimize $c^Tx$ subject to:
-$a_i^Tx\leq b_i$ for $i\in M_1$
-$a_i^Tx\geq b_i$ for $i\in M_2$
-$a_i^Tx= b_i$ for $i\in M_3$
-$x_j\geq 0$ for $j\in N_1$
-$x_j\leq 0$ for $j\in N_2$
-
+There are two forms we usually consider for [[Numerical/Linear Program]]
+All these are equivalent (by changing signs, adding slack, etc.)
 ### General form
-We can always rewrite a linear program in general form:
-Minimize $c^Tx$ subject to $Ax\leq b$.
+" Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax\leq b$. "
+where $A\in \mathbb{R}^{n\times m}$, $b\in \mathbb{R}^{m}$ and $c\in \mathbb{R}^{n}$
 
 ### Standard form
-Furthermore, we can always rewrite the general form into standard form 
+" Minimize $c^Tx$ subject to $Ax=b$ and $x\geq 0$. "
+
+We can always rewrite the general form into standard form 
 by adding a slack variable 
 and noting that we can express $x$ as $x_+-x_-$ where $x_+,x_-\geq 0$:
-Minimize $c^Tx$ subject to $Ax=b$ and $x\geq 0$.

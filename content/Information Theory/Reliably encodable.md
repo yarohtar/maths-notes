@@ -1,4 +1,15 @@
-A [[Information Theory/Source]] $X_{1},X_{2},\dots$ is reliably encodable at rate $r$ if there is some $A_{n}\subseteq \Sigma^{n}$ for each $n$ such that
-1. $\frac{\log \lvert A_{n} \rvert}{n}\to r$ as $n\to \infty$
-2. $P((X_1,\dots X_{n})\in A_{n})\to 1$ as $n\to \infty$
+A [[Information Theory/Source]] $\{ X_{n} \}$ taking values in a discrete set $A$
+is reliably encodable at rate $r$ 
+if for each $n$ 
+there is some $B_{n}\subseteq A^{n}$ 
+such that:
+$$
+\begin{gather}
+\lim_{n\to \infty} \frac{ \log \lvert B_{n} \rvert  }{ n } = r \\
+\\
+\text{and} \\
+\\
+\lim_{n\to \infty}\mathbb{P}(X_{1}^{n}\in B_{n}) = 1
 
+\end{gather}
+$$

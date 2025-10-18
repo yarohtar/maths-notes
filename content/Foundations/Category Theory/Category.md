@@ -1,6 +1,6 @@
 A category $\mathcal{C}$ consists of
-1. a collection of $\operatorname{ob}\mathcal{C}$  of objects $A, B, C,\dots$
-2. a collection $\operatorname{mor}\mathcal{C}$ of morphisms $f,g,h, \dots$ 
+1. a collection of $\operatorname{ob}\mathcal{C}$  of [[Foundations/Category Theory/Object]]s $A, B, C,\dots$
+2. a collection $\operatorname{mor}\mathcal{C}$ of [[Foundations/Category Theory/Morphism]] $f,g,h, \dots$ 
 3. two operations $\operatorname{dom}$ and $\operatorname{cod}$ sending morphisms to objects
    we write $A\xrightarrow{f} B$ to mean $\operatorname{dom} f=A$ and $\operatorname{cod}f=B$
 4. An operation sending $A$ to $1_{A}$ where $A\xrightarrow 1_{A}A$
@@ -11,7 +11,10 @@ $$
 and then $\operatorname{dom}fg=\operatorname{dom}g$ and $\operatorname{cod}fg =\operatorname{cod}f$
 subject to:
 6. $f 1_{A}=f$ and $1_{A}g=g$ whenever the composites are defined
-7. $f(gh)=(fg)h$ whenever $fg$ and $gh$ are defined
+7. [[Foundations/Category Theory/Associativity]]: $f(gh)=(fg)h$ whenever $fg$ and $gh$ are defined
+### Definition
+A morphism $A\xrightarrow{f}B$ is an isomorphism if there is a morphism $B\xrightarrow{g}A$
+such that $fg=1_{B}$ and $gf=1_{A}$.
 ### Examples
 [[Foundations/Category Theory/Category of Sets]]
 [[Foundations/Category Theory/Category of Relations]]

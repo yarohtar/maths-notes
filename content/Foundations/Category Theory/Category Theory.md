@@ -4,3 +4,10 @@
 [[Foundations/Category Theory/Opposite Category]]
 [[Foundations/Category Theory/Functor]]
 [[Foundations/Category Theory/Natural Transformation]]
+[[Foundations/Category Theory/Natural Isomorphism]]
+[[Foundations/Category Theory/Equivalence]]
+[[Foundations/Category Theory/Faithfull]]
+[[Foundations/Category Theory/Full]]
+[[Foundations/Category Theory/Essentially Injective]]
+[[Foundations/Category Theory/Essentially Surjective]]
+

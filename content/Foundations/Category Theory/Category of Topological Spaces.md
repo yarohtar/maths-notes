@@ -1,1 +1,2 @@
-The [[Foundations/Category Theory/Category]] of [[Topology/Topological space]] and continuous maps denoted by $\mathrm{Top}$
+The [[Foundations/Category Theory/Category]] of [[Topology/Topological space]]s and [[Topology/Continuous]] maps between them
+denoted by $\mathrm{Top}$
