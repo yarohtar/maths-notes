@@ -16,7 +16,7 @@ export default (() => {
  
   RequestReviewButton.afterDOMLoaded = `
   
-  document.getElementById('requestReviewButton').onclick = async () => {
+  document.getElementById('requestReviewButton').onclick = () => {
     const full_path = window.location.pathname;
     const trim0 = full_path.startsWith('/') ? full_path.slice(1) : full_path;
     const trim1 = trim0.slice(trim0.indexOf('/') + 1);
