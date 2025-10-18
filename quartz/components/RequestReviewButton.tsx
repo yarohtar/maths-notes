@@ -18,14 +18,15 @@ export default (() => {
   
   document.getElementById('requestReviewButton').onclick = async () => {
     let api_url = "https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing"
-    let external_url = "https://api.allorigins.win/raw?url=" + encodeURIComponent(api_url);
+    // let external_url = "https://api.allorigins.win/raw?url=" + encodeURIComponent(api_url);
+    window.open(api_url, "_blank");
     
+/*
     const iframe = document.createElement("iframe");
     iframe.style.display = "none"; // hidden
     iframe.src = api_url; // the HTML that executes
     document.body.appendChild(iframe);
     
-/*
     const html = await fetch(external_url).then(r=> r.text());
     console.log(html);
 
