@@ -17,9 +17,9 @@ export default (() => {
   RequestReviewButton.afterDOMLoaded = `
   
   document.getElementById('requestReviewButton').onclick = async () => {
-    let url = "https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing"
-    let apilink = "https://api.allorigins.win/raw?url=" + encodeURIComponent(url);
-    const html = await fetch(apilink).then(r=> r.text());
+    let api_url = "https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing"
+    let external_url = "https://api.allorigins.win/raw?url=" + encodeURIComponent(api_url);
+    const html = await fetch(external_url).then(r=> r.text());
     console.log(html);
     
     const blob = new Blob([html], { type: "text/html" });
