@@ -17,6 +17,6 @@ https://github.com/yarohtar/maths-notes/issues
     vertical-align: middle;
     cursor: pointer;
     width: 100%;"
-     onclick="window.top.location.href = https://yarohtar.github.io/maths-notes/">
+    onclick="window.top.location.href = 'https://yarohtar.github.io/maths-notes/'">
 Go Back.
 </button>
