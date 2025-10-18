@@ -17,21 +17,18 @@ export default (() => {
   RequestReviewButton.afterDOMLoaded = `
   
   document.getElementById('requestReviewButton').onclick = async () => {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing", {
+    const html = await fetch("https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=nothing", {
     method: "GET",
-    mode: "no-cors" // Important — avoids CORS errors but you won’t see response
-    }).then(r=> r.text())
-    .then(html => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, "text/html");
-      console.log(doc);
-      return doc;
-    });
-    //alert(response);
-/*
-    const container = document.createElement("div");
-    container.innerHTML = response;
-    document.body.appendChild(container.firstElementChild);*/
+    mode: "no-cors" 
+    }).then(r=> r.text());
+
+    const blob = new Blob([html], { type: "text/html" });
+    const url = URL.createObjectURL(blob);
+
+    const iframe = document.createElement("iframe");
+    iframe.src = url;
+    iframe.style.display = "none";
+    document.body.appendChild(iframe);
   }
   `
   RequestReviewButton.css = style
