@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs({resolveFrontmatterTitle: false,}),
-      condition: (page) => !is_index(page),
+      condition: (page) => !is_index(page) && !is_fallback(page),
     }),
     Component.ConditionalRender({
       component: Component.ArticleTitle(),
@@ -43,7 +43,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
+    Component.ConditionalRender({
+      component: Component.PageTitle(),
+        condition: (page) => !is_fallback(page),
+    }),
     // Component.Explorer(),
   ],
   right: [
