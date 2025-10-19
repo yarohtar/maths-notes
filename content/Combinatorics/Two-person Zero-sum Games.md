@@ -8,8 +8,8 @@ $$
 the largest possible 
 (where $(A^Tp)_j$ is the expected payoff for Player1 given that Player2 plays $j$).
 
-Introduce $e=(1 \quad \dots \quad1)^T$ and reframe this into a [[Numerical/Linear Program\|linear program]]:
-maximise $v$ s.t. $A^Tp\geq ve$, $p\geq 0$, $e^Tp=1$.
+Introduce $e=(1 \quad \dots \quad1)^T$ and reframe this into a [[Numerical/Linear Program]]:
+" Maximise $v$ subject to $A^Tp\geq ve$, $p\geq 0$, $e^Tp=1$. "
 
 The [[Numerical/Lagrangian\|Lagrangian]] is 
 $$
@@ -21,21 +21,23 @@ Now $z\geq 0$ so $q\geq 0$ and $p\geq 0$ so $Aq-we\leq 0$.
 Also $v\in\mathbb R$, so $q^Te=1$ 
 i.e. $q$ is a distribution. 
 Now the dual problem is:
-minimize $w$ s.t. $Aq\leq we$, $q\geq 0$ and $q^Te=1$.
+" Minimize $w$ subject to $Aq\leq we$, $q\geq 0$ and $q^Te=1$. "
 Note that this is exactly the problem of finding the optimal strategy for Player2.
 
 Suppose we have optimal strategies $p$ and $q$.
-Complementary slackness for $p$ gives:
+[[Numerical/Complimentary Slackness]] for $p$ gives:
 $$q^TA^Tp-we^Tp=0,\quad\text{i.e.}\quad q^TA^Tp=w$$
 Also in an optimal strategy $w=v$ (by [[Numerical/Strong Duality]]). 
-Hence, using [[Numerical/Optimality Condition in Linear Programming\|optimality conditions]] we arrive at the following theorem:
+Hence, we arrive at the following theorem:
 ## Theorem
 Suppose $p$ and $q$ are strategies for Player1 and Player2 respectively, 
 and $v$ is a value satisfying:
-- $A^Tp\geq ve$
-- $Aq\leq ve$
-- $v=q^TA^Tp$
+- $A^Tp\geq ve$ primal feasible
+- $Aq\leq ve$ dual feasible
+- $v=q^TA^Tp$ [[Numerical/Complimentary Slackness]]
 Then these are all optimal, and $v$ is the value of the problem.
+### Proof
+See [[Numerical/Dual Problem in Linear Programs#Lemma]].
 
 ## Sidenote
 If strategies $p=e_i$ and $q=e_j$ are optimal 

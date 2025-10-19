@@ -3,9 +3,10 @@
 [[Numerical/Lagrange multipliers]]
 [[Numerical/The Necessity Theorem]]
 [[Numerical/Dual Problem]]
-[[Numerical/Complimentary Slackness]] (the most important)
+[[Numerical/Complimentary Slackness]]
 [[Numerical/Economist perspective]] (not important)
 [[Numerical/Linear Program]]
+[[Numerical/Dual Problem in Linear Programs]] (most important lemma)
 [[Numerical/Optimality Condition in Linear Programming]]
 [[Numerical/Simplex method]]
 [[Combinatorics/Two-person Zero-sum Games]]

@@ -19,11 +19,13 @@ There are other equivalent forms they can take:
 [[Numerical/Forms of linear programs]]
 ## Lemma
 Suppose $x\in X$ is optimal for an LP.
-Then $x$ is a [[Basic Feasible Solution]].
+Then $x$ is a [[Numerical/Basic Feasible Solution]].
 ### Proof
 [[Analysis/Maximum of a Convex Function]] is always at an [[Analysis/Extreme Point]] (of domain).
+So minimum of a concave function is an [[Analysis/Extreme Point]].
+Note that linear programs are both convex and concave.
 So we need to find all [[Analysis/Extreme Point]]s and evaluate the function there.
-We are done by [[Basic Feasible Solution#Theorem]].
+We are done by [[Numerical/Basic Feasible Solution#Theorem]].
 ## Theorem
 Suppose the set of feasible values $X$ is nonempty,
 i.e. there is some $x\in \mathbb{R}^{n}$ satisfying the constraints.
@@ -42,20 +44,15 @@ For a set $B\subseteq[n]$ we denote by $A_{B}$ the $m\times \lvert B \rvert$ sub
 obtained by taking $i$-th columns of $A$ for $i\in B$.
 
 Now onto the algorithm:
-1. Let $B\subseteq[n]$ with $A_{B}$ having linearly independent columns 
-   (note $\lvert B \rvert\leq m$, and there is only finitely many of them)
-2. Let $A'$ be a $\lvert B \rvert \times \lvert B \rvert$ invertible submatrix of $A_{B}$,
-   found by removing some rows
-3. Set $x_{B}=A'^{-1}b_{B}$ and $x_{i}=0$ for $i\not\in B$
-4. Then $x_{B}$ is a [[Numerical/Basic Solution]] to $Ax=b$
-5. If $x\geq 0$, then $x$ is a [[Basic Feasible Solution]]
+1. Let $B\subseteq[n]$ with $\lvert B \rvert=m$ (we have $\binom{ n }{ m }$ choices)
+2. If $A_{B}$ is not invertible, choose the next $B$, 
+   otherwise set $x_{B}=A_{B}^{-1}$ and $x_{i}=0$ for $i\not\in B$
+3. Then $x_{B}$ is a [[Numerical/Basic Solution]] to $Ax=b$
+4. If $x\geq 0$, then $x$ is a [[Numerical/Basic Feasible Solution]]
    and we note down $x$ with the associated cost $c^{T}x$
-6. Go back to step 1. until we have tried all possible $B$, 
+5. Go back to step 1. until we have tried all possible $B$, 
    otherwise proceed to
-7. We filter out the minimums from our noted down values.
+6. We filter out the minimums from our noted down values.
 
-By using [[Numerical/Basic Solution#Lemma]] 
-we know that each $B$ (as defined in Step 1.)
-will give us the unique [[Numerical/Basic Solution]] $x$ with support $B$
-By definition of [[Numerical/Basic Solution]]s, we also know that this covers *all* of them.
-
+Note that we have necessarily gone through all [[Numerical/Basic Solution]]s
+because each of them has some [[Numerical/Basis]].

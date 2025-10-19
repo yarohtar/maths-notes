@@ -9,6 +9,9 @@ It is not an accurate representation of what was lectured or what is examined.
 While some notes were taken during lectures, a big part was created after lectures / during revision and heavily modified based on various resources.
 In particular, all errors are my own.
 
+That said, my main goal was to provide quick lookup of various concepts,
+as well as have all related concepts (across all courses) connected with wiki style links.
+
 The lecture notes were created in Obsidian (https://obsidian.md/). 
 If you want to view them in the app, you can find the setup guide here:
 
