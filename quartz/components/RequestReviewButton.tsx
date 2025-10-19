@@ -26,9 +26,9 @@ export default (() => {
   document.addEventListener("nav", () => {
     // do page specific logic here
     // e.g. attach event listeners
-    document.getElementById('requestReviewButton').addEventListener("onclick", () => navigate());
+    document.getElementById('requestReviewButton').onclick = () => navigate();
   })
-  document.getElementById('requestReviewButton').addEventListener("onclick", () => navigate());
+  document.getElementById('requestReviewButton').onclick = () => navigate();
   `
   RequestReviewButton.css = style
   
