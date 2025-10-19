@@ -17,41 +17,41 @@ https://github.com/yarohtar/cam-maths-notes-obsidian
 This website was created using Quartz (https://quartz.jzhao.xyz/).
 
 ## Part IA
-- [[Algebra/Group Theory/Group Theory]] (taken from [[Algebra/Groups, Rings and Modules]])
-- some [[Algebra/Vector Spaces/Vectors and Matrices]]
-- [[Probability/Probability]] (taken from [[Analysis/Measure/Probability and Measure]])
-- [[Analysis/Analysis I]]
+[[Algebra/Group Theory/Group Theory]] (taken from [[Algebra/Groups, Rings and Modules]])
+some [[Algebra/Vector Spaces/Vectors and Matrices]]
+[[Probability/Probability]] (taken from [[Analysis/Measure/Probability and Measure]])
+[[Analysis/Analysis I]]
 See also [[Combinatorics/Algebraic Methods in Combinatorics]]
 
 ## Part IB
-- [[Numerical/Optimisation]]
-- [[Calculus/Variational principles]]
-- Some of [[Calculus/Methods]]
-- [[Analysis/Analysis and Topology]]
-- [[Quantum/Quantum mechanics]]
-- [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group Theory/Group]] and [[Algebra/Ring Theory/Ring]])
-- [[Numerical/Numerical Analysis]]
-- [[Analysis/Complex Methods]]
+[[Numerical/Optimisation]]
+[[Calculus/Variational principles]]
+Some of [[Calculus/Methods]]
+[[Analysis/Analysis and Topology]]
+[[Quantum/Quantum mechanics]]
+[[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group Theory/Group]] and [[Algebra/Ring Theory/Ring]])
+[[Numerical/Numerical Analysis]]
+[[Analysis/Complex Methods]]
 
 ## Part II
-- Some of [[Topology/Algebraic Topology]]
-- [[Analysis/Linear Analysis]]
-- [[Numerical/Numerical Analysis]]
-- [[Asymptotic Methods/Asymptotic methods]]
-- [[Foundations/Computability/Automata and formal languages]]
-- Some of [[Quantum/Principles of Quantum Mechanics]]
-- [[Analysis/Measure/Probability and Measure]] (mostly just measure)
-- Some of [[Algebra/Number Theory/Number theory]]
-- Some of [[Combinatorics/Graphs/Graph Theory]]
-- [[Information Theory/Coding and Cryptography]]
-- [[Foundations/Logic and Set Theory]]
-- Some of [[Calculus/Integrable systems]]
-- [[Quantum/Quantum Information and Computing]]
+Some of [[Topology/Algebraic Topology]]
+[[Analysis/Linear Analysis]]
+[[Numerical/Numerical Analysis]]
+[[Asymptotic Methods/Asymptotic methods]]
+[[Foundations/Computability/Automata and formal languages]]
+Some of [[Quantum/Principles of Quantum Mechanics]]
+[[Analysis/Measure/Probability and Measure]] (mostly just measure)
+Some of [[Algebra/Number Theory/Number theory]]
+Some of [[Combinatorics/Graphs/Graph Theory]]
+[[Information Theory/Coding and Cryptography]]
+[[Foundations/Logic and Set Theory]]
+Some of [[Calculus/Integrable systems]]
+[[Quantum/Quantum Information and Computing]]
 
 ## Part III
-- [[Quantum/Information/Quantum Information]]
-- [[Combinatorics/Algebraic Methods in Combinatorics]]
-- [[Foundations/Category Theory/Category Theory]]
-- [[Information Theory/Information Theory]]
-- [[Foundations/Forcing and Continuum Hypothesis]]
+[[Quantum/Information/Quantum Information]]
+[[Combinatorics/Algebraic Methods in Combinatorics]]
+[[Foundations/Category Theory/Category Theory]]
+[[Information Theory/Information Theory]]
+[[Foundations/Forcing and Continuum Hypothesis]]
 
