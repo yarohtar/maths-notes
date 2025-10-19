@@ -54,8 +54,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Explorer(),
   ],
   right: [
-    Component.ConditionalRender(
-      {
+    Component.ConditionalRender({
         component: Component.Flex(
           {
             components: 
@@ -68,7 +67,7 @@ export const defaultContentPageLayout: PageLayout = {
             direction: "column",
           }
         ),
-        condition: (page => !is_fallback(page),
+        condition: (page) => !is_fallback(page),
       }),
   ],
 }
