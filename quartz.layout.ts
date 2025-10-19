@@ -47,6 +47,10 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.PageTitle(),
         condition: (page) => !is_fallback(page),
     }),
+    Component.ConditionalRender({
+      component: Component.RequestReviewButton(),
+        condition: (page) => !is_fallback(page),
+    }),
     // Component.Explorer(),
   ],
   right: [
@@ -60,10 +64,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-        condition: (page) => !is_fallback(page),
-    }),
-    Component.ConditionalRender({
-      component: Component.RequestReviewButton(),
         condition: (page) => !is_fallback(page),
     }),
   ],
