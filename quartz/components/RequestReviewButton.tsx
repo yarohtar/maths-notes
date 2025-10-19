@@ -15,14 +15,21 @@ export default (() => {
   }
  
   RequestReviewButton.afterDOMLoaded = `
-  
-  document.getElementById('requestReviewButton').onclick = () => {
+  let navigate = () => {
     const full_path = window.location.pathname;
     const trim0 = full_path.startsWith('/') ? full_path.slice(1) : full_path;
     const trim1 = trim0.slice(trim0.indexOf('/') + 1);
     let api_url = "https://script.google.com/macros/s/AKfycbxdHWBYFMv_qWbh5WCyp3MFWGTGgqeO07MvL2XePLGZnSCX1wfwuSSF1CeNp9mw5gbH/exec?error_page=" + trim1;
     window.location.href=api_url;
-  }
+  };
+  
+  document.addEventListener("nav", () => {
+    // do page specific logic here
+    // e.g. attach event listeners
+
+    document.getElementById('requestReviewButton').addEventListener("onclick", navigate, false);
+  })
+  document.getElementById('requestReviewButton').addEventListener("onclick", navigate, false);
   `
   RequestReviewButton.css = style
   
