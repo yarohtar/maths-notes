@@ -3,7 +3,7 @@ import style from "./styles/requestreview.scss"
 import { classNames } from "../util/lang"
 
 export default (() => {
-  const RequestReviewButton : QuartzComponent({
+  const RequestReviewButton : QuartzComponent = ({
       fileData,
       displayClass,
       cfg,
