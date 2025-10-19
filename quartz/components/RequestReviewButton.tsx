@@ -15,7 +15,7 @@ export default (() => {
   }
  
   RequestReviewButton.afterDOMLoaded = `
-  let navigate = () => {
+  function navigate() {
     const full_path = window.location.pathname;
     const trim0 = full_path.startsWith('/') ? full_path.slice(1) : full_path;
     const trim1 = trim0.slice(trim0.indexOf('/') + 1);
@@ -26,10 +26,9 @@ export default (() => {
   document.addEventListener("nav", () => {
     // do page specific logic here
     // e.g. attach event listeners
-
-    document.getElementById('requestReviewButton').addEventListener("onclick", navigate, false);
+    document.getElementById('requestReviewButton').addEventListener("onclick", () => navigate());
   })
-  document.getElementById('requestReviewButton').addEventListener("onclick", navigate, false);
+  document.getElementById('requestReviewButton').addEventListener("onclick", () => navigate());
   `
   RequestReviewButton.css = style
   
