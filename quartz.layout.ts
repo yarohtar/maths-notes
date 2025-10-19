@@ -48,7 +48,7 @@ export const defaultContentPageLayout: PageLayout = {
         condition: (page) => !is_fallback(page),
     }),
     Component.ConditionalRender({
-      component: Compontent.DesktopOnly(Component.RequestReviewButton()),
+      component: Component.DesktopOnly(Component.RequestReviewButton()),
         condition: (page) => !is_fallback(page),
     }),
     // Component.Explorer(),
@@ -67,7 +67,7 @@ export const defaultContentPageLayout: PageLayout = {
         condition: (page) => !is_fallback(page),
     }),
     Component.ConditionalRender({
-      component: Compontent.MobileOnly(Component.RequestReviewButton()),
+      component: Component.MobileOnly(Component.RequestReviewButton()),
         condition: (page) => !is_fallback(page),
     }),
   ],
