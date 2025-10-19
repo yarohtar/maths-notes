@@ -8,10 +8,11 @@ export default (() => {
       displayClass,
       cfg,
   }: QuartzComponentProps) => {
+    const id = "rrb-" + displayClass;
     return (
     <div class={classNames(displayClass)}>
       <h3 style="display: inline-block; font-size=1.1rem">Something looks off?</h3>
-      <button id="requestReviewButton" class="request-review-button">
+      <button id={id} class="request-review-button">
         <h4>Click me!</h4>
       </button>
       <p>The button will add this page to my log of things to fix.
@@ -34,9 +35,11 @@ export default (() => {
   document.addEventListener("nav", () => {
     // do page specific logic here
     // e.g. attach event listeners
-    document.getElementById('requestReviewButton').onclick = () => navigate();
+    document.getElementById('rrb-mobile-only').onclick = () => navigate();
+    document.getElementById('rrb-desktop-only').onclick = () => navigate();
   })
-  document.getElementById('requestReviewButton').onclick = () => navigate();
+  document.getElementById('rrb-mobile-only').onclick = () => navigate();
+  document.getElementById('rrb-desktop-only').onclick = () => navigate();
   `
   RequestReviewButton.css = style
   
