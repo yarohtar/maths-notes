@@ -54,22 +54,22 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Explorer(),
   ],
   right: [
-    Component.ConditionalRender({
-      component: Component.Graph(),
-        condition: (page) => !is_fallback(page),
-    }),
-    Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.TableOfContents()),
-        condition: (page) => !is_fallback(page),
-    }),
-    Component.ConditionalRender({
-      component: Component.Backlinks(),
-        condition: (page) => !is_fallback(page),
-    }),
-    Component.ConditionalRender({
-      component: Component.MobileOnly(Component.RequestReviewButton()),
-        condition: (page) => !is_fallback(page),
-    }),
+    Component.ConditionalRender(
+      {
+        component: Component.Flex(
+          {
+            components: 
+            [
+              { Component: Component.Graph(), },
+              { Component: Component.DesktopOnly(Component.TableOfContents()), },
+              { Component: Component.Backlinks(), },
+              { Component: Component.MobileOnly(Component.RequestReviewButton()), },
+            ],
+            direction: "column",
+          }
+        ),
+        condition: (page => !is_fallback(page),
+      }),
   ],
 }
 
