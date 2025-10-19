@@ -1,11 +1,15 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/requestreview.scss"
+import { classNames } from "../util/lang"
 
 export default (() => {
   const RequestReviewButton : QuartzComponent({
-    displayClass,
+      fileData,
+      displayClass,
+      cfg,
   }: QuartzComponentProps) => {
-    return <div class={displayClass}>
+    return (
+    <div class={classNames(displayClass)}>
       <h3 style="display: inline-block; font-size=1.1rem">Something looks off?</h3>
       <button id="requestReviewButton" class="request-review-button">
         <h4>Click me!</h4>
@@ -15,6 +19,7 @@ export default (() => {
       Submit other issues on <a href="https://github.com/yarohtar/maths-notes/issues" target="_blank">GitHub</a>.
       </p>
     </div>
+    )
   }
  
   RequestReviewButton.afterDOMLoaded = `
