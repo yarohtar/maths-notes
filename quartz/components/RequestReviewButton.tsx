@@ -1,8 +1,11 @@
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/requestreview.scss"
 
 export default (() => {
-  function RequestReviewButton() {
-    return <div>
+  const RequestReviewButton : QuartzComponent({
+    displayClass,
+  }: QuartzComponentProps) => {
+    return <div class={displayClass}>
       <h3 style="display: inline-block; font-size=1.1rem">Something looks off?</h3>
       <button id="requestReviewButton" class="request-review-button">
         <h4>Click me!</h4>
