@@ -30,7 +30,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
       }];
     },
     externalResources() {
-      {
+      return {
           css: [
             {
               // base css
