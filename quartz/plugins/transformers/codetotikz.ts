@@ -11,17 +11,21 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
     name: "CodeToTikz",
     markdownPlugins() {
       return [() => {
+        console.log("code to tikz called");
         return (tree, file) => {
           visit(tree, "code", 
           (block) => {
-            return {
-              type: "text",
-              value: "<source type='text/tikz'>" + block.content + "</source>"
+            if(block.lang === "tikz") 
+            {
+              return {
+                type: "text",
+                value: "<source type='text/tikz'>" + block.value + "</source>"
+              };
             }
-          })
+            return block;
+          });
         };
-      }
-        ];
+      }];
     }
   }
 }
