@@ -34,7 +34,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
           css: [
             {
               // base css
-              content: "https://bill-ion.github.io/tikzjax-live/dist/fonts.css",
+              src: "https://bill-ion.github.io/tikzjax-live/dist/fonts.css",
               loadTime: "beforeDOMLoaded",
               contentType: "external",
             },
