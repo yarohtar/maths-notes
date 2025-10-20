@@ -31,12 +31,12 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
     },
     externalResources() {
       return {
-          css: [
+          /*css: [
             {
               // base css
               content: "https://bill-ion.github.io/tikzjax-live/dist/fonts.css",
             },
-          ],
+          ],*/
           js: [
             {
               src: "https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js",
