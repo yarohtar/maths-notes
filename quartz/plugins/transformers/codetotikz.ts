@@ -22,7 +22,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
                 type: "text",
                 value: "<source type='text/tikz'>" + block.value + "</source>"
               };*/
-              clonsole.log(block);
+              console.log(block);
             }
           });
         };
