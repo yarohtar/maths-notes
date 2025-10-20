@@ -17,7 +17,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
             if(block.lang === "tikz") 
             {
               console.log("found tikz block");
-              block.type = 'text';
+              block.type = 'html';
               block.value = "<source type='text/tikz'>" + block.value + "</source>";
               /*block = {
                 type: "text",
