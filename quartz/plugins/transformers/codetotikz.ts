@@ -39,9 +39,8 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
           ],
           js: [
             {
-              // fix copy behaviour: https://github.com/KaTeX/KaTeX/blob/main/contrib/copy-tex/README.md
               src: "https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js",
-              loadTime: "afterDOMReady",
+              loadTime: "beforeDOMLoaded",
               contentType: "external",
             },
           ],
