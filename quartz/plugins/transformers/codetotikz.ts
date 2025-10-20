@@ -17,16 +17,13 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
             if(block.lang === "tikz") 
             {
               console.log("found tikz block");
-              console.log(block.value);
-              block = {
+              block.value = block.value + "\nmodified";
+              /*block = {
                 type: "text",
                 value: "<source type='text/tikz'>" + block.value + "</source>"
-              };
-              return {};
+              };*/
+              clonsole.log(block);
             }
-            console.log("found not-a-tikz block");
-            console.log(block.value);
-            return block;
           });
         };
       }];
