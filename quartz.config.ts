@@ -73,6 +73,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "mathjax" }),
       Plugin.HardLineBreaks(),
+      Plugin.MakeTikzCodeBlocks(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
