@@ -1,0 +1,7 @@
+.tikzimage
+{
+  transform: scale(2,2);
+  & svg {
+    fill: var(--dark);
+  }
+}
