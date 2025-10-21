@@ -1,8 +1,11 @@
 .tikzimage
 {
+  display: flex;
   margin: auto;
   transform: scale(2,2);
   & svg {
+    margin-left: auto;
+    margin-right: auto;
     fill: var(--darkgray);
   }
 }
