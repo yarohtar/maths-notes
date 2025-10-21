@@ -4,7 +4,7 @@ import { visit } from "unist-util-visit"
 import { ReplaceFunction, findAndReplace as mdastFindReplace } from "mdast-util-find-and-replace"
 import { Root, Html, Paragraph, Text, Link, Parent } from "mdast"
 import { BuildVisitor } from "unist-util-visit"
-import tikzimagestyle from "../../components/styles/tikzsvg.scss
+import tikzimagestyle from "../../components/styles/tikzsvg.inline.scss"
 
 
 export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
