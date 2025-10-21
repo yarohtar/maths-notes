@@ -3,7 +3,7 @@
 ---
 
 On this website you will find my notes as I write them throughout my time in Cambridge.
-##### Disclaimer
+###### Disclaimer
 **No content presented on this website is official. It is not endorsed by the University of Cambridge, the Maths Faculty, or any of the Lecturers.
 It is not an accurate representation of what was lectured or what is examined.
 While some notes were taken during lectures, a big part was created after lectures / during revision and heavily modified based on various resources.
@@ -24,8 +24,8 @@ Best way to get around here is to use the search bar for everything all the time
 Otherwise, you could scroll down and click on some of the linked courses.
 Oh and click that "Click Me!" button if you find a page or equation that's broken. 
 There is too many files for me to verify that they all render correctly, e.g. $$
-\text{the following looks fine in obsidian, but not for you}
-$$
+\text{the following looks fine in obsidian}
+$$ but not for you.
 ### Acknowledgements
 The lecture notes were created in [Obsidian](https://obsidian.md/)
 They were written using [artisticat1/obsidian-latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin
