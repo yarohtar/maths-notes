@@ -1,4 +1,5 @@
 export const escapeHTML = (unsafe: string) => {
+  return unsafe;
   let res = unsafe
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
