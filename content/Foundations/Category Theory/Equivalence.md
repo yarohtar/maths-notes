@@ -30,6 +30,19 @@ satisfies $GFf=Gg$.
 Note that $G$ is [[Foundations/Category Theory/Faithfull]] for the same reason as $F$ 
 so we get $Ff=g$
 ##### $\impliedby$
+For each $B\in \operatorname{ob}\mathcal{D}$ choose an object $GB$ of $\mathcal{C}$ and an isomorphism $\beta_{B}:FGB\to B$ in $\mathcal{D}$.
+Given $B\xrightarrow{g}C$ in $\mathcal{D}$ define $GB\xrightarrow{Gg}GC$ to be the unique [[Foundations/Category Theory/Morphism]] whose range under $F$ is 
+$$
+FGB\xrightarrow{\beta_{D}}B\xrightarrow{g}C\xrightarrow{\beta_{C}^{-1}}FGC
+$$
+Uniqueness implies [[Foundations/Category Theory/Functor]]iality:
+given $C\xrightarrow{h}D$, $G(gh)$ and $(Gg)(Gh)$ have the same image under $F$
+so they're equal.
+By construction, $\beta$ is a [[Foundations/Category Theory/Natural Isomorphism]] $FG\to 1_{\mathcal{D}}$
+Define $\alpha_{A}:A\to GFA$ to be the unique morphism whose inverse under $F$ is $FA\xrightarrow{\beta_{FA}^{-1}}FGFB$
+As we already saw, $\alpha_{A}$ is iso for all $A$, 
+and naturality squares for $\alpha$ are mapped by $F$ to nat squares for $\beta ^{-1}$ so they commute.
+ 
 
 ### Example
 [[Foundations/Category Theory/Category of Partial Functions]] $\mathrm{Part}$ is equivalent to the category $\mathrm{Set}_{*}$ of pointed sets:

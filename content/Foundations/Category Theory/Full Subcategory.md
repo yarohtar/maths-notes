@@ -1,0 +1,1 @@
+Take some objects and all morphisms between them

@@ -1,0 +1,1 @@
+We say a [[Foundations/Category Theory/Functor]] $\mathcal{C}\to \mathrm{Set}$ is representable if it's isomorphic to $\mathcal{C}(A,\cdot)$ for some $A$.

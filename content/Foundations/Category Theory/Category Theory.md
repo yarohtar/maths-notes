@@ -10,4 +10,14 @@
 [[Foundations/Category Theory/Full]]
 [[Foundations/Category Theory/Essentially Injective]]
 [[Foundations/Category Theory/Essentially Surjective]]
+[[Foundations/Category Theory/Skeletal]]
 
+[[Foundations/Category Theory/Monomorphism]]
+[[Foundations/Category Theory/Epimorphism]]
+[[Foundations/Category Theory/Balanced]]
+
+[[Foundations/Category Theory/Yoneda Lemma]]
+[[Foundations/Category Theory/Yoneda Embedding]]
+
+[[Foundations/Category Theory/Representable]]
+[[Foundations/Category Theory/Representation]]
