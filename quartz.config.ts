@@ -70,7 +70,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest", prettyLinks: true, openLinksInNewTab: true }),
-      Plugin.Description(),
+      //Plugin.Description(),
       //Plugin.Latex({ renderEngine: "mathjax" }),
       Plugin.HardLineBreaks(),
       Plugin.MakeTikzCodeBlocks(),
