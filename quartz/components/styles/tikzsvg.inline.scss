@@ -1,7 +1,8 @@
 .tikzimage
 {
+  margin: auto;
   transform: scale(2,2);
   & svg {
-    fill: var(--dark);
+    fill: var(--darkgray);
   }
 }
