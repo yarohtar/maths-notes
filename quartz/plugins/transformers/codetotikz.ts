@@ -4,6 +4,7 @@ import { visit } from "unist-util-visit"
 import { ReplaceFunction, findAndReplace as mdastFindReplace } from "mdast-util-find-and-replace"
 import { Root, Html, Paragraph, Text, Link, Parent } from "mdast"
 import { BuildVisitor } from "unist-util-visit"
+import tikzimagestyle from "../../components/styles/tikzsvg.scss
 
 
 export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
@@ -17,7 +18,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
             if(block.lang === "tikz") 
             {
               block.type = 'html';
-              block.value = "<script type='text/tikz' data-show-console='true'>" + block.value + "</script>";
+              block.value = "<div class='tikzimage'><script type='text/tikz' data-show-console='true'>" + block.value + "</script></div>";
               console.log(block.value);
             }
           });
@@ -45,6 +46,10 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
               // base css
               content: "https://bill-ion.github.io/tikzjax-live/dist/fonts.css",
             },
+            {
+              content: tikzimagestyle,
+              inline: true,
+            },
           ],
           js: [
             {
@@ -52,6 +57,11 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
               loadTime: "beforeDOMReady",
               contentType: "external",
             },
+            /*{
+              script: ,
+              loadTime: "beforeDOMReady",
+              contentType: "inline",
+            },*/
           ],
         }
     },
