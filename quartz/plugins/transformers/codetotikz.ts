@@ -40,7 +40,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
           js: [
             {
               src: "https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js",
-              loadTime: "beforeDOMReady",
+              loadTime: "afterDOMLoaded",
               contentType: "external",
             },
           ],
