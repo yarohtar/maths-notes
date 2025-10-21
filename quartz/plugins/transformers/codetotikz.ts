@@ -16,10 +16,23 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
           (block) => {
             if(block.lang === "tikz") 
             {
-              console.log("found tikz block");
               block.type = 'html';
               block.value = "<script type='text/tikz' data-show-console='true'>" + block.value + "</script>";
+              console.log(block.value);
             }
+          });
+        };
+      }];
+    },
+    htmlPlugins() {
+      return [()=>{
+        return (tree, file) => {
+          visit(tree, "element", (el) => {
+            if(el.tagName !== "script")
+            {
+              return;
+            }
+            console.log(el);
           });
         };
       }];
@@ -40,6 +53,6 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
             },
           ],*/
         }
-    }
+    },
   }
 }
