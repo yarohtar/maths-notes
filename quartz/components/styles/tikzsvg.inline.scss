@@ -3,9 +3,12 @@
   display: flex;
   margin: auto;
   zoom: 180%;
-  & svg {
+  & svg & g & g & g{
     margin-left: auto;
     margin-right: auto;
-    fill: var(--darkgray);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    fill: var(--dark);
+    stroke: var(--dark);
   }
 }
