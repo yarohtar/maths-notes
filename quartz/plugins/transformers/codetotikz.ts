@@ -28,11 +28,12 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
       return [()=>{
         return (tree, file) => {
           visit(tree, "element", (el) => {
-            if(el.tagName !== "script")
+            if(el.tagName === "script" && el?.properties?.type === "text/tikz")
             {
-              return;
+              el.properties.dangerouslySetInnerHTML = { __html: el.children[0].value };
+              el.children = [];
+              console.log(el);
             }
-            console.log(el);
           });
         };
       }];
