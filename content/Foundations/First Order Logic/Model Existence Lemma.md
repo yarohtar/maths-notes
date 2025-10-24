@@ -8,7 +8,8 @@ We turn this into a [[Foundations/First Order Logic/Structure]] in the obvious w
 
 $A$ is still not a model (e.g. $1+0$ and $1$ are not equal in $A$)
 Define equivalence relation $\sim$ on $A$ by 
-$s\sim t$ iff $T\vdash(s=t)$ where($s,t \in A$)
+$s\sim t$ if and only if $T\vdash(s=t)$ 
+(where $s,t \in A$)
 Replace $A$ with $A /_{\sim}$
 Two issues remain
 
@@ -43,7 +44,7 @@ Easy to check that $S^{*}$ is a consistent theory in $L^{*}$ which contains $S$,
 Now WLOG $S^{*}=S$ and $L^{*}=L$
 
 We let $A$ be the set of equivalence classes of closed terms in $L$ where $s\sim t$ if and only if $S\vdash s=t$
-We make $A$ an $L$ [[Foundations/First Order Logic/Structure]]:
+We make $A$ an $L$-[[Foundations/First Order Logic/Structure]]:
 $\omega_{A}([t_{1}],\dots,[t_{n}])=[\omega t_{1}\dots t_{n}]$
 $\phi_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash \phi t_{1}\dots t_{n}$
 (lots of checking to do at this stage to prove this is all well defined)

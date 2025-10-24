@@ -19,6 +19,7 @@ All that said, my main goals were:
 1. providing quick lookup of all maths notions
 2. having a wikilink whenever a maths concept appears in text
 3. keeping myself entertained during lectures while i struggle with latex and plugins
+
 I have (so far) failed at (1), tried at (2), and sometimes succeeded at (3).
 Either way, this database might be useful for some of you. 
 ### Get started
