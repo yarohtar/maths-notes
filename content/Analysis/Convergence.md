@@ -4,6 +4,6 @@ $$
 (\forall \epsilon>0)(\exists M\in \mathbb{N})(\forall n>M)\ d(x_n,x)<\epsilon
 $$
 
-In $\mathbb{R}$ (and generally $\mathbb{R}^{n}$) the metric $d$ is just the usual 
-absolute difference (and generally Euclidean distance)
+In $\mathbb{R}$ (and generally $\mathbb{R}^{n}$) the metric $d$ is just the usual absolute difference 
+(and generally Euclidean distance)
 
