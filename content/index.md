@@ -13,6 +13,8 @@ Most of my lecturers weren't famous for drawing many things.
 Which is good, because I could keep the notes pictureless. 
 Also bad, because I kept the notes pictureless.
 ### So what's this?
+I found that written notes are useless for me because I never look at them.
+I also found large PDF style notes inconvenient for finding specific things.
 All that said, my main goals were:
 1. providing quick lookup of all maths notions
 2. having a wikilink whenever a maths concept appears in text
@@ -22,10 +24,8 @@ Either way, this database might be useful for some of you.
 ### Get started
 Best way to get around here is to use the search bar for everything all the time. 
 Otherwise, you could scroll down and click on some of the linked courses.
-Oh and click that "Click Me!" button if you find a page or equation that's broken. 
-There is too many files for me to verify that they all render correctly, e.g. $$
-\text{the following looks fine in obsidian}
-$$ but not for you.
+Oh and click that "Click Me!" button if you find a page or an equation that's broken. 
+There is too many files for me to verify that they all render correctly.
 ### Acknowledgements
 The lecture notes were created in [Obsidian](https://obsidian.md/)
 They were written using [artisticat1/obsidian-latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin

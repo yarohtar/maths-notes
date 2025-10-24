@@ -1,10 +1,11 @@
 $X$ and $Y$ are random variables taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
 Let $p=P(X\neq Y)$
-then
+Then
 $$
 H(X|Y)\leq H(p)+p\log(m-1)
 $$
-
+The interpretation we might have is that $p$ is the probability of making an error
+when trying to guess $X$ using a random variable $Y$. 
 #### Proof
 Let 
 $$

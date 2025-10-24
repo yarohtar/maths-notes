@@ -1,2 +1,2 @@
-A theory in [[Foundations/First Order Logic/First-order predicate Logic]] $L$ 
-is a set of sentences in $L$.
+A theory in a [[Foundations/First Order Logic/Language]] $L$ 
+is a set of [[Foundations/First Order Logic/Sentence]]s in $L$.

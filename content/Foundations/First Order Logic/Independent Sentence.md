@@ -1,4 +1,4 @@
-Let $L$ be a set of [[Foundations/First Order Logic/First-order predicate Logic]] axioms.
+Let $L$ be a set of [[Foundations/First Order Logic/First-Order Predicate Logic]] axioms.
 Let $\phi$ be a [[Foundations/First Order Logic/Sentence]]
 We say that $\phi$ is independent of $L$ if:
 $$

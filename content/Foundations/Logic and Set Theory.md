@@ -20,6 +20,6 @@ Icke Moerdijk, Jeep van Ooslen: Sets, Models and Proofs
 [[Foundations/Ordinals/Every vector space has a basis]]
 [[Foundations/Ordinals/Well-ordering Principle]]
 [[Foundations/Set Theory/AC ZL WOP]]
-[[Foundations/First Order Logic/First-order predicate Logic]]
+[[Foundations/First Order Logic/First-Order Predicate Logic]]
 [[Foundations/First Order Logic/Peano Arithmetic]]
 [[Foundations/Set Theory/Zermelo-Fraenkel Set Theory]]

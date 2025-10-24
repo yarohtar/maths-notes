@@ -6,14 +6,8 @@
 [[Foundations/Category Theory/Natural Transformation]]
 [[Foundations/Category Theory/Natural Isomorphism]]
 [[Foundations/Category Theory/Equivalence]]
-[[Foundations/Category Theory/Faithfull]]
-[[Foundations/Category Theory/Full]]
-[[Foundations/Category Theory/Essentially Injective]]
-[[Foundations/Category Theory/Essentially Surjective]]
 [[Foundations/Category Theory/Skeletal]]
 
-[[Foundations/Category Theory/Monomorphism]]
-[[Foundations/Category Theory/Epimorphism]]
 [[Foundations/Category Theory/Balanced]]
 
 [[Foundations/Category Theory/Yoneda Lemma]]

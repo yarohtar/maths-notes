@@ -1,1 +1,1 @@
-Take some objects and all morphisms between them
+Take some [[Foundations/Category Theory/Object]]s and all [[Foundations/Category Theory/Morphism]]s between them.

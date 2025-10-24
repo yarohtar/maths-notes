@@ -7,11 +7,12 @@ In [[Foundations/Category Theory/Category of Rings]], [[Foundations/Category The
 but $\mathbb{Z}\to \mathbb{Q}$ is [[Foundations/Category Theory/Epimorphism]] as well as [[Foundations/Category Theory/Monomorphism]], 
 so $\mathrm{Rng}$ is not balanced.
 
-In [[Foundations/Category Theory/Category of Topological Spaces]] 
+In [[Foundations/Category Theory/Category of Topological Spaces]],
 [[Foundations/Category Theory/Monomorphism]]s are injective and [[Foundations/Category Theory/Epimorphism]]s are surjective
 but $\mathrm{Top}$ is not balanced.
 
-In a [[Foundations/Category Theory/Preorder Category]], every [[Foundations/Category Theory/Morphism]] is [[Foundations/Category Theory/Monomorphism]] and [[Foundations/Category Theory/Epimorphism]],
+In a [[Foundations/Category Theory/Preorder Category]], 
+every [[Foundations/Category Theory/Morphism]] is [[Foundations/Category Theory/Monomorphism]] and [[Foundations/Category Theory/Epimorphism]],
 so a preorder is balanced
 if and only if
 it is a [[Foundations/Category Theory/Groupoid]].

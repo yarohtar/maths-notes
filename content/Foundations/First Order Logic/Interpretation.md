@@ -1,4 +1,4 @@
-Let $L=L(\Omega,\Pi)$ be a [[Foundations/First Order Logic/First-order predicate Logic]] language.
+Let $L=L(\Omega,\Pi)$ be a [[Foundations/First Order Logic/First-Order Predicate Logic]] language.
 Let $A$ be an $L$-[[Foundations/First Order Logic/Structure]].
 Let $t$ be a term in $L$ and $p$ a formula in $L$,
 both having [[Foundations/First Order Logic/Free Variable]] in $\{ x_{1},\dots,x_{n} \}$

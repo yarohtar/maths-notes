@@ -7,9 +7,10 @@ $$
 ### Theorem
 The optimal rate of compression of a message with pattern from $n$ copies of $\rho$ 
 is given by $S(\rho)$
+
 ### Ensembla
 $$
-\{ \ket{\phi(x)}  \geq p_{x} \}
+\{ \ket{\phi(x)}, p_{x} \}
 $$
 $$
 \rho=\sum_{x} \rho_{x} \ket{\phi(x)} 

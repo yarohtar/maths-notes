@@ -2,11 +2,8 @@ An isomorphism in a [[Foundations/Category Theory/Category]] $\mathcal{C}$ is a 
 $$
 f:A\to B
 $$
-such that there is a morphism (called the inverse)
-$$
-g:B\to A
-$$
-and both of the following hold:
+such that there is an [[Foundations/Category Theory/Inverse]] $g:B\to A$.
+i.e. both of the following hold:
 $$
 fg=1_{B}
 $$

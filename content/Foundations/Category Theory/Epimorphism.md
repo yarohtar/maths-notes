@@ -4,6 +4,15 @@ $$
 gf=hf\implies g=h
 $$
 for all $B\xrightarrow{g,h}C$
-We denote epimorphisms by $A\twoheadrightarrow^{f} B$
+We denote epimorphisms by
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+A \arrow[r, two heads, "f"] & B
+\end{tikzcd}
+\end{document}
+```
+
 
 In [[Foundations/Category Theory/Category of Sets]], epimorphisms are surjective.

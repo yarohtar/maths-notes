@@ -1,3 +1,7 @@
+---
+{"publish":true,"aliases":"functor functorial functorially functors","created":"2025-10-13T09:30:29.343+01:00","cssclasses":""}
+---
+
 Let $\mathcal{C}$ and $\mathcal{D}$ be [[Foundations/Category Theory/Category\|categories]].
 A functor $F:\mathcal{C}\to \mathcal{D}$ consists of mappings
 $$
@@ -25,3 +29,8 @@ $$
 [[Foundations/Category Theory/Monoid Homomorphism]]
 [[Foundations/Category Theory/Order Preserving Map]]
 [[Algebra/Group Theory/Group Action]]
+
+[[Foundations/Category Theory/Faithfull]]
+[[Foundations/Category Theory/Full]]
+[[Foundations/Category Theory/Essentially Injective]]
+[[Foundations/Category Theory/Essentially Surjective]]
