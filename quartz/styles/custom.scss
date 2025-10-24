@@ -1,3 +1,13 @@
 @use "./base.scss";
 
+a {
+  &.external {
+    color: var(--secondary);
+
+    &:hover {
+      color: var(--tertiary);
+    }
+  }
+}
+
 // put your custom CSS here!
