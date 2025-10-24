@@ -19,7 +19,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
             {
               block.type = 'html';
               block.value = "<div class='tikzimage'><script type='text/tikz' data-show-console='true'>" + block.value + "</script></div>";
-              console.log(block.value);
+              // console.log(block.value);
             }
           });
         };
@@ -33,7 +33,7 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
             {
               el.properties.dangerouslySetInnerHTML = { __html: el.children[0].value };
               el.children = [];
-              console.log(el);
+              // console.log(el);
             }
           });
         };
@@ -43,7 +43,6 @@ export const MakeTikzCodeBlocks: QuartzTransformerPlugin = () => {
       return {
           css: [
             {
-              // base css
               content: "https://bill-ion.github.io/tikzjax-live/dist/fonts.css",
             },
             {
