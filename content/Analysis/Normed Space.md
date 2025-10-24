@@ -27,4 +27,4 @@ Note that $X$ and $Y$ being [[Analysis/Banach Space]] $\implies$ $X\oplus Y$ is 
 And also that $X$ and $Y$ are always closed subspaces of $X\oplus Y$
 
 [[Analysis/Quotients]]
-[[Analysis/Completions]]
+[[Analysis/Completion]]

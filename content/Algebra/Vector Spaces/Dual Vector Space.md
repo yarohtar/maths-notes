@@ -5,7 +5,7 @@ This is well defined
 
 ### Proposition
 There is a natural injective homomorphism between $V$ and $V^{* *}$.
-This is a [[Foundations/Natural Transformation]] from $1_{V}\to\dots$ ??
+This is actually a [[Foundations/Category Theory/Natural Transformation]].
 #### Proof
 Let $v\in V$
 Define a homomorphism $L(V,F)\to F$ 

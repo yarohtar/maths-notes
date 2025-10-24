@@ -5,6 +5,9 @@ $$PA=LU$$
 
 If $A$ is symmetric, we want to find $A=LDL^T$ where $U=DL^T$. 
 
-A real symmetric matrix $A$ is [[Analysis/Positive definite]] iff all entries in $D$ are positive.
+A real symmetric matrix $A$ is positive [[Analysis/Definite]]
+if and only if
+all entries in $D$ are positive.
 
 This is all very useful for solving $Ax=b$, or calculating $\det A=\det U$.
+

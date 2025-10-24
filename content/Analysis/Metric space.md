@@ -25,7 +25,7 @@ so $B$ is not closed - contradiction.
 Similarly, if all convergent sequences in $M$ that are in $B$ are also convergent in $B$,
 then $B$ is closed. 
 
-[[Analysis/Complete Metric Space]]
+[[Analysis/Complete]]
 
 A subset $A\subseteq M$ is bounded if there are some $r>0$ and $z\in M$ s.t. $A\subset B_r(z)$.
 [[Analysis/Totally bounded]]

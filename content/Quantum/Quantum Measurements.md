@@ -16,7 +16,7 @@ This defines the [[Quantum/Observables]]
 Note that now the possible mmt results correspond to eigenvalues of the observable $M$
 ## Positive operator valued measure (POVM)
 Consider a mmt $\{ M_{n} \}_{n}\in \mathcal{B}(\mathcal{H})$.
-Then we define [[Analysis/Positive semi-definite]] operators:
+Then we define positive semi-[[Analysis/Definite]] operators:
 $$
 E_{n} = M_{n}^{*}M_{n}
 $$
