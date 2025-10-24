@@ -25,21 +25,24 @@ Either way, this database might be useful for some of you.
 ### Get started
 Best way to get around here is to use the search bar for everything all the time. 
 Otherwise, you could scroll down and click on some of the linked courses.
+
 Oh and click that "Click Me!" button if you find a page or an equation that's broken. 
 There is too many files for me to verify that they all render correctly.
 ### Acknowledgements
-The lecture notes were created in [Obsidian](https://obsidian.md/)
-They were written using [artisticat1/obsidian-latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin
-    which was inspired by Gilles Castel's [lecture note snippets](https://castel.dev/post/lecture-notes-1/)
-If you want to view them in the app, you can find the setup guide in [yarohtar/cam-maths-notes-obsidian](https://github.com/yarohtar/cam-maths-notes-obsidian)
+- The lecture notes were created in [Obsidian](https://obsidian.md/)  
 
-This website was created using Jacky Zhao's [Quartz](https://quartz.jzhao.xyz/)
+- They were written using [artisticat1/obsidian-latex-suite](https://github.com/artisticat1/obsidian-latex-suite) plugin
+    - which was inspired by Gilles Castel's [lecture note snippets](https://castel.dev/post/lecture-notes-1/)   
 
-The commutative diagrams were rendered using [benrbray/tikzjax](https://github.com/benrbray/tikzjax)
-       which is a fork of [artisticat1/tikzjax](https://github.com/artisticat1/tikzjax/tree/ba892f23a2d280d018681a4f88b39f5a8648c7c7) 
-           which is a fork of [drgrice1/tikzjax](https://github.com/drgrice1/tikzjax)
-               which is a fork of Jim Fowler's [TikzJax](https://github.com/kisonecat/tikzjax)
-                   which itself uses Jim Fowler's [web2js](https://github.com/kisonecat/web2js) and [dvi2html](https://github.com/kisonecat/dvi2html)
+- If you want to view them in the app, you can find the setup guide in [yarohtar/cam-maths-notes-obsidian](https://github.com/yarohtar/cam-maths-notes-obsidian)   
+
+- This website was created using Jacky Zhao's [Quartz](https://quartz.jzhao.xyz/)   
+
+- The commutative diagrams were rendered using [benrbray/tikzjax](https://github.com/benrbray/tikzjax)
+    - which is a fork of [artisticat1/tikzjax](https://github.com/artisticat1/tikzjax/tree/ba892f23a2d280d018681a4f88b39f5a8648c7c7) 
+         - which is a fork of [drgrice1/tikzjax](https://github.com/drgrice1/tikzjax)
+             - which is a fork of Jim Fowler's [TikzJax](https://github.com/kisonecat/tikzjax)
+                - which itself uses Jim Fowler's [web2js](https://github.com/kisonecat/web2js) and [dvi2html](https://github.com/kisonecat/dvi2html)   
 ## Part IA
 [[Algebra/Group Theory/Group Theory]] (taken from [[Algebra/Groups, Rings and Modules]])
 some [[Algebra/Vector Spaces/Vectors and Matrices]]
