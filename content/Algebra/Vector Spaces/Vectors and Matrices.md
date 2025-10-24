@@ -2,3 +2,5 @@
 [[Algebra/Vector Spaces/Linear]]
 [[Algebra/Vector Spaces/Dual Vector Space]]
 [[Algebra/Vector Spaces/Gram-Schmidt process]]
+[[Algebra/Vector Spaces/Vandermonde matrix]]
+

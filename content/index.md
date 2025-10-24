@@ -10,7 +10,7 @@ On this website you will find my notes as I write them throughout my time in Cam
 >While some notes were taken during lectures, a big part was created after lectures or during revision and heavily modified based on various resources.
 >In particular, all errors are my own.
 >You should also assume that no single course presented here is complete. 
-## So what's this?
+## why?
 I found that written notes are useless for me because I never look at them.
 I also found large PDF style notes inconvenient for finding specific things.
 All that said, my main goals were:
