@@ -25,6 +25,7 @@ Either way, this database might be useful for some of you.
 >I find that the most useful feature is the search bar.
 >You will also be able to see forward/backlinks on every note.
 >Alternatively, you can always find the list of courses on this homepage.
+>You can also click on the graph view and see all the connections.
 
 >[!info] The "Click me!" button
 >There is way too many files for me to check if the markdown, mathjax, tikzjax and everything else is rendering correctly. If you find that some page looks weird, click the button and I will check it out. 
