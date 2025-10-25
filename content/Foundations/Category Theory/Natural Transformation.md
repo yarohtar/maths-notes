@@ -19,7 +19,10 @@ GA\arrow[r,"Gf"] & GB
 These are called [[Foundations/Category Theory/Naturality Square]] for $\alpha$ at $f$.
 
 Natural transformations are [[Foundations/Category Theory/Morphism]]s in the [[Foundations/Category Theory/Category of Functors]]
+
+[[Foundations/Category Theory/Natural Isomorphism]]
 [[Foundations/Category Theory/Equivalence]]
 ### Examples
-Given permutation representations of $G$ on $A$ and $B$, 
+Given permutation representations of a [[Algebra/Group Theory/Group]] $G$ on $A$ and $B$, 
 a natural transformation between them is a $G$-[[Foundations/Category Theory/Equivariant]] 
+

@@ -1,6 +1,6 @@
-A representation of a [[Foundations/Category Theory/Functor]] $F:\mathcal{C}\to \mathrm{Set}$ 
+By a representation of a [[Foundations/Category Theory/Functor]] $F:\mathcal{C}\to \mathrm{Set}$ 
 we mean a pair $(A,x)$ where $A\in \operatorname{ob}\mathcal{C}$ and $x\in FA$
-is such that $\Psi(x):\mathcal{C}(A,\cdot)\to F$ is an isomorphism.
+is such that $\Psi(x):\mathcal{C}(A,\cdot)\to F$ is an [[Foundations/Category Theory/Isomorphism]].
 We also call $x$ a [[Universal Element]] of $F$.
 
 ### Corollary
