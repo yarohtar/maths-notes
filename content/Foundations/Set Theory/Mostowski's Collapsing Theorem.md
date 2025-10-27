@@ -1,6 +1,6 @@
 Let $r$ be [[Foundations/Set Theory/Well-Founded]], [[Foundations/Set Theory/Extensional]] relation on a set $a$.
 (Note that this implies $r$ is [[Foundations/Set Theory/Local]])
-Then there is a transitive set $b$ and a bijection $f:a\to b$
+Then there is a [[Foundations/Set Theory/Transitive]] set $b$ and a bijection $f:a\to b$
 such that:
 $$
 (\forall x\in a)(\forall y\in a)(x\ r\ y\iff f(x)\in f(y))

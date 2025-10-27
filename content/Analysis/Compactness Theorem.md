@@ -1,22 +1,31 @@
 Let $S$ be a first-order [[Foundations/First Order Logic/Theory]].
-If every finite subset of $S$ has a model, then $S$ has a model.
+If every finite subset of $S$ has a [[Foundations/First Order Logic/Model]], then  has a [[Foundations/First Order Logic/Model]].
 
 #### Proof
 If $S\models \bot$ then $S\vdash \bot$ by [[Foundations/First Order Logic/Adequacy Theorem]]
-As proofs are finite, there's a finite $S'\subseteq S$ s.t. $S'\vdash \bot$. Then by the [[Foundations/First Order Logic/Soundness Theorem]] $S'\models \bot$ i.e. $S'$ has no model.
+As proofs are finite, there's a finite $S'\subseteq S$ s.t. $S'\vdash \bot$. 
+Then by the [[Foundations/First Order Logic/Soundness Theorem]] $S'\models \bot$ i.e. $S'$ has no model.
 
 ### Corollary 
-Finite groups cannot be axiomatized as a first-order theory.
+Finite [[Algebra/Group Theory/Group]]s cannot be axiomatized as a first-order [[Foundations/First Order Logic/Theory]].
 #### Proof
-Suppose $T$ is a theory in some language $L$ whose models are exactly the finite groups. Then let
-$S=T\cup \{ \neg t_{1},\neg t_{2},\dots \}$
+Suppose $T$ is a [[Foundations/First Order Logic/Theory]] in some [[Foundations/First Order Logic/Language]] $L$ 
+whose [[Foundations/First Order Logic/Model]]s are exactly the finite [[Algebra/Group Theory/Group]]s. 
+Then let
+$$
+S=T\cup \{ \neg t_{1},\neg t_{2},\dots \}
+$$
 where 
-$t_{n}=(\exists x_{1})\dots(\exists x_{n})(\forall x)(x=x_{1}\lor\dots \lor x=x_{n})$
-Any finite subset of $S$ has a model, eg the cyclic $C_{n}$ for $n$ sufficiently large
-By [[Topology/Compact]] $S$ has a model.
+$$
+t_{n}=(\exists x_{1})\dots(\exists x_{n})(\forall x)(x=x_{1}\lor\dots \lor x=x_{n})
+$$
+Any finite subset of $S$ has a model, e.g. the cyclic $C_{n}$ for $n$ sufficiently large
+By compactness, $S$ has a [[Foundations/First Order Logic/Model]].
+But then this model is infinite.
 
 ### Corollary
-If a first order theory $T$ has arbitrarily large finite models, then it has an infinite model.
+If a first order theory $T$ has arbitrarily large finite models, 
+then it has an infinite model.
 #### Proof
 Essentially the same.
 ### Corollary

@@ -1,26 +1,22 @@
-
+For [[Probability/Random Variable]]s $X$ and $Y$ define the conditional entropy
 $$
-H(X|Y=y)=-\sum_{x\in \Sigma_{1}}P(X=x|Y=y)\log P(X=x|Y=y)
+H(Y|X) = \mathbb{E}(-\log P(Y|X))
+$$
+where $P(Y|X)$ is [[Information Theory/Random Probability of Random Variable]].
+Expanding:
+$$
+H(X|Y=y)=-\sum_{x\in \Sigma_{1}}P(x|y)\log P(x|y)
 $$
 $$
-H(X|Y)=\sum_{y\in \Sigma_{2}}P(Y=y)H(X|Y=y)
+H(X|Y)=\sum_{y\in \Sigma_{2}}P(y)H(X|Y=y)
 $$
+[[Information Theory/Entropy Chain Rule]]
 ### Lemma
-[[Information Theory/Joint Entropy]]
-$H(X,Y)=H(X|Y)+H(Y)$
+[[Information Theory/Joint Entropy]] satisfies
+$$
+H(X,Y)=H(X|Y)+H(Y)
+$$
 #### Proof
-$$
-\begin{align}
-H(X|Y) & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x|Y=y)P(Y=y)\log P(X=x|Y=y)\\
- & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x,Y=y)\log \frac{P(X=x,Y=y)}{P(Y=y)}\\
- & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x,Y=y)\log P(X=x,Y=y) \\
- & \quad %quad
-\quad %quad
-\quad 
- +\sum_{y}\left( \sum_{x}P(X=x,Y=y) \right)\log P(Y=y) \\
- & =H(X,Y)-H(Y)
-\end{align}
-$$
 ### Corollary 
 $H(X|Y)\leq H(X)$ with equality iff $X$ and $Y$ are independent.
 

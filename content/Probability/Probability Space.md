@@ -17,5 +17,6 @@ The interpretation is as follows:
 - $\mathbb{P}(A)$ is the probability of the event $A$.
 
 In addition to [[Analysis/Measure/Measure\|measure theory]], 
-probability theory also has the notion of [[Probability/Independence]].
+probability theory also has the notion of [[Probability/Independent\|Independence]].
+
 

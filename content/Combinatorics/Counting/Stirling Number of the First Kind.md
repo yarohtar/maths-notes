@@ -28,7 +28,7 @@ $$
 $$
 by counting cycles.
 #### Proof 3
-Use [[Combinatorics/Counting/Burnside's Lemma (Orbit-Counting Lemma)]].
+Use [[Combinatorics/Counting/Burnside's Lemma]].
 Let $G=S_{n}$ act on $\{ f:[n]\to[x] \}$ by permuting the domain
 ### Theorem
 $$

@@ -11,4 +11,12 @@
 [[Foundations/Definable Operation]]
 [[Foundations/Absolute Operation]]
 [[Foundations/Absoluteness Of Recursive Operations]]
+[[Foundations/First Order Logic/Gödel's Incompleteness Theorems]]
+[[Foundations/Absoluteness Of Consistency]]
+[[Foundations/Lévy Reflection Theorem]]
+[[Foundations/First Order Logic/The Downward Löwenheim-Skolem Theorem]]
+[[Foundations/Set Theory/Mostowski's Collapsing Theorem]]
+[[Foundations/Countable Transitive Model]]
+[[Foundations/Technique of Inner Models]]
+
 

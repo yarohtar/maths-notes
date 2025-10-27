@@ -9,6 +9,14 @@ For any $P$ and $Q$ we have
 $$
 D(P||Q)\geq 0
 $$
-with $D(P||Q)=0$
-if and only if
-$P=Q$
+with 
+$$
+D(P||Q)=0\iff P=Q
+$$
+#### Proof
+Using [[Information Theory/Log-Sum Inequality]]:
+$$
+\sum_{x\in A} P(x) \log \frac{P(x)}{Q(x)} \geq 0
+$$
+with equality if and only if $\frac{P(x)}{Q(x)}=\text{const}$.
+But then this constant has to be $1$.

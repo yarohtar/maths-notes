@@ -1,12 +1,10 @@
 Suppose $\{ X_{n} \}$ are IID with distribution either $P$ or $Q$ on a discrete alphabet $A$.
 Suppose $D(P||Q)\neq 0,\infty$
 where $D(P||Q)$ is the [[Information Theory/Relative Entropy]]
-
 ### $\implies$
 There are decision regions $B_{n}^{*}\subseteq A^{n}$ 
 such that $e_{2}^{(n)}(B_{n}^{*})=P^{n}(B_{n}^{*C})\to 0$ as $n\to \infty$
 and $e_{1}^{(n)}\leq 2^{-n(D-\epsilon)}$ for all $n\geq 1$ where $D=D(P||Q)$
-
 ### $\impliedby$
 If $\{ B_{n} \}$ is any sequence of decision regions such that
 $$
@@ -18,7 +16,8 @@ e_{1}^{(n)}=Q^{n}(B_{n}) \geq 2^{-n(D+\epsilon+1/n)}
 $$
 eventually.
 
-#### Proof
+### Proof
+#### $\implies$
 Suppose $\{ X_{n} \}$ are IID $\sim P$.
 Then the likelihood region 
 $$
@@ -45,14 +44,15 @@ e_{2}^{(n)} = P^{n}(B_{n}^{*C}) \to 0 \text{ as }n\to \infty
 $$
 Also 
 $$
-1\geq P^{n}(B_{n}^{*}) = \sum_{x_{1}^{n}\in B_{n}^{*}} P^{n}(x_{1}^{n}) \frac{ Q^{n}(x_{1}^{n}) }{ Q^{n}(x_{1}^{n}) } \geq 
-\sum_{x_{1}^{n}\in B_{n}^{*}} Q^{n}(x_{1}^{n}) \cdot 2^{n(D-\epsilon)} 
-= 2^{n(D-\epsilon)} Q^{n}(B_{n}^{*})
-=2^{n(D-\epsilon)}e_{1}^{(n)}
+\begin{align}
+1 & \geq P^{n}(B_{n}^{*})  \\
+ & = \sum_{x_{1}^{n}\in B_{n}^{*}} P^{n}(x_{1}^{n}) \frac{ Q^{n}(x_{1}^{n}) }{ Q^{n}(x_{1}^{n}) }   \\
+& \geq \sum_{x_{1}^{n}\in B_{n}^{*}} Q^{n}(x_{1}^{n}) \cdot 2^{n(D-\epsilon)}  \\
+ & = 2^{n(D-\epsilon)} Q^{n}(B_{n}^{*})
+\end{align}
 $$
-and this proves $\implies$
-
-For $\impliedby$ suppose 
+#### $\impliedby$
+Suppose
 $$
 e_{2}^{(n)}(B_{n}) = P^{n}(B_{n}^{C}) \to 0
 $$
@@ -71,5 +71,5 @@ $$
 $$
 The decision regions $B_{n}^{*}$ above are sufficient to identify asymptotically optimal behaviour 
 but they are not optimal for finite $n$.
-The optimal tests are given by the [[Information Theory/Neyman-Pearson Regions]]
+The optimal tests are given by the [[Information Theory/Neumann-Pearson Regions]]
 

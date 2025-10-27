@@ -1,12 +1,20 @@
+Let $X$ and $Y$ be [[Probability/Random Variable]]s 
+taking values in $\Sigma_{1}$ and $\Sigma_{2}$ respectively.
 The joint entropy of $X$ and $Y$ is 
 $$
-H(X,Y)=-\sum_{x\in \Sigma_{1}}\sum_{y\in \Sigma_{2}}P(X=x,Y=y)\log P(X=x,Y=y)
+H(X,Y) = \mathbb{E}(-\log I(X,Y))
 $$
+where $I$ is the [[Information Theory/Information Content]].
+Expanding:
+$$
+H(X,Y)=-\sum_{x\in \Sigma_{1}}\sum_{y\in \Sigma_{2}}P(x,y)\log P(x,y)
+$$
+where $P$ is their joint distribution.
 ### Lemma
 $$
 H(X,Y)\leq H(X)+H(Y)
 $$
-with equality iff $X$ and $Y$ are independent 
+with equality iff $X$ and $Y$ are [[Probability/Independent]] 
 #### Proof
 $\Sigma_{1}=\{ x_{1},\dots,x_{n} \}$ and $\Sigma_{2}=\{ y_{1},\dots,y_{n} \}$
 $p_{ij}=P(X=x_{i},Y=y_{j})$, $p_{i}=P(X=x_{i})$, $q_{j}=P(Y=y_{j})$

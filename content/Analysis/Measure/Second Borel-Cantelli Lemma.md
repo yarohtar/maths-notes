@@ -1,4 +1,4 @@
-Assume that the events $(A_{n})$ are [[Probability/Independence\|independent]].
+Assume that the events $(A_{n})$ are [[Probability/Independent\|independent]].
 Suppose:
 $$
 \sum_{n} \mathbb{P}(A_{n}) = \infty

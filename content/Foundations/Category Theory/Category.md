@@ -2,7 +2,6 @@
 {"publish":true,"aliases":"Categories","created":"2025-10-10T10:09:13.161+01:00","cssclasses":""}
 ---
 
-
 A category $\mathcal{C}$ consists of
 1. a collection of $\operatorname{ob}\mathcal{C}$  of [[Foundations/Category Theory/Object]]s $A, B, C,\dots$
 2. a collection $\operatorname{mor}\mathcal{C}$ of [[Foundations/Category Theory/Morphism]] $f,g,h, \dots$ 

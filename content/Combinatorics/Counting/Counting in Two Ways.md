@@ -11,6 +11,6 @@ We can count stuff in various ways:
 [[Combinatorics/Counting/Stirling Number of the Second Kind]]
 [[Combinatorics/Counting/Sum of Powers]]
 [[Combinatorics/Counting/Stirling Number of the First Kind]]
-[[Combinatorics/Counting/Burnside's Lemma (Orbit-Counting Lemma)]]
+[[Combinatorics/Counting/Burnside's Lemma]]
 [[Algebra/Fibonacci Sequence]]
 

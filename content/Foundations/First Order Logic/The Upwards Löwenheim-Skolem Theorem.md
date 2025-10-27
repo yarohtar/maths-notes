@@ -7,7 +7,8 @@ $$
 S'=S\cup \{ \neg(c_{i}=c_{j}):i,j\in I,i\neq j \}
 $$
 By assumption $S$ has an infinite model, which is a model of every finite subset of $S'$.
-By [[Analysis/Compactness Theorem]] $S'$ has a model $A$, i.e. a model $A$ of $S$ together with an injection $I\to A$ $c_{i}\to(c_{i})_{A}$
+By [[Analysis/Compactness Theorem]] $S'$ has a model $A$, 
+i.e. a model $A$ of $S$ together with an injection $I\to A:c_{i}\to(c_{i})_{A}$
 
 ### Note
 For any set $X$, can take $I=\gamma(X)$ [[Foundations/Ordinals/Hartogs' Lemma]]

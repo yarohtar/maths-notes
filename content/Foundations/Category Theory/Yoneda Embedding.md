@@ -1,30 +1,36 @@
 Let $\mathcal{C}$ be a [[Foundations/Category Theory/Small Category]].
-The Yoneda embedding is the assignment $A\to \mathcal{C}(A,\cdot)$ and 
+The collection of [[Foundations/Category Theory/Covariant]] [[Foundations/Category Theory/Hom-Functor]]s $\mathcal{C}(A,-):\mathcal{C}\to \mathrm{Set}$
+and [[Foundations/Category Theory/Natural Transformation]]s 
 $$
-\begin{align}
-(B\xrightarrow{f}A)
- \longrightarrow 
- \Psi(f): \quad %quad
-\mathcal{C}(A,\cdot)  & \to \mathcal{C}(B,\cdot) \\
- (A\xrightarrow{g}C)  & \to (B\xrightarrow{gf}C)
-\end{align}
+\mathcal{C}(f,-): \mathcal{C}(B,-) \to \mathcal{C}(A,-)
 $$
-where $\mathcal{C}(A,\cdot)$ is the [[Foundations/Category Theory/Hom-Functor]].
-Alternatively, it is the assignment $B\to \mathcal{C}(\cdot,B)$ and
+when $f:A\to B$
+define a [[Foundations/Category Theory/Functor]]:
 $$
-\begin{align}
-(A\xrightarrow{f}B) \longrightarrow \Psi(f): \quad %quad
- \mathcal{C}(\cdot,B)  & \to \mathcal{C}(\cdot,A) \\
-(C\xrightarrow{g}B)  & \to (C\xrightarrow{fg}A)
-\end{align}
+\mathcal{C}(\bullet,-): \mathcal{C}^{op} \to [\mathcal{C},\mathrm{Set}]
 $$
+called the Yoneda embedding.
 
+Dually, the [[Foundations/Category Theory/Contravariant]] [[Foundations/Category Theory/Hom-Functor]]s $\mathcal{C}(-,A):\mathcal{C}\to \mathrm{Set}$
+together with [[Foundations/Category Theory/Natural Transformation]]s
+$$
+\mathcal{C}(-,f) : \mathcal{C}(-,A) \to \mathcal{C}(-,B)
+$$
+when $f:A\to B$
+define a [[Foundations/Category Theory/Functor]]:
+$$
+\mathcal{C}(-,\bullet) : \mathcal{C}\to[\mathcal{C}^{op}, \mathrm{Set}]
+$$
+which we also call the Yoneda embedding.
 ### Lemma
-The mapping $A\to \mathcal{C}(A,\cdot)$ defines a [[Foundations/Category Theory/Full]] and [[Foundations/Category Theory/Faithfull]] [[Foundations/Category Theory/Functor]] $\mathcal{C}^{op}\to[\mathcal{C},\mathrm{Set}]$
+Yoneda embedding is a [[Foundations/Category Theory/Functor]].
+#### Proof
+Follows from [[Foundations/Category Theory/Associativity]] of composition in $\mathcal{C}$.
+### Lemma
+The Yoneda embedding defines a [[Foundations/Category Theory/Full]] and [[Foundations/Category Theory/Faithfull]] [[Foundations/Category Theory/Functor]] $\mathcal{C}^{op}\to[\mathcal{C},\mathrm{Set}]$
 ### Proof
-Putting $F=\mathcal{C}(B,\cdot)$ in [[Foundations/Category Theory/Yoneda Lemma]], 
-we find that the Yoneda Embedding is a bijection from $\mathcal{C}(B,A)$ 
-to the collection of [[Foundations/Category Theory/Natural Transformation]]s $\mathcal{C}(A,\cdot)\to \mathcal{C}(B,\cdot)$
+Putting $F=\mathcal{C}(B,-)$ in [[Foundations/Category Theory/Yoneda Lemma]], 
+we find that the Yoneda embedding is a bijection from the set $\mathcal{C}(B,A)$ 
+to the collection of [[Foundations/Category Theory/Natural Transformation]]s $\mathcal{C}(A,-)\to \mathcal{C}(B,-)$
 Thus this will automatically be [[Foundations/Category Theory/Full]] and [[Foundations/Category Theory/Faithfull]].
-The [[Foundations/Category Theory/Functor\|functoriality]] of this follows from [[Foundations/Category Theory/Associativity]] of composition in $\mathcal{C}$
 

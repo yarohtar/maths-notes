@@ -1,5 +1,5 @@
-$X$ and $Y$ are random variables taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
-Let $p=P(X\neq Y)$
+Let $X$ and $Y$ be [[Probability/Random Variable]]s taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
+Let $p=\mathbb{P}(X\neq Y)$
 Then
 $$
 H(X|Y)\leq H(p)+p\log(m-1)
@@ -11,7 +11,7 @@ Let
 $$
 Z=\begin{cases}
 1 & \text{if }X\neq Y \\
-0 & if X=Y 
+0 & \text{if } X=Y 
 \end{cases}
 $$
 $P(Z=1)=p$ and $P(Z=0)=1-p$
@@ -20,8 +20,13 @@ $$
 H(X|Y)\leq H(X|Y,Z)+H(Z)=H(X|Y,Z)+H(p)
 $$
 Now:
-$H(X|Y=y,Z=0)=0$
-$H(X|Y=y,Z=1)\leq \log(m-1)$ since $m-1$ choices for $X$ remain.
+$$
+\begin{gather}
+H(X|Y=y,Z=0)=0\\
+H(X|Y=y,Z=1)\leq \log(m-1)
+\end{gather}
+$$
+since $m-1$ choices for $X$ remain.
 So:
 $$
 \begin{align}

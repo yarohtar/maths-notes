@@ -20,9 +20,9 @@ with $\phi(g)(x)=g.x$
 [[Algebra/Group Theory/Centralizer]]
 [[Algebra/Group Theory/Center]]
 [[Algebra/Group Theory/Normalizer]]
+[[Combinatorics/Counting/Burnside's Lemma]]
 ### Category Theory Definition
-If $G$ is a [[Algebra/Group Theory/Group]], a group action is a [[Foundations/Functor]] $F:G\to \mathrm{Set}$
-[[Foundations/Category of Sets]]
+If $G$ is a [[Algebra/Group Theory/Group]], a group action is a [[Foundations/Category Theory/Functor]] $F:G\to \mathrm{Set}$ to [[Foundations/Category Theory/Category of Sets]]
 
 It consists of a set $X$ (the singular element of $\operatorname{ob}G$ is mapped to $X$)
 and mappings $Fg:X\to X$ where $g\in \operatorname{mor}G$

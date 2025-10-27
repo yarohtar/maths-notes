@@ -1,5 +1,5 @@
 [[Probability/Probability Space]]
-[[Probability/Independence]]
+[[Probability/Independent]]
 [[Probability/Random Variable]]
 [[Analysis/Measure/Second Borel-Cantelli Lemma]]
 [[Information Theory/Random Probability of Random Variable]]

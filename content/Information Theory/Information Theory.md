@@ -2,3 +2,7 @@
 [[Information Theory/Relative Entropy]]
 [[Information Theory/Hypothesis Test]]
 [[Information Theory/Fano's Inequality]]
+[[Information Theory/Conditional Entropy]]
+[[Information Theory/Joint Entropy]]
+[[Information Theory/Entropy Chain Rule]]
+[[Information Theory/Data Processing Property of the Entropy]]

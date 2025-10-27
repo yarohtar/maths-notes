@@ -7,7 +7,7 @@ for all $x,y\in \mathcal{H}$
 Moreover, $T^{*}\in L(\mathcal{H})$
 If $T$ has a [[Analysis/Hilbert Space/Matrix of a Linear Operator]] $A$ 
 with respect to some [[Analysis/Orthonormal Basis]], 
-then $T^{*}$ has matrix $\overline{A^{T}}$
+then $T^{*}$ has matrix $\overline{A^{T}}$ in the same basis.
 ### Proposition
 For $\mathcal{H}$ a [[Analysis/Hilbert Space/Hilbert Space]], $S,T\in L(\mathcal{H})$, have:
 1. $(\lambda S+\mu T)^{*}=\lambda ^{*}S^{*}+\mu ^{*}T^{*}$
