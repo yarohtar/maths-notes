@@ -1,5 +1,5 @@
-Skipping definitions
-
+[[Combinatorics/Graphs/Simple Graph]]
+[[Combinatorics/Graphs/Directed Graph]]
 [[Combinatorics/Graphs/Euler's Theorem for Planar Graphs]]
 
 [[Combinatorics/Graphs/Hall's Theorem]]
@@ -10,3 +10,5 @@ Skipping definitions
 [[Combinatorics/Graphs/Menger]]
 [[Combinatorics/Graphs/Colouring]]
 [[Combinatorics/Graphs/Extremal Graph Theory]]
+
+[[Combinatorics/Graphs/Adjacency Matrix]]

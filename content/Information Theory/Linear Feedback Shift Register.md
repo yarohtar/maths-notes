@@ -9,11 +9,11 @@ The feedback (auxilary) polynomial is
 $$
 P(X)=X^{d}+a_{d-1}X^{d-1}+\dots+a_{1}X+a_{0}
 $$
-[[Algebra/Generating Function]]
+[[Algebra/Ordinary Generating Function]]
 
 ### Theorem
 The stream $(y_{n})_{n\in \mathbb{N}}$ comes from a linear feedback shift register
-with auxiliary polynomial $P$ if and only if its [[Algebra/Generating Function]] 
+with auxiliary polynomial $P$ if and only if its [[Algebra/Ordinary Generating Function]] 
 is formally of the form $\frac{A(X)}{P(X)}$ with $A\in \mathbb{F}_{2}[X]$ 
 such that $\operatorname{degA}<\operatorname{deg}P$
 ### Lemma

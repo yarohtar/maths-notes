@@ -1,4 +1,4 @@
-Let $G$ be connected planar graph with $F$ faces.
+Let $G$ be connected planar [[Combinatorics/Graphs/Simple Graph\|Graph]] with $F$ faces.
 Then:
 $$
 \lvert V(G) \rvert -\lvert E(G) \rvert + F = 2
