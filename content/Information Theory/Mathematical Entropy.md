@@ -9,7 +9,10 @@ In other words:
 $$
 H(X) = - \sum_{a\in A} P(a) \log (P(a))
 $$
-By convention, we take $\log=\log_{2}$.
+By convention, we take $\log=\log_{2}$, otherwise we might write
+$$
+H_{e}(X) = - \sum_{a\in A} P(a) \log_{e}(P(a)) = \log_{e}(2) H(X)
+$$
 We usually only care about $H(X)<\infty$.
 
 [[Information Theory/Joint Entropy]]

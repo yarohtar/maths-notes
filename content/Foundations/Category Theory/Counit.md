@@ -7,3 +7,17 @@ corresponds to $1_{GB}$ in $\mathcal{C}(GB,GB)$
 This is a dual notion to a [[Foundations/Category Theory/Unit]].
 
 [[Foundations/Category Theory/Triangular Identities]]
+
+### Lemma
+Let $(F\dashv G)$ be an [[Foundations/Category Theory/Adjunction]] with counit $\varepsilon$.
+Then $\varepsilon$ is pointwise [[Foundations/Category Theory/Epimorphism]]
+if and only if 
+$G$ is [[Foundations/Category Theory/Faithfull]].
+#### Proof
+### Lemma
+Let $(F\dashv G)$ be an [[Foundations/Category Theory/Adjunction]] with counit $\varepsilon$.
+Then $\varepsilon$ is [[Foundations/Category Theory/Isomorphic]] 
+if and only if
+$G$ is [[Foundations/Category Theory/Full]] and [[Foundations/Category Theory/Faithfull]].
+#### Proof
+

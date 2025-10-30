@@ -15,7 +15,10 @@ $$
 e_{1}^{(n)}=Q^{n}(B_{n}) \geq 2^{-n(D+\epsilon+1/n)}
 $$
 eventually.
-
+### Remark
+The decision regions $B_{n}^{*}$ above are sufficient to identify asymptotically optimal behaviour 
+but they are not optimal for finite $n$.
+The optimal tests are given by the [[Information Theory/Neumann-Pearson Regions]]
 ### Proof
 #### $\implies$
 Suppose $\{ X_{n} \}$ are IID $\sim P$.
@@ -69,7 +72,3 @@ $$
 2^{-n \cdot 1/n}  & \leq 2^{n(D+\epsilon)} e_{1}^{(n)}(B_{n})
 \end{align}
 $$
-The decision regions $B_{n}^{*}$ above are sufficient to identify asymptotically optimal behaviour 
-but they are not optimal for finite $n$.
-The optimal tests are given by the [[Information Theory/Neumann-Pearson Regions]]
-

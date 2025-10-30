@@ -8,14 +8,18 @@ $$
 \text{operational capacity }\leq \text{ information capacity}
 $$
 #### Proof
-Let $C$ be the [[Information Theory/Information Channel Capacity]]. Suppose we can [[Information Theory/Transmit Reliably]] at rate $R>C$ i.e. there is a sequence of codes $(C_{n})_{n\geq 1}$ with $C_{n}$ of length $n$ and size $\lfloor 2^{nR} \rfloor$ s.t. $\hat{e}(C_{n})\to 0$.
+Let $C$ be the [[Information Theory/Information Channel Capacity]]. 
+Suppose we can [[Information Theory/Transmit Reliably]] at rate $R>C$ 
+i.e. there is a sequence of codes $(C_{n})_{n\geq 1}$ with $C_{n}$ of length $n$ and size $\lfloor 2^{nR} \rfloor$ 
+such that $\hat{e}(C_{n})\to 0$ as $n\to \infty$.
 The error probability defined as:
 $$
 e(C_{n})=\frac{1}{\lvert C_{n} \rvert }\sum_{c\in C_{n}}P(\text{error}|c \text{ sent})
 $$
 is clearly $e(C_{n})\leq \hat{e}(C_{n})$ (i.e. smaller than the max error probability)
 
-Take random variable $X$ to be the input uniformly distributed over $C_{n}$, and $Y$ be the output when $X$ is transmitted and decoded. 
+Take [[Probability/Random Variable]] $X$ to be the input uniformly distributed over $C_{n}$, 
+and $Y$ be the output when $X$ is transmitted and decoded. 
 So, $e(C_{n})=P(X\neq Y)=p$ say
 Then by [[Information Theory/Fano's Inequality]] write:
 $$
@@ -76,9 +80,19 @@ P(B(Y,r)\cap C\supsetneq \{ c_{i} \})  & \leq \frac{(m-1)V(n,r)}{2^{n}} \\
 \end{align}
 $$
 ### Proposition
-Consider a [[Information Theory/Binary Symmetric Channel (BSC)]] with error probability $p$. Let $R<1-H(p)$. Then there is a sequence of codes $(C_{n})_{n\geq 1}$ with $C_{n}$ of length $n$, size $\lfloor 2^{nR} \rfloor$ and $\hat{e}(C_{n})\to 0$ as $n\to \infty$ 
+Consider a [[Information Theory/Binary Symmetric Channel (BSC)]] with error probability $p$. 
+Let $R<1-H(p)$. 
+Then there is a sequence of codes $(C_{n})_{n\geq 1}$ with $C_{n}$ of length $n$, size $\lfloor 2^{nR} \rfloor$ 
+and $\hat{e}(C_{n})\to 0$ as $n\to \infty$ 
 #### Proof
-Pick $R'$ s.t. $R<R'<1-H(p)$. By previous, we construct a sequence of codes $(C_{n}')_{n\geq 1}$ with $C_{n}'$ of length $n$ and size $\lfloor 2^{nR'} \rfloor$  and $e(C'_{n})\to 0$ as $n\to \infty$
-Throwing out the worst half of the codewords in $C_{n}'$ gives a code $C_{n}$ with $\hat{e}(C_{n})\leq 2e(C_{n}')$ so $\hat{e}(C_{n})\to 0$ as $n\to \infty$
+Pick $R'$ s.t. $R<R'<1-H(p)$. 
+By previous, we construct a sequence of codes $(C_{n}')_{n\geq 1}$
+with $C_{n}'$ of length $n$ and size $\lfloor 2^{nR'} \rfloor$  and $e(C'_{n})\to 0$ as $n\to \infty$
+Throwing out the worst half of the codewords in $C_{n}'$ gives a code $C_{n}$ with
+$$
+\hat{e}(C_{n})\leq 2e(C_{n}')
+$$
+so $\hat{e}(C_{n})\to 0$ as $n\to \infty$
 Note $C_{n}$ has length $n$ and size $\lfloor 2^{nR'-1} \rfloor>\lfloor 2^{nR} \rfloor$ for $n$ sufficiently large.
-So we can replace $C_{n}$ by a subcode of size of $\lfloor 2^{nR} \rfloor$ and still get $\hat{e}(C_{n})\to 0$ as $n\to \infty$ 
+So we can replace $C_{n}$ by a subcode of size of $\lfloor 2^{nR} \rfloor$ 
+and still get $\hat{e}(C_{n})\to 0$ as $n\to \infty$ 

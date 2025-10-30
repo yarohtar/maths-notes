@@ -1,1 +1,1 @@
-For $t\in L$, [[Foundations/Propositional Logic/Valuation (Propositional Logic)\|valuation]] $v$, say $t$ is true in $v$ (or $v$ is a model of $t$) if $v(t)=1$
+For $t\in L$, [[Foundations/Propositional Logic/Valuation\|valuation]] $v$, say $t$ is true in $v$ (or $v$ is a model of $t$) if $v(t)=1$

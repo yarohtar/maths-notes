@@ -7,3 +7,6 @@
 [[Algebra/Group Theory/Groups of prime order]]
 [[Algebra/Group Theory/Sylow Subgroup]]
 [[Algebra/Group Theory/Finite Abelian Groups]]
+
+[[Algebra/Group Theory/Torsion]]
+[[Algebra/Group Theory/Torsion Free]]

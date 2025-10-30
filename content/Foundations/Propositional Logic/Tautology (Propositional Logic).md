@@ -1,5 +1,5 @@
 Proposition $t\in L$ is a tautology if $v(t)=1$ 
-for all [[Foundations/Propositional Logic/Valuation (Propositional Logic)\|valuations]] $v$ on $L$.
+for all [[Foundations/Propositional Logic/Valuation\|valuations]] $v$ on $L$.
 
 ### Examples
 $$

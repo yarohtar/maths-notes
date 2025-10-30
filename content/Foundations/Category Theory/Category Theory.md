@@ -18,4 +18,11 @@
 [[Foundations/Category Theory/Injective]]
 
 [[Foundations/Category Theory/Adjunction]]
+[[Foundations/Category Theory/Counit]]
+[[Foundations/Category Theory/Reflection]]
+[[Foundations/Category Theory/Reflective Subcategory]]
+
+[[Foundations/Category Theory/Diagram]]
+[[Foundations/Category Theory/Limit]]
+[[Foundations/Category Theory/Colimit]]
 

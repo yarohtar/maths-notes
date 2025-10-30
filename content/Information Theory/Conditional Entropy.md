@@ -18,14 +18,18 @@ H(X,Y)=H(X|Y)+H(Y)
 $$
 #### Proof
 ### Corollary 
-$H(X|Y)\leq H(X)$ with equality iff $X$ and $Y$ are independent.
+$H(X|Y)\leq H(X)$ with equality if and only if $X$ and $Y$ are [[Probability/Independent]].
 
 ### Lemma
 $H(X|Y)\leq H(X|Y,Z)+H(Z)$
 #### Proof
 We expand $H(X,Y,Z)$ in two different ways:
-$H(X,Y,Z)=H(Z|X,Y)+H(X|Y)+H(Y)$
-$H(X,Y,Z)=H(X|Y,Z)+H(Z|Y)+H(Y)$
+$$
+\begin{gather}
+H(X,Y,Z)=H(Z|X,Y)+H(X|Y)+H(Y) \\
+H(X,Y,Z)=H(X|Y,Z)+H(Z|Y)+H(Y)
+\end{gather}
+$$
 Thus
 $$
 H(X|Y)\leq H(X|Y,Z)+H(Z|Y)\leq H(X|Y,Z)+H(Z)

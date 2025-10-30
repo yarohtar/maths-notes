@@ -16,6 +16,6 @@
 [[Foundations/First Order Logic/Model Existence Lemma]]
 [[Foundations/First Order Logic/Adequacy Theorem]]
 [[Foundations/First Order Logic/Gödel's Completeness Theorem for First-Order Logic]]
-[[Analysis/Compactness Theorem]]
+[[Foundations/First Order Logic/Compactness Theorem]]
 [[Foundations/First Order Logic/The Downward Löwenheim-Skolem Theorem]]
 [[Foundations/First Order Logic/The Upwards Löwenheim-Skolem Theorem]]

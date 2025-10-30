@@ -5,7 +5,7 @@ A hypothesis test is $B_{n}\subseteq A^{n}$ with interpretation that:
 - if $x_{1}^{n}\in B_{n}$ we declare $P$
 - otherwise, declare $Q$
 
-We have two error probabilitiese:
+We have two error probabilities:
 $$
 e_{1}^{(n)} = \mathbb{P}(\text{decl }P : X_{1}^{n}\simeq Q^{n})=Q^{n}(B_{n})
 $$

@@ -6,3 +6,7 @@
 [[Information Theory/Joint Entropy]]
 [[Information Theory/Entropy Chain Rule]]
 [[Information Theory/Data Processing Property of the Entropy]]
+[[Information Theory/Data Processing Property of the Relative Entropy]]
+[[Information Theory/Total Variation Distance]]
+[[Information Theory/Pinsker's Inequality]]
+[[Information Theory/Poisson Approximation]]

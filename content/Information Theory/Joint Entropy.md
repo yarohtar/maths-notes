@@ -14,7 +14,7 @@ where $P$ is their joint distribution.
 $$
 H(X,Y)\leq H(X)+H(Y)
 $$
-with equality iff $X$ and $Y$ are [[Probability/Independent]] 
+with equality if and only if $X$ and $Y$ are [[Probability/Independent]] 
 #### Proof
 $\Sigma_{1}=\{ x_{1},\dots,x_{n} \}$ and $\Sigma_{2}=\{ y_{1},\dots,y_{n} \}$
 $p_{ij}=P(X=x_{i},Y=y_{j})$, $p_{i}=P(X=x_{i})$, $q_{j}=P(Y=y_{j})$

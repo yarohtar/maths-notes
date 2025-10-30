@@ -11,7 +11,7 @@ We further define $L_{1}=P\cup \{ \bot \}$ and
 $L_{n+1}=\{ p \implies q: p,q\in L_{n} \}$
 Then $L = \bigcup_{n}L_{n}$
 
-[[Foundations/Propositional Logic/Valuation (Propositional Logic)]]
+[[Foundations/Propositional Logic/Valuation]]
 [[Foundations/Propositional Logic/Tautology (Propositional Logic)]]
 [[Foundations/Propositional Logic/Abbreviations in Propositional Logic]]
 [[Foundations/Propositional Logic/Semantic Entailment (Propositional Logic)]]
