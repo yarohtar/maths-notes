@@ -31,7 +31,8 @@ to approximate the exponential
 $$
 u^{n+1} = \left( I+ \frac{\mu}{2}A_{x} \right)\left( I- \frac{\mu}{2}A_{x} \right)^{-1}\left( I+ \frac{\mu}{2}A_{y} \right)\left( I- \frac{\mu}{2} A_{y} \right)^{-1} u^{n}
 $$
-where the inverse is calculated in $O(M^2)$ due to its nice structure (block diagonal with tridiagonal blocks). Note that in $A_{x}$ we first need to appropriately permute the rows and columns to make it nice.
+where the inverse is calculated in $O(M^2)$ due to its nice structure (block diagonal with tridiagonal blocks). 
+Note that in $A_{x}$ we first need to appropriately permute the rows and columns to make it nice.
 The stability is verified:
 $$
 \lVert r(\mu A_{x})r(\mu A_{y}) \rVert \leq \lVert r(\mu A_{x}) \rVert \lVert r(\mu A_{y}) \rVert \leq 1

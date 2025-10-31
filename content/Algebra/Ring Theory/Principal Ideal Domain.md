@@ -1,4 +1,4 @@
-An [[Algebra/Ring Theory/Integral domain\|integral domain]] $R$ is PID if every [[Algebra/Ring Theory/Ideal\|ideal]] $I\triangleleft R$ is [[Algebra/Ring Theory/Principal Ideal]] i.e. $I=(a)$.
+An [[Algebra/Ring Theory/Integral Domain]] $R$ is a PID if every [[Algebra/Ring Theory/Ideal]] $I\triangleleft R$ is a [[Algebra/Ring Theory/Principal Ideal]] i.e. $I=(a)$.
 
 ### Lemma
 Let $0\neq r\in R$, where $R$ is PID. Then $(r)$ is maximal if and only if $r$ is irreducible.

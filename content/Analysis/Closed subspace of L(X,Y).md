@@ -1,4 +1,5 @@
-$X$, $Y$ normed with $Y$ complete. Then the [[Analysis/Compact Linear Map\|compact]] [[Analysis/Linear Operator\|operators]] form a closed subspace of $L(X,Y)$.
+$X$, $Y$ normed with $Y$ complete. 
+Then the [[Analysis/Compact Linear Map\|compact]] [[Analysis/Linear Operator]]s form a closed subspace of $L(X,Y)$.
 #### Proof
 Subspace: Must show that $S$, $T$, compact implies $S+T$ compact
 Given $(x_{n})$ in $B_{X}$, have subsequence $(x_{n_{i}})$ with $(S{x_{n_{i}}})$ convergent to $y$.
@@ -14,4 +15,4 @@ So $T(B_{X})\subseteq \cup B(T(x_{i}),3\epsilon)$
 Thus $T(B_{X})$ is totally bounded.
 
 ### Note
-So any limit of finite rank operators is compact (???)
+So any limit of finite rank operators is compact.

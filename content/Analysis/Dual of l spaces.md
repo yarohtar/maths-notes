@@ -1,4 +1,4 @@
-Want to find the [[Analysis/Dual Spaces\|dual space]] of $l_{p}$.
+Want to find the [[Analysis/Dual Space\|dual space]] of $l_{p}$.
 For each $y\in l_{q}$, have $\phi_{y}\in l_{p}^{*}$ with $\phi_{y}(x)=x\cdot y$.
 
 ### Proposition

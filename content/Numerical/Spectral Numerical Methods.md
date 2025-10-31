@@ -18,6 +18,7 @@ Now we just need to pick our $\psi_{m}$
 and ideally an inner product where they are orthogonal. 
 We can use [[Analysis/Fourier Series]] or [[Analysis/Chebyshev Polynomials]]
 
-LECTURE 15 GIVES PDE EXAMPLES
-
-For Chebyshev expansion, in general, boundary conditions may be a problem. We might need to use $T_{n}(x)-1$ if $u(1)=0$. If there is time dependence on boundary conditions, we may run into serious stability issues.
+For Chebyshev expansion, in general, boundary conditions may be a problem. 
+We might need to use $T_{n}(x)-1$ if $u(1)=0$. 
+If there is time dependence on boundary conditions, 
+we may run into serious stability issues.

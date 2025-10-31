@@ -1,7 +1,9 @@
 MORAL: [[Analysis/Banach Space]]s are very nice
 
 ### Theorem
-Let $X$ be a (nonempty) [[Analysis/Banach Space]] space, and $O_{1},O_{2}\dots$ a sequence of dense open sets. Then: 
+Let $X$ be a (nonempty) [[Analysis/Banach Space]] space, 
+and $O_{1},O_{2}\dots$ a sequence of dense open sets. 
+Then: 
 $$
 \bigcap_{n=1}^{\infty}O_{n}\neq \emptyset
 $$
@@ -16,7 +18,7 @@ $O_{2}$ is dense so it meets $B(x_{1},\epsilon_{1})$
  Continue inductively and obtain sequence $\overline B(x_{1},\epsilon_{1})\supseteq\dots$
  with $\epsilon _n\to 0$ and 
  $\overline B(x_{n},\epsilon_{n})\subseteq O_{n}$ for all $n$
-Now $(x_{n})$ is Cauchy and for any $n,m>N$ have $d(x_{n},x_{m})<2\epsilon_{N}$
+Now $(x_{n})$ is a [[Analysis/Cauchy Sequence]] and for any $n,m>N$ have $d(x_{n},x_{m})<2\epsilon_{N}$
 Let $x_{n}\to x$
 Then $x \in O_{n}$ for all $n$.
 

@@ -4,7 +4,7 @@ A finite field has order of a prime power.
 Moreover, there is a unique finite field of each prime power.
 #### Proof
 A finite field has prime [[Algebra/Ring Theory/Characteristic of a ring]] 
-(otherwise, it wouldn't be an [[Algebra/Ring Theory/Integral domain]])
+(otherwise, it wouldn't be an [[Algebra/Ring Theory/Integral Domain]])
 
 So say that our field has characteristic $p$ where $p$ is prime.
 Then consider the field as the vector space of dimension $n$ over $\mathbb{F}_{p}$

@@ -1,4 +1,4 @@
-The [[Analysis/Dual Spaces\|dual]] $\mathcal H^*$ of $\mathcal H$ is the space of linear maps $f:\mathcal H\to \mathbb C$
+The [[Analysis/Dual Space\|dual]] $\mathcal H^*$ of $\mathcal H$ is the space of linear maps $f:\mathcal H\to \mathbb C$
 
 For finite dimensional case, given $\phi\in\mathcal H$ we have the map $f_\phi(\cdot)=(\phi,\cdot)$ and this is all of them and here $\mathcal H = \mathcal H^*$
 
