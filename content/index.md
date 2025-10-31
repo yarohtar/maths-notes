@@ -7,7 +7,7 @@ On this website you will find my notes as I write them throughout my time in Cam
 >[!danger] Disclaimer
 >No content presented on this website is official. It is not endorsed by the University of Cambridge, the Maths Faculty, or any of the Lecturers.
 >It is not an accurate representation of what was lectured or what is examined.
->While some notes were taken during lectures, a big part was created after lectures or during revision and heavily modified based on various resources.
+>While some notes were taken during lectures, a big part was created after lectures or during revision and heavily modified as my understanding of the topics grew.
 >In particular, all errors are my own.
 >You should also assume that no single course presented here is complete. 
 ## why?
@@ -23,9 +23,9 @@ Either way, this database might be useful for some of you.
 
 >[!tip] Navigation
 >I find that the most useful feature is the search bar.
->You will also be able to see forward/backlinks on every note.
+>You will also be able to hover over links in text, as well as see the backlinks to any page.
 >Alternatively, you can always find the list of courses on this homepage.
->You can also click on the graph view and see all the connections.
+>You can also click on the graph view and see all the connections - it's kinda fun.
 
 >[!info] The "Click me!" button
 >There is way too many files for me to check if the markdown, mathjax, tikzjax and everything else is rendering correctly. If you find that some page looks weird, click the button and I will check it out. 
