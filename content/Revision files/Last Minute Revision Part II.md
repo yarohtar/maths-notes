@@ -62,7 +62,7 @@ $$
 A [[Foundations/Set Theory/Relation Class]] $r$ is well-founded if 
 every nonempty set has an $r$-minimal member:
 $$
-(\forall x)(\neg(x=\emptyset) \implies(\exists y)[y\in x\land(\forall z\in x)\neg r(z,y)])
+(\forall x)(\neg(x=\varnothing) \implies(\exists y)[y\in x\land(\forall z\in x)\neg r(z,y)])
 $$
 
 A relation $r$ on a set $a$ is extensional if
@@ -81,7 +81,7 @@ $$
 
 Let $r$ be [[Foundations/Set Theory/Well-Founded]], [[Foundations/Set Theory/Extensional]] relation on a set $a$.
 (Note that this implies $r$ is [[Foundations/Set Theory/Local]])
-Then there is a transitive set $b$ and a bijection $f:a\to b$
+Then there is a [[Algebra/Group Theory/Transitive]] set $b$ and a bijection $f:a\to b$
 such that:
 $$
 (\forall x\in a)(\forall y\in a)(x\ r\ y\iff f(x)\in f(y))
@@ -851,8 +851,8 @@ This determines $e$ and we decode as $r\oplus e$.
 $$
 H(X,Y) = H(X|Y) + H(Y)
 $$
-$X$ and $Y$ are random variables taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
-Let $p=P(X\neq Y)$
+Let $X$ and $Y$ be [[Probability/Random Variable]]s taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
+Let $p=\mathbb{P}(X\neq Y)$
 Then
 $$
 H(X|Y)\leq H(p)+p\log(m-1)
@@ -864,7 +864,7 @@ Let
 $$
 Z=\begin{cases}
 1 & \text{if }X\neq Y \\
-0 & if X=Y 
+0 & \text{if } X=Y 
 \end{cases}
 $$
 $P(Z=1)=p$ and $P(Z=0)=1-p$
@@ -873,8 +873,13 @@ $$
 H(X|Y)\leq H(X|Y,Z)+H(Z)=H(X|Y,Z)+H(p)
 $$
 Now:
-$H(X|Y=y,Z=0)=0$
-$H(X|Y=y,Z=1)\leq \log(m-1)$ since $m-1$ choices for $X$ remain.
+$$
+\begin{gather}
+H(X|Y=y,Z=0)=0\\
+H(X|Y=y,Z=1)\leq \log(m-1)
+\end{gather}
+$$
+since $m-1$ choices for $X$ remain.
 So:
 $$
 \begin{align}

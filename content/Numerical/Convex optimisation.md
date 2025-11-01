@@ -1,5 +1,5 @@
 ## Definitions
-[[Analysis/Convex Set]]
+[[Algebra/Vector Spaces/Convex Set]]
 [[Analysis/Convex Function]]
 
 ## Convexity condition

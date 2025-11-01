@@ -13,4 +13,4 @@ so $a^{-1}\in H$
 Finally, $\cdot|_{H\times H\to H}$ is a well defined function 
 as for any $a,b\in H$ we have $b^{-1}\in H$ thus $a(b^{-1})^{-1}\in H$ 
 so $ab\in H$
-[[Algebra/Group Theory/Associativity]] is then inherited. 
+[[Foundations/Category Theory/Associativity]] is then inherited. 
