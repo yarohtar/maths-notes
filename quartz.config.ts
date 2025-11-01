@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "yarohtar.github.io/maths-notes",
-    ignorePatterns: ["private", "templates", ".obsidian", "**.excalidraw"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**.excalidraw", "**README.md", "**Revision**"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
