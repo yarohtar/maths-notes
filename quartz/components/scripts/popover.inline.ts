@@ -105,13 +105,8 @@ async function mouseEnterHandler(
   if (!!document.getElementById(popoverId)) {
     return
   }
-
-  /*const popoverIFrame = document.createElement("iframe");
-  popoverIFrame.id = popoverId
-  document.body.appendChild(popoverIFrame);
-  popoverIFrame.contentWindow.document.open();
-  popoverIFrame.contentWindow.document.write(popoverElement.outerHTML);
-  popoverIFrame.contentWindow.document.close();*/
+  
+  document.body.appendChild(popoverElement);
   
   if (activeAnchor !== this) {
     return
