@@ -23,7 +23,8 @@ t
 |-0-|-1-|---2---|
 *------s-------->
 ```
-If we linearly scaled the bottom intervals to the top ones, the interval lengths would be (as a function of $t$): $t+1\over 4$, $\frac{1}{4}$, $2-t\over 4$.
+If we linearly scaled the bottom intervals to the top ones, 
+the interval lengths would be (as a function of $t$): $t+1\over 4$, $\frac{1}{4}$, $2-t\over 4$.
 This motivates the homotopy:
 $$
 H(s,t)=\begin{cases}
@@ -54,7 +55,8 @@ H(s,t)=\begin{cases}
 $$
 
 ### Theorem
-Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
+Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. 
+Then using
 $$
 [\gamma]\cdot[\gamma']=[\gamma \cdot \gamma']
 $$

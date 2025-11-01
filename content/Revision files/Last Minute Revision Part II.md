@@ -344,7 +344,6 @@ Set
 $$
 \bar{Q}_{k} = Q_{0}Q_{1}\dots Q_{k}
 $$
-and 
 $$
 \bar{R}_{k} = R_{k}R_{k-1}\dots R_{0}
 $$
@@ -1238,8 +1237,9 @@ Then $\lvert E(G) \rvert\leq 2(\lvert G \rvert -2)$
 $4\lvert F \rvert\geq 2\lvert E(G) \rvert$ 
 
 ## Hall
-Let $G=(X\sqcup Y,E)$ be bipartite. 
-There exists a [[Combinatorics/Graphs/Matching]] from $X$ to $Y$ if and only if 
+Let [[Combinatorics/Graphs/Simple Graph\|Graph]] $G=(X\sqcup Y,E)$ be bipartite. 
+There exists a [[Combinatorics/Graphs/Matching]] from $X$ to $Y$ 
+if and only if 
 for all $A\subseteq X$, $\lvert A \rvert\leq \lvert N(A) \rvert$
 ### Proof
 If there is a matching, we can find an injection from $A$ to $N(A)$
@@ -1274,7 +1274,7 @@ Compute the number of edges in two ways,
 as all the edges from $A$ and all the edges from $N(A)$
 
 ## Menger
-Let $G$ be a connected graph and $a\ne b$ are not connected
+Let $G$ be a connected [[Combinatorics/Graphs/Simple Graph\|Graph]] and $a\ne b$ are not connected
 The minimum size of $a-b$ [[Combinatorics/Graphs/Separator]] is the maximum number 
 of disjoint paths from $a$ to $b$.
 Equivalently if all $a-b$ separators have size at least $k$ 

@@ -4,4 +4,4 @@ Suppose any two $x,y\in X$ have open sets $U$ and $V$ such that:
 - $U\cap V=\emptyset$
 Then $X$ is called Hausdorff.
 
-Any [[Analysis/Metric space]] is Hausdorff.
+Any [[Analysis/Metric Space]] is Hausdorff.

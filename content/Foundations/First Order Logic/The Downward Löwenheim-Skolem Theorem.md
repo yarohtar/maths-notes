@@ -1,7 +1,7 @@
 Let $S$ be a [[Foundations/First Order Logic/Theory]] in a countable language (i.e. $\Omega \cup \Pi$ is countable)
 If $S$ has a [[Foundations/First Order Logic/Model]], then $S$ has a countable model.
 #### Proof
-By the [[Foundations/First Order Logic/Soundness Theorem]], $S$ is consistent.
+By the [[Foundations/First Order Logic/Soundness Theorem]], $S$ is consistent. 
 Then the model constructed in the proof of [[Foundations/First Order Logic/Model Existence Lemma]] is countable. 
 ### Refinement
 Let $N$ be a [[Foundations/First Order Logic/Model]], and $\Phi$ any set of formulas.
@@ -10,7 +10,7 @@ such that $M$ is a [[Foundations/Substructure]] of $N$
 and all formulas in $\Phi$ are [[Foundations/Absolute]] between $M$ and $N$.
 #### Proof
 WLOG $\Phi$ is closed under subformulas.
-Let $\exists x\,\psi \in \Phi$
+Suppose $\exists x\,\psi \in \Phi$
 Define, using [[Foundations/Set Theory/Axiom of Choice]]:
 $$
 w(\psi,\vec{p}) = \begin{cases}

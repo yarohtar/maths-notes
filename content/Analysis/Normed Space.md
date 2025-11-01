@@ -1,13 +1,13 @@
 Let $X$ be a real or complex vector space with [[Analysis/Norm]] $\lVert \cdot \rVert$
 A normed space is a pair $(X,||\cdot||)$
 
-NOTE: a normed space gives rise to a [[Analysis/Metric space\|metric space]] with $d(x,y)=||x-y||$. 
+NOTE: a normed space gives rise to a [[Analysis/Metric Space\|metric space]] with $d(x,y)=||x-y||$. 
 This then induces a [[Topology/Topological space]].
 So we can talk about open sets, closed sets, convergent sequences etc.
 
 [[Analysis/L norms]]
 [[Analysis/Banach Space]]
-[[Analysis/Metric space#Some properties]]
+[[Analysis/Metric Space#Some properties]]
 [[Analysis/Unit Ball]]
 
 [[Topology/Separable Space]]

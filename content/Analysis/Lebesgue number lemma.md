@@ -1,4 +1,4 @@
-Let $M$ be a sequentially compact metric space with open cover $\mathcal U$.
+Let $M$ be a [[Topology/Sequentially Compact]] [[Analysis/Metric Space]] with open cover $\mathcal U$.
 We can find a $\delta>0$ s.t. for any $a\in M$ there is a $G\in\mathcal U$ s.t. $B_\delta(a)\subseteq G$.
 #### Proof
 Suppose there is no such $\delta>0$. 

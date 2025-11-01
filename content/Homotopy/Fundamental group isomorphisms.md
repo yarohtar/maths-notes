@@ -62,7 +62,8 @@ $X$ path connected $\implies \pi_{1}(X,x_{0})\cong\pi_{1}(X,x_{1})$ NOT a cannon
 NB Abstract properties eg being trivial, abelian, ... make sense without specifiying $x_{0}$
 
 ### Lemma
-$f,g:X\to Y$, $f\simeq_{H}g$, $x_{0}\in X$. Then define $u=H(x_{0},\cdot):f(x_{0})\leadsto g(x_{0})$. 
+$f,g:X\to Y$, $f\simeq_{H}g$, $x_{0}\in X$. 
+Then define $u=H(x_{0},\cdot):f(x_{0})\leadsto g(x_{0})$. 
 Then the following diagram commutes:
 ```tikz
 \usepackage{tikz-cd}
@@ -78,14 +79,14 @@ Then the following diagram commutes:
 ##### Idea
 For a path $\gamma$ in $X$ based at $x_{0}$ we want to construct the following two paths in $Y$ based at $g(x_{0})$ and prove that they are homotopy equivalent.
 ```
-gx0---gogamma---->gx0
+gx0---g o gamma---->gx0
 |                  ^
 |                  |
 u^-1               u
 |                  |
 |                  |
 V                  |
-fx0----fogamma--->fx0
+fx0----f o gamma--->fx0
 ```
 Note that $f\circ \gamma=H(\cdot,0)\circ \gamma$ and $g\circ \gamma=H(\cdot,1)\circ \gamma$
 We literally put coordinates $I\times I$ on this square.

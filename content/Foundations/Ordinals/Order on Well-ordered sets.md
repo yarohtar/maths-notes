@@ -17,11 +17,12 @@ $$
 Assume the 'otherwise' clause arises. Then there is a least $x$ where it arises. So $f(I_{x})=\{ f(y):y<x \}=Y$
 And for all $y<x$
 $$
-f(y)=min(Y\setminus \{ f(z):z<y \})
+f(y)=\min(Y\setminus \{ f(z):z<y \})
 $$
-As in (previous prop) we show that $f|_{I_{x}}$ is order preserving. So $Y$ is [[Foundations/Ordinals/Order-isomorphic]] to an [[Foundations/Ordinals/Initial Segment]] of $X$ 
+As in (previous prop) we show that $f|_{I_{x}}$ is order preserving. 
+So $Y$ is [[Foundations/Ordinals/Order-isomorphic]] to an [[Foundations/Ordinals/Initial Segment]] of $X$ 
 
-As in (previous prop) we show $f$ is order-preserving and $im(f)$ is an initial segment of $Y$
+As in (previous prop) we show $f$ is order-preserving and $\operatorname{Im}(f)$ is an initial segment of $Y$
 Hence $X\leq Y$.
 
 ### Proposition
@@ -29,8 +30,9 @@ Let $X$, $Y$ be [[Foundations/Ordinals/Well-ordered]] sets.
 If $X\leq Y$ and $Y\leq X$ then $X$ is [[Foundations/Ordinals/Order-isomorphic]] to $Y$ 
 #### Proof
 Let $f:X\to Y$ and $g:Y\to X$ be [[Foundations/Ordinals/Order-isomorphic]] to initial segments of $Y$ and $X$ respectively
-Then $g\circ f:X\to X$ is an order isomorphism to an [[Foundations/Ordinals/Initial Segment]] of $X$. By [[Foundations/Set Theory/Subset Collapse]] and (prop 3?)
-$g\circ f=Id_{X}$. Similarly $f\circ g=Id_{Y}$
+Then $g\circ f:X\to X$ is an order isomorphism to an [[Foundations/Ordinals/Initial Segment]] of $X$. 
+By [[Foundations/Set Theory/Subset Collapse]] and (prop 3?) $g\circ f=Id_{X}$. 
+Similarly $f\circ g=Id_{Y}$
 
 
 

@@ -7,7 +7,7 @@ $$
 is open in $\mathcal{U}$.
 
 ### Lemma
-Let $(X,d_{1})$ and $(Y,d_{2})$ be [[Analysis/Metric space]]s.
+Let $(X,d_{1})$ and $(Y,d_{2})$ be [[Analysis/Metric Space]]s.
 Then $f$ is continuous 
 if and only if 
 $$

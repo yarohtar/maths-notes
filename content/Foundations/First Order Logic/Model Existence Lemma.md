@@ -23,13 +23,13 @@ Remedy: We add a witness, i.e. a new constant $c$ to $L$ (the new language is $L
 We start with two observations
 1. Let $S$ be a consistent theory, $p$ be a sentence
    Then one of $S\cup \{ p \}$ and $S\cup \{ \neg p \}$ is consistent
-   If not, then by [[Foundations/First Order Logic/Deduction Theorem (First-order Logic)]] 
+   If not, then by [[Foundations/First Order Logic/Deduction Theorem]] 
    $S\vdash \neg p$ and $S\vdash \neg \neg p$ and hence $S\vdash \bot$ by (MP)
    By [[Foundations/Ordinals/Zorn's Lemma]] there is a maximal consistent theory $\bar{S}\supseteq S$. 
    Then for every sentence $p$, either $p \in \bar{S}$ or $\neg p \in \bar{S}$
    In particular $\bar{S}$ is complete
 2. Suppose $S\vdash(\exists x)p$ where $p$ is a formula with $FV(p)=\{ x \}$. Add a new constant $c$ to $L$. Then $S\cup \{ p[c/ x] \}$ is consistent
-   If not, then by [[Foundations/First Order Logic/Deduction Theorem (First-order Logic)]] $S\vdash \neg p[c /x]$
+   If not, then by [[Foundations/First Order Logic/Deduction Theorem]] $S\vdash \neg p[c /x]$
    Since $c$ does not appear in $S$ it follows that $S\vdash \neg p$
    Then $S\vdash(\forall x)\neg p$ by (Gen). 
    But $S\vdash \neg(\forall x)\neg p$
@@ -44,9 +44,13 @@ Easy to check that $S^{*}$ is a consistent theory in $L^{*}$ which contains $S$,
 Now WLOG $S^{*}=S$ and $L^{*}=L$
 
 We let $A$ be the set of equivalence classes of closed terms in $L$ where $s\sim t$ if and only if $S\vdash s=t$
-We make $A$ an $L$-[[Foundations/First Order Logic/Structure]]:
-$\omega_{A}([t_{1}],\dots,[t_{n}])=[\omega t_{1}\dots t_{n}]$
-$\phi_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash \phi t_{1}\dots t_{n}$
+We make $A$ an $L$-[[Foundations/First Order Logic/Structure\|Structure]]:
+$$
+\omega_{A}([t_{1}],\dots,[t_{n}])=[\omega t_{1}\dots t_{n}]
+$$
+$$
+\phi_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash \phi t_{1}\dots t_{n}
+$$
 (lots of checking to do at this stage to prove this is all well defined)
 
 Then prove by induction on terms: if $s$ is a term with variables in the set $\{ x_{1},\dots,x_{n} \}$

@@ -150,8 +150,7 @@ $$
 
 ### Higher order terms?
 Plug in longer Taylor expansions .... 
-wasn't done in lectures, 
-see 
+wasn't done in lectures, see 
 https://www.vle.cam.ac.uk/pluginfile.php/28347540/mod_resource/content/1/am_notes.pdf
 Section 3.4.4
 

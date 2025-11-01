@@ -1,5 +1,6 @@
-Let $G=(X\sqcup Y,E)$ be bipartite. 
-There exists a [[Combinatorics/Graphs/Matching]] from $X$ to $Y$ if and only if 
+Let [[Combinatorics/Graphs/Simple Graph\|Graph]] $G=(X\sqcup Y,E)$ be bipartite. 
+There exists a [[Combinatorics/Graphs/Matching]] from $X$ to $Y$ 
+if and only if 
 for all $A\subseteq X$, $\lvert A \rvert\leq \lvert N(A) \rvert$
 ### Proof
 If there is a matching, we can find an injection from $A$ to $N(A)$

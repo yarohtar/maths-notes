@@ -7,7 +7,7 @@
 
 [[Combinatorics/Graphs/Connectivity Parameter]]
 [[Combinatorics/Graphs/Separator]]
-[[Combinatorics/Graphs/Menger]]
+[[Combinatorics/Graphs/Menger's Theorem]]
 [[Combinatorics/Graphs/Colouring]]
 [[Combinatorics/Graphs/Extremal Graph Theory]]
 

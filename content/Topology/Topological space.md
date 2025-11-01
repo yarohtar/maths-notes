@@ -1,4 +1,5 @@
-Let $X$ be a set. Topology $\tau$ is a collection of subsets of $X$ s.t.
+Let $X$ be a set. 
+Topology $\tau$ is a collection of subsets of $X$ s.t.
 - $\emptyset\in \tau$ and $X\in \tau$
 - $\forall i \in I, U_i\in \tau\implies U_{i\in I}\in \tau$
 - $U,V\in \tau\implies U\cap V\in\tau$
@@ -14,7 +15,7 @@ A subset of $X$ is closed if its complement is open.
 
 
 ## Basic properties/defns
-1. Some topologies are induced by a [[Analysis/Metric space\|metric]].
+1. Some topologies are induced by a [[Analysis/Metric Space\|metric]].
 2. [[Topology/Hausdorff]]
 3. $A\subset X$ is open if every point has an open [[Topology/Neighbourhood\|nbd]] that is contained in $A$
 4. $x_n\to x$ if for any nbd $V$ of $x$ we find $N$ s.t. $x_n\in V$ for $n>N$
@@ -36,4 +37,4 @@ A subset of $X$ is closed if its complement is open.
 ## More stuff
 [[Topology/Connectedness]]
 [[Topology/Compact]]
-[[Topology/Sequentially compact]]
+[[Topology/Sequentially Compact]]

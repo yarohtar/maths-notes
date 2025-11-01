@@ -7,7 +7,6 @@ Set
 $$
 \bar{Q}_{k} = Q_{0}Q_{1}\dots Q_{k}
 $$
-and 
 $$
 \bar{R}_{k} = R_{k}R_{k-1}\dots R_{0}
 $$

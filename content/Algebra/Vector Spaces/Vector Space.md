@@ -1,8 +1,8 @@
 Let $F$ be a [[Algebra/Field]].
 A set $V$ together with $+:V\times V\to V$ and $\cdot:F\times V\to V$
 is a vector space over $F$ if:
-- $V$ is an [[Algebra/Group Theory/Abelian]] [[Algebra/Group Theory/Group]] under addition
-- for all $\alpha,\beta \in F$ and $v\in V$
+- $(V,+)$ is an [[Algebra/Group Theory/Abelian]] [[Algebra/Group Theory/Group]]
+- [[Foundations/Category Theory/Associativity]]: for all $\alpha,\beta \in F$ and $v\in V$
 $$
 \alpha(\beta v)=(\alpha \beta)v
 $$

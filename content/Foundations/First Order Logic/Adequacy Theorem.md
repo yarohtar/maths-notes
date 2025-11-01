@@ -5,7 +5,7 @@ WLOG $S$ is a [[Foundations/First Order Logic/Theory]] and $p$ is a [[Foundation
 
 Since $S\models p$ we have $S\cup \{ \neg p \}\models \bot$
 By [[Foundations/First Order Logic/Model Existence Lemma]] $S\cup \{ \neg p \}\vdash \bot$
-By the [[Foundations/First Order Logic/Deduction Theorem (First-order Logic)]] $S\vdash \neg \neg p$
+By the [[Foundations/First Order Logic/Deduction Theorem]] $S\vdash \neg \neg p$
 Add the lines
 $$
 \begin{align}

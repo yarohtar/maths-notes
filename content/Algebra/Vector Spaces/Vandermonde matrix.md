@@ -17,4 +17,6 @@ Making $x_{i}=x_{j}$ makes LHS=0, so $(x_{i}-x_{j})$ are all factors on the RHS.
 But the degree of RHS is $n\choose_{2}$
 Also coef of $x_{2}x_{3}^{2}\dots x_{n}^{n-1}$ is 1
 ### Corollary
-$\det V=0$ if and only if $x_{i}=x_{j}$ for some $i\neq j$
+$\det V=0$ 
+if and only if
+$x_{i}=x_{j}$ for some $i\neq j$

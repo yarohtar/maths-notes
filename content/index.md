@@ -13,7 +13,7 @@ On this website you will find my notes as I write them throughout my time in Cam
 ## why?
 I found that written notes are useless for me because I never look at them.
 I also found large PDF style notes inconvenient for finding specific things.
-All that said, my main goals were:
+That said, my main goals were:
 1) providing quick lookup of all maths I learn
 2) having a wikilink whenever a maths concept appears in text
 3) keeping myself entertained during lectures while i struggle with latex and plugins
@@ -22,18 +22,14 @@ I have (so far) failed at (1), tried at (2), and sometimes succeeded at (3).
 Either way, this database might be useful for some of you. 
 
 >[!tip] Navigation
->I find that the most useful feature is the search bar.
->You will also be able to hover over links in text, as well as see the backlinks to any page.
->Alternatively, you can always find the list of courses on this homepage.
+>Most of the time you should use the search bar to find the note you need. To find related notes, look for the links in the text and the list of backlinks. 
 >You can also click on the graph view and see all the connections - it's kinda fun.
 
 >[!info] The "Click me!" button
 >There is way too many files for me to check if the markdown, mathjax, tikzjax and everything else is rendering correctly. If you find that some page looks weird, click the button and I will check it out. 
 
 >[!warning] Another word of warning
->Most of my lecturers weren't famous for drawing many things. 
-Which is good, because I could keep the notes pictureless. 
-Also bad, because I kept the notes pictureless.
+>Some courses are quite detailed, while others look like they have been frantically put together just before exams (because they were :p). I sometimes go back and reorganize stuff - if you want to see a specific course redone, let me know.
 ## Part IA
 [[Algebra/Group Theory/Group Theory]] (taken from [[Algebra/Groups, Rings and Modules]])
 some [[Algebra/Vector Spaces/Vectors and Matrices]]
@@ -63,7 +59,6 @@ Some of [[Algebra/Number Theory/Number theory]]
 Some of [[Combinatorics/Graphs/Graph Theory]]
 [[Information Theory/Coding and Cryptography]]
 [[Foundations/Logic and Set Theory]]
-Some of [[Calculus/Integrable systems]]
 [[Quantum/Quantum Information and Computing]]
 
 ## Part III
@@ -89,3 +84,4 @@ Some of [[Calculus/Integrable systems]]
          - which is a fork of [drgrice1/tikzjax](https://github.com/drgrice1/tikzjax)
              - which is a fork of Jim Fowler's [TikzJax](https://github.com/kisonecat/tikzjax)
                 - which itself uses Jim Fowler's [web2js](https://github.com/kisonecat/web2js) and [dvi2html](https://github.com/kisonecat/dvi2html)   
+

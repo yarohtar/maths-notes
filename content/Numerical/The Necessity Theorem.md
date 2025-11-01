@@ -13,7 +13,7 @@ Hence if $\phi$ is convex,
 we are sure to find $\lambda$ in [[Numerical/Lagrange sufficiency theorem]].
 
 ### Proof
-Suppose $\phi$ is convex. 
+Suppose $\phi$ is a [[Analysis/Convex Function]]. 
 Then find [[Analysis/Supporting hyperplane]] $\lambda$ of $\phi$ at $b$ and write:
 $$\begin{align*}
 \phi(b)&=\inf_{c}(\phi(c)+\lambda^T(b-c))\\
@@ -23,7 +23,7 @@ $$\begin{align*}
 &=\inf_{x\in X}L(x,\lambda)
 \end{align*}$$
 ## Helpful fact
-Suppose $X$ is convex, 
-$f$ is convex, 
+Suppose $X$ is [[Algebra/Vector Spaces/Convex Set]], 
+$f$ is [[Analysis/Convex Function]], 
 and all functional constraints are convex. 
 Then $\phi$ is convex.

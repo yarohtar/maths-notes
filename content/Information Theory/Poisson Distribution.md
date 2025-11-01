@@ -4,4 +4,3 @@ $$
 $$
 defined on $n\geq 0$.
 We write $X\sim \mathrm{Po}(\lambda)$.
-[[Information Theory/Binomial Distribution]]

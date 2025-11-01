@@ -11,8 +11,7 @@ $$
 Q(\omega) = P(X(\omega))
 $$
 often written as just $Q=P(X)$.
-From the definition of $P$, 
-you might naively substitute:
+From the definition of $P$, you might naively substitute:
 $$
 Q=P(X)=\mathbb{P}(X=X)=1
 $$
