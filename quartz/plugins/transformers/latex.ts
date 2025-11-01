@@ -1,6 +1,6 @@
 import remarkMath from "remark-math"
 import rehypeKatex from "rehype-katex"
-import rehypeMathjax from "rehype-mathjax/chtml"
+import rehypeMathjax from "rehype-mathjax/svg"
 //@ts-ignore
 import rehypeTypst from "@myriaddreamin/rehype-typst"
 import { QuartzTransformerPlugin } from "../types"
@@ -47,10 +47,10 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
     },
     externalResources() {
       switch (engine) {
-        case "mathjax":
+        /*case "mathjax":
           return {
             css: [{ content: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/tex.css" }],
-          };
+          };*/
         case "katex":
           return {
             css: [{ content: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" }],
