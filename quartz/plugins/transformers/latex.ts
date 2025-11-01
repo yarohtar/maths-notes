@@ -8,6 +8,7 @@ import { KatexOptions } from "katex"
 import { Options as MathjaxOptions } from "rehype-mathjax/chtml"
 //@ts-ignore
 import { Options as TypstOptions } from "@myriaddreamin/rehype-typst"
+import { visit } from "unist-util-visit"
 
 interface Options {
   renderEngine: "katex" | "mathjax" | "typst"
