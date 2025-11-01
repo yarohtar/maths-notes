@@ -45,7 +45,7 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
           visit(tree, "element", (el) => {
             if(el.tagName === "style")
             {
-              console.log(e1);
+              console.log(el);
               el.properties.dangerouslySetInnerHTML = { __html: el.children[0].value };
               el.children = [];
               // console.log(el);
