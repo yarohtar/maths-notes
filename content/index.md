@@ -22,7 +22,7 @@ I have (so far) failed at (1), tried at (2), and sometimes succeeded at (3).
 Either way, this database might be useful for some of you. 
 
 >[!tip] Navigation
->Most of the time you should use the search bar to find the note you need. To find related notes, look for the links in the text and the list of backlinks. 
+>Most of the time you should use the search bar (`Ctrl`+`K`) to find the note you need. To find related notes, look for the links in the text and the list of backlinks. 
 >You can also click on the graph view and see all the connections - it's kinda fun.
 
 >[!info] The "Click me!" button
