@@ -60,7 +60,7 @@ async function mouseEnterHandler(
   const [contentType] = response.headers.get("Content-Type")!.split(";")
   const [contentTypeCategory, typeInfo] = contentType.split("/")
 
-  const popoverElement = document.createElement("div")
+  const popoverElement = document.createElement("iframe")
   popoverElement.id = popoverId
   popoverElement.classList.add("popover")
   const popoverInner = document.createElement("div")
