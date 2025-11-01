@@ -30,6 +30,7 @@ $d=3$, $n=8$
 |       $v_{2}\wedge v_{3}$       |  1  |  0  |  0  |  0  |  1  |  0  |  0  |  0  |
 |       $v_{3}\wedge v_{1}$       |  1  |  0  |  1  |  0  |  0  |  0  |  0  |  0  |
 | $v_{1}\wedge v_{2}\wedge v_{3}$ |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |
+
 $RM(3,0)$ is spanned by $v_{0}$. It is the repetition code of length 8
 $RM(3,1)$ is spanned by $v_{0},v_{1},v_{2},v_{3}$. Deleting the first component of each codeword gives [[Information Theory/Hamming's Original Code]]
 $RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, etc.
@@ -45,12 +46,12 @@ $RM(3,3)=\mathbb{F}_{2}^{8}$
    So it suffices to show they span $\mathbb{F}_{2}^{n}$, equivalently $RM(d,d)=\mathbb{F}_{2}^{n}$
    Let $p \in X$
    Let
-   $$
-   y_{i}=\begin{cases}
+$$
+y_{i}=\begin{cases}
 v_{i} & \text{if } p_{i}=0\\
 v_{i}+v_{0} & \text{otherwise}
 \end{cases}
-   $$
+$$
    Expanding using distributive law, gives that $\mathbb{1}_{\{ p \}}\in RM(d,d)$
    But these clearly span $\mathbb{F}_{2}^{n}$
 2. Follows from 1. 
