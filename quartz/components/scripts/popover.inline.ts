@@ -60,7 +60,7 @@ async function mouseEnterHandler(
   const [contentType] = response.headers.get("Content-Type")!.split(";")
   const [contentTypeCategory, typeInfo] = contentType.split("/")
 
-  const popoverElement = document.createElement("iframe")
+  const popoverElement = document.createElement("div")
   popoverElement.id = popoverId
   popoverElement.classList.add("popover")
   const popoverInner = document.createElement("div")
@@ -106,7 +106,14 @@ async function mouseEnterHandler(
     return
   }
 
-  document.body.appendChild(popoverElement)
+  const popoverIFrame = document.createElement("iframe");
+  
+
+  document.body.appendChild(popoverIFrame);
+  popoverIFrame.contentWindow.document.open();
+  popoverIFrame.contentWindow.document.write(popoverElement);
+  popoverIFrame.contentWindow.document.close();
+  
   if (activeAnchor !== this) {
     return
   }
