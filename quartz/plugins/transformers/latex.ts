@@ -38,10 +38,10 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
           return [[rehypeTypst, opts?.typstOptions ?? {}]]
         }
         case "mathjax": {
-          return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}), chtml: { fontURL: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2' } }]]
+          return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}), chtml: { fontURL: "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2" } }]]
         }
         default: {
-          return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}), chtml: { fontURL: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2' } }]]
+          return [[rehypeMathjax, { macros, ...(opts?.mathJaxOptions ?? {}), chtml: { fontURL: "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/output/chtml/fonts/woff-v2" } }]]
         }
       }
     },
