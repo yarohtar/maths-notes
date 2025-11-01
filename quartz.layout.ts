@@ -31,10 +31,10 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.ConditionalRender({
+    /*Component.ConditionalRender({
       component: Component.Breadcrumbs({resolveFrontmatterTitle: false,}),
       condition: (page) => !is_index(page) && !is_fallback(page),
-    }),
+    }),*/
     Component.ConditionalRender({
       component: Component.ArticleTitle(),
         condition: (page) => !is_fallback(page),
