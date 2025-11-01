@@ -105,9 +105,8 @@ async function mouseEnterHandler(
   if (!!document.getElementById(popoverId)) {
     return
   }
-  
-  document.body.appendChild(popoverElement);
-  
+
+  document.body.appendChild(popoverElement)
   if (activeAnchor !== this) {
     return
   }
