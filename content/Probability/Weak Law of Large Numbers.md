@@ -1,5 +1,4 @@
-Let $X_{1},X_{2},\dots$ be independent identically distributed 
-sequence of [[Probability/Random Variable]]s
+Let $X_{1},X_{2},\dots$ be IID sequence of [[Probability/Random Variable]]s
 with finite expected value $\mu$
 Then
 $$
