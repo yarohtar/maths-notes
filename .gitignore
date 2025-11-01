@@ -9,4 +9,5 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-content/README.md
+*README.md
+*Revision*
