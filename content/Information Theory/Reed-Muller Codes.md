@@ -26,7 +26,7 @@ $RM(3,0)$ is spanned by $v_{0}$. It is the repetition code of length 8
 $RM(3,1)$ is spanned by $v_{0},v_{1},v_{2},v_{3}$. 
 Deleting the first component of each codeword gives [[Information Theory/Hamming's Original Code]]
 
-$RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, etc.
+$RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, $v_{1}\wedge v_{3}$ and $v_{2}\wedge v_{3}$.
 
 $RM(3,3)=\mathbb{F}_{2}^{8}$
 ### Lemma
@@ -53,17 +53,19 @@ $RM(d,r)$ has rank $\sum_{s=0}^{r}{d \choose s}$
 ### Lemma
 $RM(d,r)=RM(d-1,r)\mid RM(d-1,r-1)$ [[Information Theory/The Bar Product]]
 #### Proof
-We order $X=\mathbb{F}_{2}^{d}$ s.t. $v_{d}=(0\dots 0,1\dots 1)$ (where we take $2^{d-1}$ ones and $2^{d-1}$ zeros)
-and $v_{i}=(v_{i}'\mid v_{i}')$ for $1\leq i\leq d-1$
-Let $z\in R(d,r)$. It is a sum of wedge products of $v_{0},\dots,v_{d}$
+We order $X=\mathbb{F}_{2}^{d}$ such that $v_{d}=(0\dots 0,1\dots 1)$ 
+(where we take $2^{d-1}$ ones and $2^{d-1}$ zeros)
+and $v_{i}=(v_{i}'\mid v_{i}')$ for $1\leq i\leq d-1$.
+Let $z\in R(d,r)$. 
+It is a sum of wedge products of $v_{0},\dots,v_{d}$
 so $z=x+(y\wedge v_{d})$
 Where $x$ and $y$ are sums of wedge products of ...
 We have $x=(x'\mid x')$ and $y=(y'\mid y')$
 So $z=\dots=(x'\mid x'+y')\in RM(d-1,r)\mid RM(d-1,r-1)$
 ### Corollary
-$RM(d,r)$ has weight $2^{d-r}$
+$RM(d,r)$ has weight $2^{d-r}$.
 #### Proof
 $RM(d,0)$ is the repetition code of length $2^{d}$, has weight $2^{d-0}$
-$RM(d,d)=\mathbb{F}_{2}^{n}$ by has weight $1=2^{d-d}$
+$RM(d,d)=\mathbb{F}_{2}^{n}$ has weight $1=2^{d-d}$
 If $0<r<d$ we use induction on $d$ with [[Information Theory/The Bar Product]]
 
