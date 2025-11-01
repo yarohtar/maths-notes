@@ -47,6 +47,10 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
     },
     externalResources() {
       switch (engine) {
+        case "mathjax":
+          return {
+            css: [{ content: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/tex.css" }],
+          };
         case "katex":
           return {
             css: [{ content: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" }],
@@ -58,7 +62,7 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
                 contentType: "external",
               },
             ],
-          }
+          };
       }
     },
   }
