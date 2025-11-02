@@ -8,7 +8,7 @@ On this website you will find my notes as I write them throughout my time in Cam
 >No content presented on this website is official. It is not endorsed by the University of Cambridge, the Maths Faculty, or any of the Lecturers.
 >It is not an accurate representation of what was lectured or what is examined.
 >While some notes were taken during lectures, a big part was created after lectures or during revision and heavily modified to suit my needs. In particular, all errors are my own.
->You should also assume that no single course presented here is complete. 
+>You should also assume that no single course presented here is [[Analysis/Complete]]. 
 ## why?
 I found that written notes are useless for me because I never look at them.
 I also found large PDF style notes inconvenient for finding specific things.
