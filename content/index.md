@@ -7,14 +7,13 @@ On this website you will find my notes as I write them throughout my time in Cam
 >[!danger] Disclaimer
 >No content presented on this website is official. It is not endorsed by the University of Cambridge, the Maths Faculty, or any of the Lecturers.
 >It is not an accurate representation of what was lectured or what is examined.
->While some notes were taken during lectures, a big part was created after lectures or during revision and heavily modified as my understanding of the topics grew.
->In particular, all errors are my own.
+>While some notes were taken during lectures, a big part was created after lectures or during revision and heavily modified to suit my needs. In particular, all errors are my own.
 >You should also assume that no single course presented here is complete. 
 ## why?
 I found that written notes are useless for me because I never look at them.
 I also found large PDF style notes inconvenient for finding specific things.
 That said, my main goals were:
-1) providing quick lookup of all maths I learn
+1) providing quick lookup of all the maths I learn
 2) having a wikilink whenever a maths concept appears in text
 3) keeping myself entertained during lectures while i struggle with latex and plugins
 
@@ -84,4 +83,7 @@ Some of [[Combinatorics/Graphs/Graph Theory]]
          - which is a fork of [drgrice1/tikzjax](https://github.com/drgrice1/tikzjax)
              - which is a fork of Jim Fowler's [TikzJax](https://github.com/kisonecat/tikzjax)
                 - which itself uses Jim Fowler's [web2js](https://github.com/kisonecat/web2js) and [dvi2html](https://github.com/kisonecat/dvi2html)   
+
+## Contributions?
+If you want to add your own stuff on here, or fix some of my old notes, let me know and we'll see what we can do. Setting this up might take some commitment, but I want the website to cover as much as possible, and would be happy to do it.
 
