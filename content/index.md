@@ -26,6 +26,7 @@ Either way, this database might be useful for some of you.
 
 >[!info] The "Click me!" button
 >There is way too many files for me to check if the markdown, mathjax, tikzjax and everything else is rendering correctly. If you find that some page looks weird, click the button and I will check it out. 
+>Two main issues that I know of are weird indenting after a list, and display math messing up the whole page.
 
 >[!warning] Another word of warning
 >Some courses are quite detailed, while others look like they have been frantically put together just before exams (because they were :p). I sometimes go back and reorganize stuff - if you want to see a specific course redone, let me know.
