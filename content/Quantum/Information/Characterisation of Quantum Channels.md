@@ -13,6 +13,7 @@ T(\rho)=\operatorname{Tr}_{2}(U(\rho \otimes \ket{\psi} \bra{\psi} )U^{*})
 $$
 with $U$ unitary on $\mathbb{C}^{d}\otimes \mathbb{C}^{d'}\otimes \mathbb{C}^{d'}$
 and $\ket{\psi}\in \mathbb{C}^{d'}\otimes \mathbb{C}^{d'}$
+[[Quantum/Information/Choi-Jamiolkowski Matrix]]
 ### Proof (won't be examined)
 #### $1\implies 2$
 

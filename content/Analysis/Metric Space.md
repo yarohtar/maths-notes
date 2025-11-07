@@ -10,7 +10,7 @@ On $(M,d)$ for $x\in M$ and $r<0$ we define the open ball $D_r(x)=\{y\in M: d(x,
 and closed ball $B_r(x)=\{y\in M: d(x,y)\leq r\}$
 
 A set $A$ is open iff every point in $A$ has an open ball contained in $A$. 
-This is the metric induced [[Topology/Topological space\|topology]].
+This is the metric induced [[Topology/Topological Space\|topology]].
 A set $B$ is closed iff $M\setminus B$ is open.
 
 Let $B\subseteq M$ closed. 

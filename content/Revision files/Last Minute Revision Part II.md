@@ -640,10 +640,12 @@ We also say that $L$ is many-to-one reducible to $L'$.
 We write $L\leq_{m} L'$
 Note that $\leq_{m}$ is a [[Foundations/Computability/Partial Preorder]]
 
-The following proposition says that $L$ is at most as complicated as $L'$ (in the computability sense).
+The following proposition says that $L$ is at most as complicated as $L'$ 
+(in the computability sense).
 ### Proposition
 If $L\leq_{m} L'$ and $L'$ is [[Foundations/Computability/Computable]], then so is $L$.
 If $L\leq_{m}L'$ and $L'$ is [[Foundations/Computability/Computably Enumerable]], then so is $L$.
+
 
 
 # Coding and Cryptography
@@ -715,7 +717,7 @@ Otherwise, we know that there was more than $e$ mistakes.
 Codes with parity check matrix whose columns are 
 all elements of $\mathbb{F}_{2}^{n}$
 ### Reed Muller
-Let $C_{1}$, $C_{2}$ be [[Information Theory/Linear Code]] of length $n$ with $C_{2}\subseteq C_{1}$ 
+Let $C_{1}$, $C_{2}$ be [[Information Theory/Linear Code]]s of length $n$ with $C_{2}\subseteq C_{1}$ 
 The bar product is:
 $$
 C_{1}\mid C_{2}=\{ (x\mid x+y):x\in C_{1}, y\in C_{2} \}
@@ -723,17 +725,20 @@ $$
 It is a linear code of length $2n$.
 Note that $\mid$ here represents CONCATENATION.
 ### Lemma
-1. $\operatorname{rank}(C_{1}\mid C_{2})=\operatorname{rank}(C_{1})+\operatorname{rank}(C_{2})$
-2. $w(C_{1}\mid C_{2})=\min\{ 2w(C_{1}),w(C_{2}) \}$
+$\operatorname{rank}(C_{1}\mid C_{2})=\operatorname{rank}(C_{1})+\operatorname{rank}(C_{2})$
 #### Proof
-1. Let $x_{1}\dots x_{k}$ be a basis for $C_{1}$. Let $y_{1}\dots y_{l}$ be a basis for $C_{2}$.
-   Then $\{ (x_{i}\mid x_{i}) \}\cup \{ (0\mid y_{i}) \}$ is a basis for $C_{1}\mid C_{2}$
-   Hence $\operatorname{rank}(C_{1}\mid C_{2})=\operatorname{rank}(C_{1})+\operatorname{rank}(C_{2})$
-2. Let $x\in C_{1}$ and $y\in C_{2}$, not both zero 
-   if $y\neq 0$, $w(x\mid x+y)=w(x)+w(x+y)\geq w(y)\geq w(C_{2})$
-   if $y=0$ then $w(x\mid x)\geq 2w(x)\geq 2w(C_{1})$
-   So $w(C_{1}\mid C_{2})\geq min\{ 2w(C_{1}),w(C_{2}) \}$
-   But the minimums are achieved so this is equal 
+Let $x_{1}\dots x_{k}$ be a basis for $C_{1}$. Let $y_{1}\dots y_{l}$ be a basis for $C_{2}$.
+Then $\{ (x_{i}\mid x_{i}) \}\cup \{ (0\mid y_{i}) \}$ is a basis for $C_{1}\mid C_{2}$
+Hence $\operatorname{rank}(C_{1}\mid C_{2})=\operatorname{rank}(C_{1})+\operatorname{rank}(C_{2})$
+### Lemma
+$w(C_{1}\mid C_{2})=\min\{ 2w(C_{1}),w(C_{2}) \}$
+#### Proof
+Let $x\in C_{1}$ and $y\in C_{2}$, not both zero 
+if $y\neq 0$, $w(x\mid x+y)=w(x)+w(x+y)\geq w(y)\geq w(C_{2})$
+if $y=0$ then $w(x\mid x)\geq 2w(x)\geq 2w(C_{1})$
+So $w(C_{1}\mid C_{2})\geq min\{ 2w(C_{1}),w(C_{2}) \}$
+But the minimums are achieved so this is equal 
+
 
 
 $RM(d,r)$ is defined as the space spanned by 
@@ -1356,7 +1361,7 @@ Since $e\leq 3n-6$ the average degree is at most $6-\frac{12}{n}<6$
 So minimal degree is at most $5$
 
 ### Brooks
-Let $G$ be a connected graph.
+Let $G$ be a connected [[Combinatorics/Graphs/Simple Graph\|Graph]].
 If $G$ is not an odd cycle or a complete graph then $\chi(G)\leq \Delta(G)$
 ### Proof
 First $G$ is $\Delta$ regular by ordering vertices and greedy colouring
@@ -1370,7 +1375,7 @@ Then form the path $x_{1}x_{2}\dots x_{n}$ and use greedy
 If $G$ is $2$ connected ...
 
 ### Polynomial 
-Let $G$ be a graph. 
+Let $G$ be a [[Combinatorics/Graphs/Simple Graph\|Graph]]. 
 The chromatic polynomial is $P_{G}:\mathbb{Z}_{\geq 0}\to \mathbb{Z}_{\geq 0}$ 
 where $P_{G}(t)$ is the number of $t$-colourings of $G$
 
@@ -1398,7 +1403,7 @@ $$
 
 ### Vizing
 Edge colouring $\chi'$
-Let $G$ be a graph with $\Delta(G)=\Delta$
+Let $G$ be a [[Combinatorics/Graphs/Simple Graph\|Graph]] with $\Delta(G)=\Delta$
 Then $\chi'(G)=\Delta$ or $\chi'(G)=\Delta+1$
 ### Proof
 Clearly $\chi'(G)\geq \Delta$

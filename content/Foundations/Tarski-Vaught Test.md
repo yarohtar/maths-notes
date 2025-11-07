@@ -1,5 +1,5 @@
 Let $\mathcal{L}$ be any [[Foundations/First Order Logic/Language]].
-Let $M$ and $N$ be $\mathcal{L}$-[[Foundations/First Order Logic/Structure]]s 
+Let $M$ and $N$ be $\mathcal{L}$-[[Foundations/First Order Logic/Structure\|Structures]]
 such that $M$ is a [[Foundations/Substructure]] of $N$.
 Let $\Phi$ be a set of $\mathcal{L}$-formulas closed under subformulas.
 Then all formulas in $\Phi$ are [[Foundations/Absolute]] between $M$ and $N$ 

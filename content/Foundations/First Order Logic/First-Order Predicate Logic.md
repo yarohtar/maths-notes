@@ -4,7 +4,7 @@
 
 [[Foundations/First Order Logic/Language]]
 [[Foundations/First Order Logic/Sentence]]
-[[Foundations/First Order Logic/Structure]]
+[[Foundations/First Order Logic/Structure\|Structure]]
 [[Foundations/First Order Logic/Interpretation]]
 [[Foundations/First Order Logic/Satisfied]]
 [[Foundations/First Order Logic/Theory]]

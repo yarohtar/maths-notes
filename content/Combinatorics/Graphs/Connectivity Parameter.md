@@ -1,4 +1,4 @@
-For graph $G$ with $\lvert G \rvert\geq 1$ we define:
+For [[Combinatorics/Graphs/Simple Graph\|Graph]] $G$ with $\lvert G \rvert\geq 1$ we define:
 $$
 \kappa=\operatorname{min} \{ \lvert S \rvert  : S\subseteq V(G), G-S \text{ is disconnected or singleton} \}
 $$

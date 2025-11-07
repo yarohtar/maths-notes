@@ -1,6 +1,10 @@
 Let [[Combinatorics/Graphs/Simple Graph\|Graph]] $G=(X\sqcup Y,E)$ be bipartite. 
 Then $G$ contains a [[Combinatorics/Graphs/Matching with Deficiency]] $d$ 
-if and only if $\lvert A \rvert \leq \lvert N(A) \rvert+d$ for all $A\subseteq X$
+if and only if 
+$$
+\lvert A \rvert \leq \lvert N(A) \rvert+d
+$$
+for all $A\subseteq X$
 ### Proof
 Forward direction is easy
 Now apply [[Combinatorics/Graphs/Hall's Theorem]] on graph:

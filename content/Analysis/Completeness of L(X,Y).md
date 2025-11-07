@@ -1,4 +1,4 @@
-$X$, $Y$ [[Analysis/Normed Space]] with $Y$ [[Analysis/Complete]]. 
+Let $X$, $Y$ be [[Analysis/Normed Space]]s with $Y$ [[Analysis/Complete]]. 
 Then $L(X,Y)$ is [[Analysis/Complete]].
 #### Proof
 Given $(T_{n})$, a [[Analysis/Cauchy Sequence]] in $L(X,Y)$:

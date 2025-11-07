@@ -1,11 +1,16 @@
 ## Proposition
-Let $G$ be a graph. Then $\chi(G)\leq \Delta(G)+1$
+Let $G$ be a [[Combinatorics/Graphs/Simple Graph\|Graph]]. Then:
+$$
+\chi(G)\leq \Delta(G)+1
+$$
 ### Proof
 Greedy
 
 ## Proposition
-Let $G$ be a connected graph and $\delta(G)<\Delta(G)$.
-Then $\chi(G)\leq \Delta(G)$
+Let $G$ be a connected graph and $\delta(G)<\Delta(G)$. Then:
+$$
+\chi(G)\leq \Delta(G)
+$$
 ### Proof
 Order vertices of $G$ into $x_{1},\dots ,x_{n}$ such that:
 - $\deg x_{n}<\Delta(G)$

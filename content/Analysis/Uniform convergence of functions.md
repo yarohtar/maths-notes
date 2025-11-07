@@ -1,6 +1,6 @@
-### Definition
-Let $X\subset \mathbb{R}$, $f_n:X\rightarrow \mathbb{R}$ and $f:X\rightarrow \mathbb{R}$. We say $(f_n)$ converges uniformly to $f$ if:
-$$\forall\epsilon>0\ \exists N\ \forall x\in X\ \forall n\geq N |f_n(x)-f(x)|<\epsilon$$
+Let $X\subset \mathbb{R}$, $f_n:X\rightarrow \mathbb{R}$ and $f:X\rightarrow \mathbb{R}$. 
+We say $(f_n)$ converges uniformly to $f$ if:
+$$(\forall\epsilon>0)\,(\exists N\in \mathbb{N})\,(\forall x\in X)\,(\forall n\geq N)\, |f_n(x)-f(x)|<\epsilon$$
 We write $f_n\rightarrow f$ uniformly.
 
 Note that if $f_n\rightarrow f$ pointwise:
@@ -8,8 +8,23 @@ $$\forall\epsilon>0\ \forall x\in X\ \exists N\in X\ \forall n\geq N |f_n(x)-f(x
 So we just swapped two quantifiers. It is now easy to see that uniform implies pointwise.
 
 Visually, all $f_n$ functions need to be in this $\epsilon$-neighbourhood of $f$: 
+```tikz
+\begin{document}
+\begin{tikzpicture}[domain=0:4]
+  \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,1.7);
 
-![[Excalidraw/Drawing 2023-10-12 00.42.27.excalidraw]]
+  \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$};
+  \draw[->] (0,-1.2) -- (0,1.9) node[above] {$f$};
+
+  %\draw[color=red]    plot (\x,\x)             node[right] {$f(x) =x$};
+  % \x r means to convert '\x' from degrees to _r_adians:
+  \draw   plot (\x,{sin(\x r)});
+  \draw[dashed] plot(\x, {sin(\x r) + 0.1});
+  \draw[dashed] plot(\x, {sin(\x r) - 0.1});
+  % \draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+\end{tikzpicture}
+\end{document}
+```
 
 ### Theorem CTS
 Suppose each $f_n$ is CTS and $f_n\rightarrow f$ uniformly. Then $f$ is CTS.

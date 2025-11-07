@@ -8,6 +8,8 @@ Reading:
 [[Combinatorics/Graphs/Adjacency Matrix]]
 [[Algebra/Formal Power Series]]
 [[Combinatorics/Catalan Number]]
-[[Combinatorics/Combinatorial Structure\|Structure]]
+[[Combinatorics/Combinatorial Structure]]
+[[Combinatorics/Labelled Structure]]
+[[Combinatorics/Counting Trees]]
 
 

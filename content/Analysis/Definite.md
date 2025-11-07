@@ -15,7 +15,6 @@ and often drop $F$ if its clear where the matrix lives.
 
 ### Lemma
 If $A\in \mathbb{C}^{n\times n}$ is definite, then $A$ is [[Analysis/Hilbert Space/Hermetian]]. 
-
 ### Lemma
-If $A\in \mathbb{R}^{n\times n}$ is symmetric and definite, then $A$ is also definite in $\mathbb{C}$.
+If $A\in \mathbb{R}^{n\times n}$ is symmetric and definite in $\mathbb{R}$, then $A$ is also definite in $\mathbb{C}$.
 

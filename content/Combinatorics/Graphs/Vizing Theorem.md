@@ -1,4 +1,4 @@
-Let $G$ be a graph with $\Delta(G)=\Delta$
+Let $G$ be a [[Combinatorics/Graphs/Simple Graph\|Graph]] with $\Delta(G)=\Delta$
 Then $\chi'(G)=\Delta$ or $\chi'(G)=\Delta+1$
 ### Proof
 Clearly $\chi'(G)\geq \Delta$

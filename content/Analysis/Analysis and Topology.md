@@ -4,5 +4,5 @@
 [[Analysis/Power series]]
 [[Analysis/Uniformly Continuous]]
 [[Analysis/Metric Space]]
-[[Topology/Topological space]]
+[[Topology/Topological Space]]
 [[Analysis/Compact - Sequentially Compact - Totally Bounded]]

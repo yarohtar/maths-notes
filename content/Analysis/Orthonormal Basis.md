@@ -7,7 +7,7 @@ We use the same terminology for a finite sequence
 [[Algebra/Vector Spaces/Gram-Schmidt process]] applies
 
 ### Corollary
-Let $X$ be a [[Topology/Separable Space]] [[Analysis/Inner Product Space]]. 
+Let $X$ be a [[Topology/Separable]] [[Analysis/Inner Product Space]]. 
 Then $X$ has an orthonormal basis.
 
 ### Corollary

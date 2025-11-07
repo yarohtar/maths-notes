@@ -7,7 +7,7 @@ Notes on moodle
 [[Quantum/Tensor Product of Hilbert Spaces]]
 [[Quantum/Outer Product in Hilbert Spaces]]
 [[Quantum/Orthogonal Projectors in Hilbert Spaces]]
-[[Analysis/Trace of an Operator]]
+[[Analysis/Trace]]
 [[Quantum/Hilbert-Schmidt Inner Product]]
 [[Quantum/Pauli Matrices]]
 [[Analysis/Hilbert Space/Orthogonal Subspaces]]

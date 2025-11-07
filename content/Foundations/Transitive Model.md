@@ -2,7 +2,7 @@
 {"publish":true,"aliases":"Transitive","created":"2025-10-23T11:05:41.639+01:00","cssclasses":""}
 ---
 
-Suppose $(M,E)$ and $(N,E)$ are $\mathcal{L}$-[[Foundations/First Order Logic/Structure]]s,
+Suppose $(M,E)$ and $(N,E)$ are $\mathcal{L}$-[[Foundations/First Order Logic/Structure\|Structure]]s,
 where $\mathcal{L}$ is the [[Foundations/First Order Logic/Language]] of set theory i.e. $\mathcal{L}=\{ \in \}$
 and $M\subseteq N$
 We say that $M$ is transitive in $N$ if 

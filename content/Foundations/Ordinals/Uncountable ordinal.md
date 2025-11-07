@@ -11,8 +11,7 @@ $$
 Then the set $B=\{ \text{order-type}(X):X\in A \}$ 
 consists of all countable [[Foundations/Ordinals/Ordinal]]s.
 
-Let $\omega_{1}=sup B$. 
-If $\omega_{1}$ is countable, then $\omega_{1}^{+}$ is also countable 
-and so $\omega_{1}^{+}\in B$. 
+Let $\omega_{1}=\sup B$. 
+If $\omega_{1}$ is countable, then $\omega_{1}^{+}$ is also countable and so $\omega_{1}^{+}\in B$. 
 Hence $\omega_{1}^{+}\leq \omega_{1}$ which is a contradiction.
 

@@ -3,7 +3,8 @@ $$
 (\forall x)(\exists y)(\forall z)(z\in y\iff(\exists t)(t\in x\land z\in t))
 $$
 The set $y$ whose existence is asserted here is unique by (Ext)
-We denote this by $\bigcup x$ (formally, we are introducing a unary operation symbol $\bigcup$ to the language of ZF)
+We denote this by $\bigcup x$ 
+(formally, we are introducing a unary operation symbol $\bigcup$ to the language of ZF)
 So $\bigcup x$ is the union of the members of $x$ 
 
 We write $a \cup b$ for $\bigcup \{ a,b \}$

@@ -1,5 +1,6 @@
 [[Combinatorics/Graphs/Simple Graph]]
 [[Combinatorics/Graphs/Directed Graph]]
+[[Combinatorics/Graphs/Tree]]
 [[Combinatorics/Graphs/Euler's Theorem for Planar Graphs]]
 
 [[Combinatorics/Graphs/Hall's Theorem]]

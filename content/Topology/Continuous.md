@@ -1,4 +1,4 @@
-Let $\mathcal{U},\mathcal{V}$ be [[Topology/Topological space]]s
+Let $\mathcal{U},\mathcal{V}$ be [[Topology/Topological Space]]s
 We say that $f:\mathcal{U}\to \mathcal{V}$ is continuous if
 for any open $V\subseteq \mathcal{V}$:
 $$

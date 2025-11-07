@@ -1,6 +1,6 @@
 For $L$ the [[Foundations/Constructible Hierarchy]]:
 $$
-\forall x\exists \alpha(\alpha \in \mathrm{Or d} \land x\in L_{\alpha})
+\forall x\,\exists \alpha\,(\alpha \in \mathrm{Or d} \land x\in L_{\alpha})
 $$
 We abbreviate this as $V=L$ (though this is misleading)
 ### Proposition

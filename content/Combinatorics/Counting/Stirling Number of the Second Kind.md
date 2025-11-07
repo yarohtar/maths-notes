@@ -54,3 +54,34 @@ x^{n} = \sum_{k=0}^{n}(-1)^{n-k} \genfrac{\{}{\}}{0pt}{0}{ n }{ k } x^{\overline
 $$
 #### Proof
 Substitute $x \to -x$ in the previous theorem.
+### Theorem
+$$
+\sum_{n\geq k} \frac{ \genfrac\{\}{0pt}{0}{ n }{ k } }{ n! } x^{n} = \frac{1}{k!}(e^{x}-1)^{k}
+$$
+#### Proof
+Let $\mathcal{A}$ have as its objects on $[n]$ just $[n]$ itself of weight $1$.
+$$
+\tilde{f}_{\mathcal{A}}(x) = \sum_{n\geq 1} \frac{x^{n}}{n!} = \exp(x) - 1
+$$
+Now $\mathcal{A}*\dots*\mathcal{A}$ counts ordered partitions of $[n]$, 
+and has [[Combinatorics/Exponential Generating Function]] $(e^{x}-1)^{k}$.
+But then the number of ordered partitions of $[n]$ is $k!\genfrac\{\}{0pt}{0}{ n }{ k }$
+hence the result.
+### Theorem
+The egf $\tilde{f}_{\mathrm{Cyc}}(x)$ for cycles on $[n]$ with valutaion $x^{n}$ for $n\geq 1$
+$$
+\tilde{f}_{\mathrm{Cyc}}(x) = - \log(1-x)
+$$
+#### Proof 1
+$$
+\tilde{f}_{\mathrm{Cyc}}(x) = \sum_{n\geq 1} (n-1)! \frac{x^{n}}{n!} = -\log(1-x)
+$$
+#### Proof 2
+$$
+\frac{1}{1-x} = \sum_{n\geq 0} n! \frac{x^{n}}{n!} = \tilde{f}_{\mathrm{Per m}}(x) = \tilde{f}_{\operatorname{Set}(\mathrm{Cyc})}(x) = \exp(\tilde{f}_{\mathrm{Cyc}}(x))
+$$
+which implies
+$$
+\tilde{f}_{\mathrm{Cyc}}(x) = -\log(1-x)
+$$
+

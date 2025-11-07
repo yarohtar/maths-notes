@@ -1,4 +1,4 @@
-Let $G$ be a graph. 
+Let $G$ be a [[Combinatorics/Graphs/Simple Graph\|Graph]]. 
 The chromatic polynomial is $P_{G}:\mathbb{Z}_{\geq 0}\to \mathbb{Z}_{\geq 0}$ 
 where $P_{G}(t)$ is the number of $t$-colourings of $G$
 

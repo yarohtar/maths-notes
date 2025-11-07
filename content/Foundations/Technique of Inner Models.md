@@ -125,3 +125,7 @@ and in particular [[Foundations/Set Theory/Axiom of Choice]] holds in $L$.
 [[Foundations/Axiom of Constructibility]]
 [[Foundations/First Order Logic/Gödel's Incompleteness Theorems]]
 [[Foundations/Gödel's Condensation Lemma]]
+### Claim
+For every $x\subseteq \mathbb{N}$, $x\in L$, there is some $\alpha<\omega_{1}$ such that $x\in L_{\alpha}$.
+
+THIS PROVES CH
