@@ -1,5 +1,5 @@
 [[Analysis/Pointwise convergence of functions]]
-[[Analysis/Uniform convergence of functions]]
+[[Analysis/Converges Uniformly]]
 [[Analysis/Uniform Cauchy]]
 [[Analysis/Power series]]
 [[Analysis/Uniformly Continuous]]
