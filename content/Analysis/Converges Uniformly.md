@@ -5,11 +5,12 @@ $$
 $$
 We write $f_n\rightarrow f$ uniformly.
 
-Note that if $f_n\rightarrow f$ pointwise:
+Note that if $f_n\rightarrow f$ pointwise means:
 $$
 \forall\epsilon>0\ \forall x\in X\ \exists N\in X\ \forall n\geq N |f_n(x)-f(x)|<\epsilon
 $$
-So we just swapped two quantifiers. It is now easy to see that uniform implies pointwise.
+So we just swapped two quantifiers. 
+It is now easy to see that uniform implies pointwise.
 
 Visually, all $f_n$ functions need to be in this $\epsilon$-neighbourhood of $f$: 
 ```tikz

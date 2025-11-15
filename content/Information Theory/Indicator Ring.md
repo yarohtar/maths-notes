@@ -1,4 +1,4 @@
-Let $X$ be a set and let $\{ 0,1 \}^{X}$ be the set of its indicator functions.
+Let $X$ be a set and let $\{ 0,1 \}^{X}$ be the set of indicator functions.
 For any $A,B\subseteq X$ define the sum:
 $$
 1_{A}+1_{B} = 1_{A\triangle B}

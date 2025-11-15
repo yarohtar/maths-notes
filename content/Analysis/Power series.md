@@ -32,8 +32,8 @@ Now the original powerseires has a point where it converges
 and it's derivative converges uniformly for every $r<R$. 
 Let $|x-a|<R$. 
 Pick $|x-a|<r<R$. 
-Then using [[Analysis/Converges Uniformly#Theorem Diff\|convergence of derivatives]] we find the derivative of the powerseries at $x$ 
-is exactly 
+Then using [[Analysis/Converges Uniformly#Theorem Diff\|convergence of derivatives]] 
+we find the derivative of the powerseries at $x$ is exactly 
 $$
 \sum_{n=1}^\infty na_n(x-a)^{n-1}
 $$
