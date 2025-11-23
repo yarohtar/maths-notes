@@ -1,4 +1,4 @@
-A source is a sequence of [[Probability/Random Variable]]s $X_{n}$
+A source is a sequence of [[Probability/Random Variable]]s $X_{n}$.
 
 We usually work with [[Information Theory/Discrete Memoryless Source]]
 [[Information Theory/Reliably encodable]]

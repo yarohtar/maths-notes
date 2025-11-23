@@ -4,6 +4,8 @@
 [[Analysis/Measure/Second Borel-Cantelli Lemma]]
 [[Information Theory/Random Probability of Random Variable]]
 [[Information Theory/Inclusion-Exclusion Principle]]
+[[Probability/Weak Law of Large Numbers]]
+[[Information Theory/Strong Law of Large Numbers]]
 
 [[Information Theory/Bernoulli Distribution]]
 [[Information Theory/Binomial Distribution]]

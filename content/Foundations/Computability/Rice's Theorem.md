@@ -1,5 +1,6 @@
 A nontrivial [[Foundations/Computability/Index Set]] cannot be computable.
 ### Proof
+Let $K$ be [[Foundations/Computability/The Halting Problem]].
 For a fixed $w$ consider the following function
 $$
 g_{w}(u,v)=\begin{cases}
@@ -10,7 +11,6 @@ $$
 Note that $g_{w}$ is computable, as we can run $f_{u,1}(u)$ 
 and if $u\not\in K$ then it will diverge.
 Otherwise, we run $f_{w,1}(v)$.
-(We used $K$ from [[Foundations/Computability/The Halting Problem]])
 
 By [[Foundations/Computability/The s-m-n Theorem]] we get a computable function $h_{w}$ 
 such that 

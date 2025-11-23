@@ -50,6 +50,6 @@ and we want to only measure in the basis $\{ \ket{e_{i}} \}$
 We take $\mathcal{H}=\oplus_{i=1}^{m}\mathcal{E}_{i}$
 where
 $$
-\mathcal{E}_{i}=span\{ \ket{e_{i}} \otimes \ket{\phi} : \ket{\phi} \in \mathcal{H}_{2} \}
+\mathcal{E}_{i}=\operatorname{span}\{ \ket{e_{i}} \otimes \ket{\phi} : \ket{\phi} \in \mathcal{H}_{2} \}
 $$
 and take the projective measurements in these subspaces and etc whatever ... 

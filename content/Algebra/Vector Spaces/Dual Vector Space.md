@@ -2,7 +2,6 @@ Let $V$ be a [[Algebra/Vector Spaces/Vector Space]] over [[Algebra/Field]] $F$
 The dual $V^{*}$ is $L(V,F)$, the space of all [[Algebra/Vector Spaces/Linear]] functions from $V$ to $F$
 ### Proposition
 This is well defined
-
 ### Proposition
 There is a natural injective homomorphism between $V$ and $V^{* *}$.
 This is actually a [[Foundations/Category Theory/Natural Transformation]].
