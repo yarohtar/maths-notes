@@ -1,6 +1,7 @@
 ---
-{"publish":true,"title":"Homepage","created":"2025-10-11T02:26:36.961+01:00","cssclasses":""}
+{"publish":true,"title":"Homepage","created":"2025-10-11T02:26:36.961+01:00","modified":"2026-01-11T15:46:06.780+00:00","cssclasses":""}
 ---
+
 
 On this website you will find my notes as I write them throughout my time in Cambridge.
 
