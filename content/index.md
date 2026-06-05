@@ -1,7 +1,6 @@
 ---
-{"publish":true,"title":"Homepage","created":"2025-10-11T02:26:36.961+01:00","modified":"2026-01-11T15:46:06.780+00:00","cssclasses":""}
+{"publish":true,"title":"Homepage","created":"2025-10-11T02:26:36.961+01:00","modified":"2026-03-09T15:19:24.424+00:00","cssclasses":""}
 ---
-
 
 On this website you will find my notes as I write them throughout my time in Cambridge.
 
@@ -32,35 +31,35 @@ Either way, this database might be useful for some of you.
 >[!warning] Another word of warning
 >Some courses are quite detailed, while others look like they have been frantically put together just before exams (because they were :p). I sometimes go back and reorganize stuff - if you want to see a specific course redone, let me know.
 ## Part IA
-[[Algebra/Group Theory/Group Theory]] (taken from [[Algebra/Groups, Rings and Modules]])
-some [[Algebra/Vector Spaces/Vectors and Matrices]]
+[[Algebra/Group Theory/Group Theory\|Group Theory]] (taken from [[Algebra/Groups, Rings and Modules\|Groups, Rings and Modules]])
+some [[Algebra/Vector Spaces/Vectors and Matrices\|Vectors and Matrices]]
 [[Probability/Probability]] (taken from [[Analysis/Measure/Probability and Measure]])
 [[Analysis/Analysis I]]
 See also [[Combinatorics/Algebraic Methods in Combinatorics]] for some fun
 
 ## Part IB
-[[Numerical/Optimisation]]
-[[Calculus/Variational principles]]
-Some of [[Calculus/Methods]]
-[[Analysis/Analysis and Topology]]
-[[Quantum/Quantum mechanics]]
+[[Numerical/Optimisation\|Optimisation]]
+[[Calculus/Variational principles\|Variational Principles]]
+Some of [[Calculus/Methods\|Methods]]
+[[Analysis/Analysis and Topology\|Analysis and Topology]]
+[[Quantum/Quantum mechanics\|Quantum Mechanics]]
 [[Algebra/Groups, Rings and Modules]] (only [[Algebra/Group Theory/Group Theory]] and [[Algebra/Ring Theory/Ring Theory]])
 [[Numerical/Numerical Analysis]]
-[[Analysis/Complex Methods]]
+[[Analysis/Complex Methods\|Complex Methods]]
 
 ## Part II
-Some of [[Topology/Algebraic Topology]]
-[[Analysis/Linear Analysis]]
-[[Numerical/Numerical Analysis]]
-[[Asymptotic Methods/Asymptotic methods]]
-[[Foundations/Computability/Automata and formal languages]]
-Some of [[Quantum/Principles of Quantum Mechanics]]
-[[Analysis/Measure/Probability and Measure]] (mostly just measure)
-Some of [[Algebra/Number Theory/Number theory]]
-Some of [[Combinatorics/Graphs/Graph Theory]]
-[[Information Theory/Coding and Cryptography]]
-[[Foundations/Logic and Set Theory]]
-[[Quantum/Quantum Information and Computing]]
+Some of [[Topology/Algebraic Topology\|Algebraic Topology]]
+[[Analysis/Linear Analysis\|Linear Analysis]]
+[[Numerical/Numerical Analysis\|Numerical Analysis]]
+[[Asymptotic Methods/Asymptotic Methods\|Asymptotic Methods]]
+[[Foundations/Computability/Automata and formal languages\|Automata and Formal Languages]]
+Some of [[Quantum/Principles of Quantum Mechanics\|Principles of Quantum Mechanics]]
+[[Analysis/Measure/Probability and Measure\|Probability and Measure]] (mostly just measure)
+Some of [[Algebra/Number Theory/Number theory\|Number Theory]]
+Some of [[Combinatorics/Graphs/Graph Theory\|Graph Theory]]
+[[Information Theory/Coding and Cryptography\|Coding and Cryptography]]
+[[Foundations/Logic and Set Theory\|Logic and Set Theory]]
+[[Quantum/Quantum Information and Computing\|Quantum Information and Computing]]
 
 ## Part III
 (in progress)
@@ -69,6 +68,9 @@ Some of [[Combinatorics/Graphs/Graph Theory]]
 [[Foundations/Category Theory/Category Theory]]
 [[Information Theory/Information Theory]]
 [[Foundations/Forcing and Continuum Hypothesis]]
+[[Foundations/Infinite Games/index\|Infinite Games]]
+[[Analysis of Boolean Functions/Analysis of Boolean Functions]]
+[[Foundations/First Order Logic/Model Theory]]
 
 ## Acknowledgements
 - The lecture notes were created in [Obsidian](https://obsidian.md/)  
