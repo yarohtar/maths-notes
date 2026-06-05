@@ -1,0 +1,1 @@
+A [[Foundations/Infinite Games/Two Person Infinite Game of Perfect Information\|Game]] $\mathcal{G}$ is determined if there is either a `I`-[[Foundations/Infinite Games/Winning Game Strategy]] or a `II`-[[Foundations/Infinite Games/Winning Game Strategy]].

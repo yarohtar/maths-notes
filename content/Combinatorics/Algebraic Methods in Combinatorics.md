@@ -1,0 +1,26 @@
+Reading:
+- Cameron (2017) Notes on counting
+- Matousek (2010) 33 miniatures
+- Alon (1999) Combinatorial Nullstellensatz
+[[Combinatorics/Counting/Enumerative Methods in Combinatorics]]
+[[Combinatorics/Counting/Counting in Two Ways]]
+[[Combinatorics/Graphs/Weighted Graph]]
+[[Combinatorics/Graphs/Adjacency Matrix]]
+[[Algebra/Formal Power Series]]
+[[Combinatorics/Counting/Catalan Number]]
+[[Combinatorics/Counting/Combinatorial Structure]]
+[[Combinatorics/Counting/Counting Trees]]
+[[Combinatorics/Graphs/Cayley's Formula]]
+[[Combinatorics/Graphs/Laplacian Matrix]]
+[[Combinatorics/Graphs/Matrix Tree Theorem]]
+[[Combinatorics/Graphs/Undirected Matrix Tree Theorem]]
+[[Algebra/Exterior Algebra]]
+[[Combinatorics/Spanning Subsets Lemma]]
+[[Combinatorics/Graham-Pollak Theorem]]
+[[Combinatorics/Even Town Theorem]]
+[[Combinatorics/Odd Town Theorem]]
+[[Combinatorics/Diagonal Principle]]
+[[Combinatorics/Frankl-Wilson Theorem]]
+[[Combinatorics/Medium Intersection is Hard to Avoid]]
+[[Combinatorics/Combinatorial Nullstellensatz]]
+[[Combinatorics/Graph Polynomial]]

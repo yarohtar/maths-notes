@@ -1,0 +1,2 @@
+Let $M=(P,Q)$ and $M'=(P',Q')$ be [[Foundations/Computability/Register Machine]]s performing [[Foundations/Computability/Partial Function]]s $F$ and $F'$ respectively. 
+Then we can construct a register machine performing operation $F'\circ F$. 

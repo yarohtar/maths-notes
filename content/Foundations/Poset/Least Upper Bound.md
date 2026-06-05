@@ -1,0 +1,4 @@
+Let $X$ be a [[Foundations/Poset/Poset]] and $S\subseteq X$
+Say $x\in X$ is a least upper bound or a supremum of $S$ if:
+- $x$ is an [[Foundations/Poset/Upper Bound]] for $S$
+- $x\leq y$ for all upper bounds $y$ for $S$.

@@ -1,0 +1,1 @@
+The [[Foundations/Category Theory/Category]] of [[Analysis/Metric space]] and [[Analysis/Nonexpansive Maps]] denoted by $\mathrm{Met}$ 
