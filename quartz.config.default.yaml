@@ -12,6 +12,8 @@ configuration:
     - private
     - templates
     - .obsidian
+    - README.md
+    - "Revision files"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
