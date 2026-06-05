@@ -1,0 +1,1 @@
+A dual notion to the [[Foundations/Category Theory/Equalizer]]

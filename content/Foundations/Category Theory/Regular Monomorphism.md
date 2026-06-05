@@ -1,0 +1,1 @@
+A [[Foundations/Category Theory/Monomorphism]] $i$ is regular if its a part of an [[Foundations/Category Theory/Equalizer]].
