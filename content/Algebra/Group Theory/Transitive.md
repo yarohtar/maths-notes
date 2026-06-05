@@ -1,1 +1,0 @@
-A [[Algebra/Group Theory/Group Action]] is transitive if it has exactly one [[Algebra/Group Theory/Orbit]].

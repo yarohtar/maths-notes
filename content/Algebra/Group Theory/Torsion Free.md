@@ -1,1 +1,0 @@
-A [[Algebra/Group Theory/Group]] is called [[Algebra/Group Theory/Torsion]]-free if the only element of finite order is the identity.

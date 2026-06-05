@@ -1,5 +1,0 @@
-Let $L=L(\Omega,\Pi)$ be a [[Foundations/First Order Logic/First-Order Predicate Logic]] language.
-Let $A$ be an $L$-[[Foundations/First Order Logic/Structure]].
-Given a formula $p$ in the language $L$,
-we say $p$ is satisfied in $A$ if [[Foundations/First Order Logic/Interpretation]] $p_{A}=A^{n}$
-where $n$ is the number of free variables in $p$

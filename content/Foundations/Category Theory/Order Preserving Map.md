@@ -1,1 +1,0 @@
-A [[Foundations/Category Theory/Functor]] between [[Foundations/Ordinals/Poset\|posets]] is an order preserving map

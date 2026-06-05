@@ -1,8 +1,0 @@
-[[Analysis/Pointwise convergence of functions]]
-[[Analysis/Converges Uniformly]]
-[[Analysis/Uniform Cauchy]]
-[[Analysis/Power series]]
-[[Analysis/Uniformly Continuous]]
-[[Analysis/Metric Space]]
-[[Topology/Topological Space]]
-[[Analysis/Compact - Sequentially Compact - Totally Bounded]]
