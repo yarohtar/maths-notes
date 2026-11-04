@@ -13,6 +13,7 @@ configuration:
     - templates
     - .obsidian
     - README.md
+    - "**/README.md" # never publish README files, at any depth
     - "Revision files"
   theme:
     fontOrigin: googleFonts
