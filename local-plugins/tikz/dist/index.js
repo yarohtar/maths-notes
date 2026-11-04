@@ -1,5 +1,6 @@
 // Turns ```tikz fenced code blocks into <script type="text/tikz"> tags that
-// TikZJax (https://github.com/bill-ion/tikzjax-live) renders in the browser.
+// TikZJax renders in the browser. TikZJax is self-hosted in quartz/static/tikzjax/
+// (built by https://github.com/bill-ion/tikzjax-live).
 // Hand-written ESM (no build step); unist-util-visit is provided by Quartz.
 import { visit } from "unist-util-visit"
 
@@ -40,12 +41,12 @@ export const Tikz = () => ({
   externalResources() {
     return {
       css: [
-        { content: "https://bill-ion.github.io/tikzjax-live/dist/fonts.css" },
+        { content: "/static/tikzjax/fonts.css" },
         { content: css, inline: true },
       ],
       js: [
         {
-          src: "https://bill-ion.github.io/tikzjax-live/dist/tikzjax.js",
+          src: "/static/tikzjax/tikzjax.js",
           loadTime: "beforeDOMReady",
           contentType: "external",
         },
