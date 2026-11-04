@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: MathsNotes
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: maths.iammerlin.fyi
   ignorePatterns:
     - private
     - templates
@@ -63,14 +63,14 @@ plugins:
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
-      enableInHtmlEmbed: false
+      enableInHtmlEmbed: true
       enableCheckbox: true
     order: 30
   - source: github:quartz-community/github-flavored-markdown
     enabled: true
     order: 40
   - source: github:quartz-community/table-of-contents
-    enabled: true
+    enabled: false
     order: 50
     layout:
       position: right
@@ -79,20 +79,33 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
+      disableBrokenWikilinks: true # marks them; ./local-plugins/link-tweaks turns them into plain text
     order: 60
+  - source: ./local-plugins/link-tweaks
+    enabled: true
+    options:
+      brokenLinksAsText: true
+      newTab: all # "all" | "external" (Quartz 4 behaviour) | "none"
+    order: 65
   - source: github:quartz-community/description
     enabled: true
     order: 70
   - source: github:quartz-community/latex
-    enabled: true
+    enabled: false # replaced by ./local-plugins/mathjax-chtml (HTML output instead of SVG)
     options:
       renderEngine: mathjax
     order: 80
+  - source: ./local-plugins/mathjax-chtml
+    enabled: true
+    order: 80
+  - source: ./local-plugins/tikz
+    enabled: true
+    order: 15
   - source: github:quartz-community/citations
     enabled: false
     order: 85
   - source: github:quartz-community/hard-line-breaks
-    enabled: false
+    enabled: true
     order: 90
   - source: github:quartz-community/ox-hugo
     enabled: false
@@ -114,7 +127,7 @@ plugins:
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
-    enabled: true
+    enabled: false # one static preview image instead: quartz/static/og-image.png
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
@@ -126,7 +139,7 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -135,10 +148,11 @@ plugins:
     layout:
       position: right
       priority: 10
+      condition: not-fallback
   - source: github:quartz-community/search
     enabled: true
     layout:
-      position: left
+      position: beforeBody # v4 layout: toolbar above the article
       priority: 20
       group: toolbar
       groupOptions:
@@ -148,13 +162,15 @@ plugins:
     layout:
       position: right
       priority: 50
+      condition: not-fallback
   - source: github:quartz-community/article-title
     enabled: true
     layout:
       position: beforeBody
       priority: 10
+      condition: not-fallback
   - source: github:quartz-community/content-meta
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -168,16 +184,17 @@ plugins:
     layout:
       position: left
       priority: 10
+      condition: not-fallback
   - source: github:quartz-community/darkmode
     enabled: true
     layout:
-      position: left
+      position: beforeBody # v4 layout: toolbar above the article
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
     enabled: true
     layout:
-      position: left
+      position: beforeBody # v4 layout: toolbar above the article
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
@@ -185,7 +202,7 @@ plugins:
     layout:
       position: beforeBody
       priority: 5
-      condition: not-index
+      condition: not-index-or-fallback
   - source: github:quartz-community/comments
     enabled: false
     options:
@@ -198,8 +215,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Homepage: https://iammerlin.fyi
+        Site Source: https://github.com/yarohtar/maths-notes
+        Obsidian Source: https://github.com/yarohtar/cam-maths-notes-obsidian
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -231,6 +249,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+      condition: not-fallback
   - source: github:quartz-community/unlisted-pages
     enabled: true
     options: {}
@@ -256,7 +275,7 @@ plugins:
 layout:
   groups:
     toolbar:
-      priority: 35
+      priority: 1
       direction: row
       gap: 0.5rem
   byPageType:

@@ -1,0 +1,20 @@
+{
+  "name": "mathjax-chtml",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MathJax rendering with HTML (CHTML) output instead of SVG. Replaces the community latex plugin.",
+  "main": "./dist/index.js",
+  "exports": { ".": { "import": "./dist/index.js" }, "./package.json": "./package.json" },
+  "quartz": {
+    "name": "mathjax-chtml",
+    "displayName": "MathJax (CHTML)",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 80,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}
