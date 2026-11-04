@@ -1,0 +1,14 @@
+[Unit]
+Description=MathsNotes "something looks off" feedback API + dashboard
+After=network.target
+
+[Service]
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/var/www/maths-feedback
+EnvironmentFile=/etc/maths-feedback.env
+ExecStart=/var/www/maths-feedback/venv/bin/gunicorn --workers 2 --bind 127.0.0.1:8100 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

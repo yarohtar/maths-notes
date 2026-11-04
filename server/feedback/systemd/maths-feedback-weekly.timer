@@ -1,0 +1,9 @@
+[Unit]
+Description=Weekly email of non-zero MathsNotes report counters (Mondays 09:00 UK time)
+
+[Timer]
+OnCalendar=Mon *-*-* 09:00:00 Europe/London
+Persistent=true
+
+[Install]
+WantedBy=timers.target

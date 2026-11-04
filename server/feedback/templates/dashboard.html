@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Reported pages · MathsNotes</title>
+<style>
+  :root { --bg:#faf8f8; --fg:#2b2b2b; --muted:#4e4e4e; --line:#e5e5e5; --accent:#284b63; --hl:rgba(143,159,169,.15); }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#161618; --fg:#ebebec; --muted:#a0a0a8; --line:#393639; --accent:#7b97aa; --hl:rgba(143,159,169,.15); }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:960px; margin:0 auto; padding:2rem 1rem; }
+  h1 { margin:0 0 .25rem; font-size:1.6rem; }
+  .sub { color:var(--muted); margin:0 0 1.5rem; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:.55rem .5rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:.85rem; color:var(--muted); font-weight:600; }
+  td.num { font-variant-numeric:tabular-nums; font-weight:600; text-align:right; width:4rem; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .slug { color:var(--muted); font-size:.8rem; }
+  button { font:inherit; font-size:.85rem; padding:.25rem .7rem; border:1px solid var(--line); border-radius:4px;
+           background:transparent; color:var(--fg); cursor:pointer; }
+  button:hover { background:var(--hl); }
+  .bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:.75rem; }
+  .empty { padding:2rem 0; color:var(--muted); }
+  .gone { color:#b44; font-size:.8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Reported pages</h1>
+  <p class="sub">Pages readers flagged with “Something looks off?”. Reset a counter once you've fixed the page.</p>
+  <div class="bar"><span id="summary"></span><button id="reset-all" hidden>Reset all</button></div>
+  <table id="table" hidden>
+    <thead><tr><th>Page</th><th class="num">Reports</th><th>First</th><th>Last</th><th></th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="empty" id="empty" hidden>No reports. 🎉</p>
+</main>
+<script>
+const fmt = (t) => t ? new Date(t * 1000).toLocaleString(undefined, {dateStyle: "medium", timeStyle: "short"}) : "";
+async function post(url, body) {
+  const r = await fetch(url, {method: "POST", headers: {"Content-Type": "application/json", "X-Requested-With": "fetch"},
+                              body: JSON.stringify(body), credentials: "same-origin"});
+  if (!r.ok) alert("Request failed: " + r.status);
+}
+async function load() {
+  const r = await fetch("/admin/api/counters", {credentials: "same-origin"});
+  if (!r.ok) { document.getElementById("summary").textContent = "Failed to load (" + r.status + ")"; return; }
+  const {counters} = await r.json();
+  const tbody = document.querySelector("#table tbody");
+  tbody.replaceChildren();
+  const total = counters.reduce((s, c) => s + c.count, 0);
+  document.getElementById("summary").textContent = counters.length
+    ? `${counters.length} page${counters.length === 1 ? "" : "s"}, ${total} report${total === 1 ? "" : "s"}` : "";
+  document.getElementById("table").hidden = !counters.length;
+  document.getElementById("empty").hidden = !!counters.length;
+  document.getElementById("reset-all").hidden = !counters.length;
+  for (const c of counters) {
+    const tr = document.createElement("tr");
+    const page = document.createElement("td");
+    const a = document.createElement("a"); a.href = c.url; a.target = "_blank"; a.textContent = c.title;
+    const s = document.createElement("div"); s.className = "slug"; s.textContent = c.slug;
+    page.append(a, s);
+    if (!c.published) { const g = document.createElement("div"); g.className = "gone"; g.textContent = "no longer published"; page.append(g); }
+    const n = document.createElement("td"); n.className = "num"; n.textContent = c.count;
+    const f = document.createElement("td"); f.textContent = fmt(c.first_reported);
+    const l = document.createElement("td"); l.textContent = fmt(c.last_reported);
+    const act = document.createElement("td");
+    const b = document.createElement("button"); b.textContent = "Reset";
+    b.onclick = async () => { await post("/admin/api/reset", {slug: c.slug}); load(); };
+    act.append(b);
+    tr.append(page, n, f, l, act);
+    tbody.append(tr);
+  }
+}
+document.getElementById("reset-all").onclick = async () => {
+  if (confirm("Reset all counters to zero?")) { await post("/admin/api/reset", {all: true}); load(); }
+};
+load();
+</script>
+</body>
+</html>

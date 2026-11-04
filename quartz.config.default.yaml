@@ -255,6 +255,12 @@ plugins:
     enabled: true
     options: {}
     order: 45
+  - source: ./local-plugins/report-button # "Something looks off?" (backend: server/feedback)
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 10
+      condition: not-fallback
   - source: ./local-plugins/site-meta # robots.txt + noindex/unlisted utility pages
     enabled: true
     options:
