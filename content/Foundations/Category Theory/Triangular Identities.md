@@ -1,7 +1,8 @@
-Given [[Foundations/Category Theory/Functor]]s $\mathcal{C}\xrightarrow{F}\mathcal{D}$ and $\mathcal{D}\xrightarrow{G}\mathcal{C}$,
-specifying an [[Foundations/Category Theory/Adjunction]] $(F\dashv G)$
-is equivalent to specifying [[Foundations/Category Theory/Natural Transformation]]s 
+Given [[Functor]]s $\mathcal{C}\xrightarrow{F}\mathcal{D}$ and $\mathcal{D}\xrightarrow{G}\mathcal{C}$,
+specifying an [[Adjunction]] $(F\dashv G)$
+is equivalent to specifying [[Natural Transformation]]s
 $\eta:1_{\mathcal{C}}\to GF$ and $\varepsilon:FG\to 1_{\mathcal{D}}$ satisfying
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -13,6 +14,7 @@ F \arrow[r,"F\eta"]
 \end{tikzcd}
 \end{document}
 ```
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -24,15 +26,19 @@ G \arrow[r,"1_{G}"]
 \end{tikzcd}
 \end{document}
 ```
+
 the triangular identities.
+
 #### Proof
-Given $(F\dashv G)$, let $\eta$ and $\varepsilon$ be [[Foundations/Category Theory/Unit]] and [[Foundations/Category Theory/Counit]] respectively.
-Then $\varepsilon_{FA}(F\eta_{A})$ corresponds under the [[Foundations/Category Theory/Adjunction]] to $1_{GFA}\eta_{A}=\eta_{A}$, so it's $1_{FA}$. 
+
+Given $(F\dashv G)$, let $\eta$ and $\varepsilon$ be [[Unit]] and [[Counit]] respectively.
+Then $\varepsilon_{FA}(F\eta_{A})$ corresponds under the [[Adjunction]] to $1_{GFA}\eta_{A}=\eta_{A}$, so it's $1_{FA}$.
 The second identity is dual.
 Conversely, suppose given $\eta$ and $\varepsilon$ satisfying triangular identities.
 Given $A\xrightarrow{f}GB$ we define $\Phi(f)$ to be $FA\xrightarrow{Ff}FGB\xrightarrow{\varepsilon_{B}}B$
 and given $FA\xrightarrow{g}B$ we define $\Psi(g)$ to be $A\xrightarrow{\eta_{A}}GFA\xrightarrow{Gg}GB$
-Then $\Psi \Phi(f)$ is 
+Then $\Psi \Phi(f)$ is
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -47,23 +53,31 @@ A\arrow[r,"\eta_{A}"]
 \end{tikzcd}
 \end{document}
 ```
-so $\Psi \Phi(f)=f$ and dually $\Phi \Psi(g)=g$ 
+
+so $\Psi \Phi(f)=f$ and dually $\Phi \Psi(g)=g$
 And $\Phi$ and $\Psi$ are natural since $\eta$ and $\varepsilon$ are.
+
 ### Proposition
+
 Suppose given an equivalence $\mathcal{C}\xrightarrow{F}\mathcal{D}$ and $\mathcal{D}\xrightarrow{G}\mathcal{C}$
-and $\alpha$ and $\beta$ [[Foundations/Category Theory/Natural Isomorphism]]s
+and $\alpha$ and $\beta$ [[Natural Isomorphism]]s
 $\alpha:1_{\mathcal{C}}\to GF$ and $\beta:FG\to 1_{\mathcal{D}}$
-Then there are [[Foundations/Category Theory/Natural Isomorphism]]s $\alpha':1_{\mathcal{C}}\to GF$ and $\beta':FG\to 1_{\mathcal{D}}$ 
-satisfying the [[Foundations/Category Theory/Triangular Identities]].
+Then there are [[Natural Isomorphism]]s $\alpha':1_{\mathcal{C}}\to GF$ and $\beta':FG\to 1_{\mathcal{D}}$
+satisfying the [[Triangular Identities]].
 In particular $(F\dashv G)$ and $(G\dashv F)$.
+
 #### Proof
-We define $\alpha'=\alpha$ and take $\beta'$ to be 
+
+We define $\alpha'=\alpha$ and take $\beta'$ to be
+
 $$
 FG\xrightarrow{(\beta_{FG})^{-1}} 
 FGFG\xrightarrow{(F\alpha_{G})^{-1}}
 FG\xrightarrow{B}1_{\mathcal{D}}
 $$
-Note that $FG\beta=\beta_{FG}$ since 
+
+Note that $FG\beta=\beta_{FG}$ since
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -75,9 +89,11 @@ FG \arrow[r,"\beta"]
 \end{tikzcd}
 \end{document}
 ```
-is a [[Foundations/Category Theory/Commutative Diagram]] by naturality and $\beta$ is [[Foundations/Category Theory/Monomorphism]].
+
+is a [[Commutative Diagram]] by naturality and $\beta$ is [[Monomorphism]].
 Similarly $GF\alpha=\alpha_{GF}$
 The triangular identities for $\alpha'$ and $\beta'$ are
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -97,7 +113,9 @@ F
 \end{tikzcd}
 \end{document}
 ```
-and 
+
+and
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -114,5 +132,6 @@ G \arrow[r,"\alpha_{G}"]
 \end{tikzcd}
 \end{document}
 ```
-so $\alpha'$ and $\beta'$ are the unit and counit of [[Foundations/Category Theory/Adjunction]] $(F\dashv G)$ 
+
+so $\alpha'$ and $\beta'$ are the unit and counit of [[Adjunction]] $(F\dashv G)$
 and $(\beta')^{-1}$ and $(\alpha')^{-1}$ are the unit and counit of $(G\dashv F)$.

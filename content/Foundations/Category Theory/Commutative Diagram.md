@@ -1,11 +1,13 @@
-A commutative diagram is a diagram in the form of a directed graph, 
-where each edge represents a [[Foundations/Category Theory/Morphism]],
-and each node represents an [[Foundations/Category Theory/Object]]
-such that for any nodes $x$ and $y$, and any walk between them, 
+A commutative diagram is a diagram in the form of a directed graph,
+where each edge represents a [[Morphism]],
+and each node represents an [[Object]]
+such that for any nodes $x$ and $y$, and any walk between them,
 composing the morphisms on that walk always gives the same result.
-Additionally, we assume that each node has the identity morphism on it, 
+Additionally, we assume that each node has the identity morphism on it,
 making any cycle in the graph an identity.
+
 ### Example
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -17,11 +19,15 @@ C \arrow[r,"g_{2}"]
 \end{tikzcd}
 \end{document}
 ```
+
 This diagram is commutative if and only if
+
 $$
 f_{2}f_{1} = g_{2}g_{1}
 $$
+
 ### Example
+
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
@@ -32,7 +38,9 @@ A \arrow[rr, "f"]
 \end{tikzcd}
 \end{document}
 ```
+
 This diagram is commutative if and only if
+
 $$
 \begin{gather}
 hgf = 1_{A} \\

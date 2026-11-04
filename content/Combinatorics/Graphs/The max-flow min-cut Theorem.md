@@ -1,18 +1,19 @@
-In the [[Combinatorics/Graphs/The Maximal Flow Problem\|maximal flow problem]], let $N$ be the set of nodes. 
+In the [[The Maximal Flow Problem|maximal flow problem]], let $N$ be the set of nodes.
 For any $S,T\subset N$ define the flow from $S$ to $T$:
-$$f(S,T)=\sum_{i\in S,\ j\in T}x_{ij}$$
+$f(S,T)=\sum_{i\in S,\ j\in T}x_{ij}$
 and the cut of $S$:
-$$c(S)=\sum_{i\in S,\ j\in\overline S}c_{ij}$$
+$c(S)=\sum_{i\in S,\ j\in\overline S}c_{ij}$
 where $\overline S=N\setminus S$.
 We claim the maximum flow is exactly $\min_S c(S)$.
 Suppose we have a maximum flow.
-Pick some $S$ where $1\in S$, but $n\not\in S$. 
+Pick some $S$ where $1\in S$, but $n\not\in S$.
 We know:
-$$v=\sum_{j\in N}x_{1,j}-x_{j,1}$$
-$$0=\sum_{j\in N}x_{s,j}-x_{j,s}$$
+$v=\sum_{j\in N}x_{1,j}-x_{j,1}$
+$0=\sum_{j\in N}x_{s,j}-x_{j,s}$
 for any $s\in S$, $s\neq 1$.
 Summing these equations over $S$:
-$$\begin{align*}
+
+$$$\begin{align*}
 v&=\sum_{i\in S,\ j\in N}x_{i,j}-\sum_{i\in S,\ j\in N}x_{j,i}\\
 &=f(S,N)-f(N,S)\\
 &=(f(S,S)+f(S,\overline S))-(f(S,S)+f(\overline S,S))\\
@@ -35,3 +36,4 @@ By similar construction/argument,
 having no augmented paths where we can increase flow means that $S$ will not contain $n$ 
 Hence the flow is exactly $c(S)$, 
 but then this is surely maximal.
+$$$

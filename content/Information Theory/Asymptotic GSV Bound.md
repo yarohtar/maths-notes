@@ -1,15 +1,22 @@
-[[Information Theory/Asymptotic Information rate]]
+[[Asymptotic Information rate]]
+
 $$
 \alpha(\delta)\geq 1-H(\delta)
 $$
+
 ### Proposition
+
 Let $0<\delta<\frac{1}{2}$
 Then
+
 1. $\log V(n,\lfloor n\delta \rfloor)\leq nH(\delta)$
 2. $\frac{\log A(n,\lfloor n\delta \rfloor)}{n}\geq 1-H(\delta)$
+
 #### Proof
-First we prove 1. implies 2. 
-[[Information Theory/Gilbert-Shannon-Varshamov Bound]] so
+
+First we prove 1. implies 2.
+[[Gilbert-Shannon-Varshamov Bound]] so
+
 $$
 \begin{align}
 A(n,\lfloor n\delta \rfloor ) & \geq \frac{2^{n}}{V(n,\lfloor n\delta \rfloor -1)}\geq \frac{2^{n}}{V(n,\lfloor n\delta \rfloor )} \\
@@ -17,11 +24,15 @@ A(n,\lfloor n\delta \rfloor ) & \geq \frac{2^{n}}{V(n,\lfloor n\delta \rfloor -1
  & \geq n-nH(\delta)
 \end{align}
 $$
+
 So
+
 $$
 \frac{\log A(n,\lfloor n\delta \rfloor )}{n}\geq 1-H(\delta)
 $$
-Now we prove 1. 
+
+Now we prove 1.
+
 $$
 \begin{align}
 1=(\delta+(1-\delta))^{n} & =\sum_{i=0}^{n} {n \choose i}\delta^{i}(1-\delta)^{n-i} \\

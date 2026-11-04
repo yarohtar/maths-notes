@@ -1,4 +1,2 @@
-[[Foundations/Computability/Deterministic Automata]]
-[[Foundations/Computability/Nondeterministic Automata]]
-
-
+[[Deterministic Automata]]
+[[Nondeterministic Automata]]

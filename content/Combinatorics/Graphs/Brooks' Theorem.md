@@ -1,8 +1,10 @@
-Let $G$ be a connected [[Combinatorics/Graphs/Simple Graph\|Graph]].
+Let $G$ be a connected [[Simple Graph|Graph]].
 If $G$ is not an odd cycle or a complete graph then $\chi(G)\leq \Delta(G)$
+
 ### Proof
+
 First $G$ is $\Delta$ regular by ordering vertices and greedy colouring
-If $G$ is not $2$ connected, consider the cut vertex $x$ 
+If $G$ is not $2$ connected, consider the cut vertex $x$
 and let $G_{i}$ be a component of $G-x$ together with $x$
 Then colour those components and combine
 If $G$ is $3$ connected, pick $x\in G$

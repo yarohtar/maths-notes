@@ -1,2 +1,2 @@
-A groupoid is a [[Foundations/Category Theory/Category]] whose morphisms are all isomorphisms.
-[[Foundations/Category Theory/Fundamental Groupoid]]
+A groupoid is a [[Category]] whose morphisms are all isomorphisms.
+[[Fundamental Groupoid]]

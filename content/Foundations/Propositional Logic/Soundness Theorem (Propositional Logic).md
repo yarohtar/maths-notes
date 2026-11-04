@@ -2,6 +2,7 @@ Let $S\subseteq L$ and $t\in L$
 Then $S\vdash t$ implies $S\models t$.
 
 #### Proof
+
 Let $t_{1},\dots,t_{n}=t$ be a proof of $t$ from $S$
 Let $v$ be a model of $S$. Need $v(t)=1$
 We prove $v(t_{i})=1$ by induction on $i$

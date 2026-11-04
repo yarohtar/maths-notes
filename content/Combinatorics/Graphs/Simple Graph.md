@@ -1,5 +1,9 @@
 ---
-{"publish":true,"aliases":"Graph","created":"2025-12-24T04:28:25.852+00:00","modified":"2025-12-24T04:28:25.852+00:00","cssclasses":""}
+publish: true
+aliases:
+  - Graph
+created: 2026-10-11T21:45:33.287Z
+modified: 2026-10-11T21:45:33.287Z
 ---
 
 A graph is an ordered pair $G=(V,E)$ of sets $V$ and $E$

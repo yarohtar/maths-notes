@@ -1,1 +1,1 @@
-A theory in a [[Foundations/First Order Logic/Language]] $\mathcal{L}$ is a set of [[Foundations/First Order Logic/Sentence]]s in $\mathcal{L}$.
+A theory in a [[Language]] $\mathcal{L}$ is a set of [[Sentence]]s in $\mathcal{L}$.

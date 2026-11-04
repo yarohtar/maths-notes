@@ -1,6 +1,6 @@
-[[Analysis/Convergence]]
-[[Analysis/Triangle inequality]]
-[[Analysis/Boltzano-Weierstrass theorem]]
-[[Analysis/Cauchy Sequence]]
+[[Convergence]]
+[[Triangle inequality]]
+[[Boltzano-Weierstrass Theorem]]
+[[Cauchy Sequence]]
 
-[[Analysis/Riemann Integral]]
+[[Riemann Integral]]

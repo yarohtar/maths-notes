@@ -1,4 +1,4 @@
-Let $K$ be a [[Topology/Compact]] [[Topology/Hausdorff]] space. 
-Then $K$ is [[Analysis/Normal space]].
+Let $K$ be a [[Compact]] [[Hausdorff]] space.
+Then $K$ is [[Normal space]].
 
 ### Proof

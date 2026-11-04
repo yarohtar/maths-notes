@@ -1,19 +1,20 @@
-[[Numerical/Convex optimisation]]
-[[Numerical/Barrier method]]
-[[Numerical/Lagrange multipliers]]
-[[Numerical/The Necessity Theorem]]
-[[Numerical/Dual Problem]]
-[[Numerical/Complimentary slackness]]
-[[Numerical/Economist perspective]] (not important)
-[[Numerical/Linear program]]
-[[Numerical/Dual problem in linear programs]] (most important lemma)
-[[Numerical/Optimality condition in Linear Programming]]
-[[Numerical/Simplex method]]
-[[Combinatorics/Two-person Zero-sum Games]]
-[[Combinatorics/Graphs/The Maximal Flow Problem]]
-[[Combinatorics/The Transportation Problem]]
+[[Convex optimisation]]
+[[Barrier method]]
+[[Lagrange multipliers]]
+[[The Necessity Theorem]]
+[[Dual Problem]]
+[[Complimentary Slackness]]
+[[Economist perspective]] (not important)
+[[Linear Program]]
+[[Dual Problem in Linear Programs]] (most important lemma)
+[[Optimality Condition in Linear Programming]]
+[[Simplex method]]
+[[Two-person Zero-sum Games]]
+[[The Maximal Flow Problem]]
+[[The Transportation Problem]]
 
 # Main objective
+
 Minimize functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$
 subject to $h(x)=b$ where $x \in X$
 

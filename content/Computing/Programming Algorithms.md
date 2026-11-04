@@ -1,1 +1,1 @@
-[[Computing/Prefix function]]
+[[Prefix function]]

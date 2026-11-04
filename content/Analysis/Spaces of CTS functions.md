@@ -1,7 +1,6 @@
-We study $C(K)$ where $K$ is a [[Topology/Compact]] [[Topology/Hausdorff]] [[Topology/Topological space]].
+We study $C(K)$ where $K$ is a [[Compact]] [[Hausdorff]] [[Topological Space]].
 
-[[Analysis/Compact Hausdorff is Normal]]
-[[Analysis/Urysohn's Lemma]]
-[[Analysis/Tietze Extension Theorem]]
-[[Analysis/Arzela-Ascoli Theorem]]
-
+[[Compact Hausdorff is Normal]]
+[[Urysohn's Lemma]]
+[[Tietze Extension Theorem]]
+[[Arzela-Ascoli Theorem]]

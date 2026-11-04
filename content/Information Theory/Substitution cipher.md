@@ -1,1 +1,1 @@
-[[Information Theory/Cryptosystem]] with $\mathcal{K}=\{ \text{permutations of }\Sigma \}$
+[[Cryptosystem]] with $\mathcal{K}=\{ \text{permutations of }\Sigma \}$

@@ -1,5 +1,5 @@
-[[Information Theory/Parity Extension]]
-[[Information Theory/Punctured code]]
-[[Information Theory/Shortened code]]
+[[Parity Extension]]
+[[Punctured code]]
+[[Shortened code]]
 For linear codes
-[[Information Theory/The Bar Product]]
+[[The Bar Product]]

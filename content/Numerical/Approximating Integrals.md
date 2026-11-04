@@ -1,2 +1,2 @@
-[[Asymptotic Methods/Taylor expanding the integrand]]
-[[Asymptotic Methods/Integration by parts approximation]]
+[[Taylor expanding the integrand]]
+[[Integration by parts approximation]]

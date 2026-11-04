@@ -1,5 +1,6 @@
-A [[Foundations/Category Theory/Functor]] that forgets some structure.
+A [[Functor]] that forgets some structure.
 Examples:
-- [[Foundations/Category Theory/Category of Groups]] $\to$ [[Foundations/Category Theory/Category of Sets]]
-- [[Foundations/Category Theory/Category of Topological Spaces]] $\to$ [[Foundations/Category Theory/Category of Sets]]
-- [[Foundations/Category Theory/Category of Rings]] $\to$ $\mathrm{AbGp}$
+
+- [[Category of Groups]] $\to$ [[Category of Sets]]
+- [[Category of Topological Spaces]] $\to$ [[Category of Sets]]
+- [[Category of Rings]] $\to$ $\mathrm{AbGp}$

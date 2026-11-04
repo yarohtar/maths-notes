@@ -1,7 +1,8 @@
-[[Foundations/Set Theory/Class]]
-The Axiom of Replacement is the axiom-scheme 
-asserting that the image of a set under a [[Foundations/Set Theory/Function Class]] is a set. 
+[[Class]]
+The Axiom of Replacement is the axiom-scheme
+asserting that the image of a set under a [[Function Class]] is a set.
 As usual, we'll have parameters:
+
 $$
 \begin{gather}
 (\forall t_{1})\dots(\forall t_{n})(\\

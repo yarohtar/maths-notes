@@ -1,2 +1,2 @@
-A [[Analysis/Normed Space\|normed space]] that is [[Analysis/Complete]].
-[[Analysis/The Baire Category Theorem]]
+A [[Normed Space|normed space]] that is [[Complete]].
+[[The Baire Category Theorem]]

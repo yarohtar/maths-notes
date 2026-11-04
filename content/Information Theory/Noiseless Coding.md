@@ -1,10 +1,10 @@
-[[Information Theory/Code]]
-[[Information Theory/Kraft's inequality]]
-[[Information Theory/McMillan's Theorem]]
+[[Code]]
+[[Kraft's inequality]]
+[[McMillan's Theorem]]
 
-[[Information Theory/Source]]
-[[Information Theory/Expected word length]]
-[[Information Theory/Shannon's noiseless coding theorem]]
+[[Source]]
+[[Expected word length]]
+[[Shannon's noiseless coding theorem]]
 
-[[Information Theory/Shannon-Fano Coding]]
-[[Information Theory/Huffman Coding]]
+[[Shannon-Fano Coding]]
+[[Huffman Coding]]

@@ -1,25 +1,36 @@
-Fix an [[Foundations/Ordinals/Ordinal]] $\lambda$ and a [[Foundations/Forcing/Forcing Partial Order]] $\mathbb{P}$.
+Fix an [[Ordinal]] $\lambda$ and a [[Forcing Partial Order]] $\mathbb{P}$.
 Define $\mu=\lvert \mathbb{P} \rvert$.
-Let $\kappa$ be such that $\mathbb{P}$ has the $\kappa$-[[Foundations/Forcing/Chain Condition]].
-Thus there are at most $\mu^{<\kappa}$ many [[Foundations/Poset/Antichain]]s.
-Thus there are at most 
+Let $\kappa$ be such that $\mathbb{P}$ has the $\kappa$-[[Chain Condition]].
+Thus there are at most $\mu^{<\kappa}$ many [[Antichain]]s.
+Thus there are at most
+
 $$
 \left\lvert (\mu^{<\kappa})^{\lambda} \right\rvert
 $$
-many [[Foundations/Forcing/Nice Name]]s.
+
+many [[Nice Name]]s.
+
 ### Corollary
-If $\mathbb{P}\in M$ and 
+
+If $\mathbb{P}\in M$ and
+
 $$
 M\models \mathbb{P}\text{ has }\kappa\text{-c.c.} \land \lvert \mathbb{P} \rvert =\mu
 $$
-then define $\nu$ to be such that 
+
+then define $\nu$ to be such that
+
 $$
 M\models (\mu^{<\kappa})^{\lambda} =\nu
 $$
-Then the [[Foundations/Forcing/Model Extension]] has:
+
+Then the [[Model Extension]] has:
+
 $$
 M[G] \models 2^{\lambda} \leq \nu
 $$
+
 #### Proof
-Every subset of $\lambda$ in $M[G]$ has a [[Foundations/Forcing/Nice Name]] in $M$.
-Also there are at most $\nu$ [[Foundations/Forcing/Nice Name]]s.
+
+Every subset of $\lambda$ in $M[G]$ has a [[Nice Name]] in $M$.
+Also there are at most $\nu$ [[Nice Name]]s.

@@ -1,1 +1,1 @@
-A formula with no [[Foundations/First Order Logic/Free Variable]]s is called a sentence.
+A formula with no [[Free Variable]]s is called a sentence.

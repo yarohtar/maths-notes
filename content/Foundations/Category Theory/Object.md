@@ -1,3 +1,3 @@
-An object of a [[Foundations/Category Theory/Category]] $\mathcal{C}$ is an element of the set $\operatorname{ob}\mathcal{C}$
-[[Foundations/Category Theory/Initial]]
-[[Foundations/Category Theory/Terminal]]
+An object of a [[Category]] $\mathcal{C}$ is an element of the set $\operatorname{ob}\mathcal{C}$
+[[Initial]]
+[[Terminal]]

@@ -1,6 +1,7 @@
-Suppose we have a particle incoming from $-\infty$ into a potential $$U(x)=\begin{cases}U_0& 0<x<a\\ 0 & \text{otherwise} \end{cases}$$
+Suppose we have a particle incoming from $-\infty$ into a potential $U(x)=\begin{cases}U_0& 0<x<a\\ 0 & \text{otherwise} \end{cases}$
 The solution will generally be:
-$$\psi(x) = \begin{cases}Ae^{ikx}+Be^{-ikx} & x<0 \\ f(x) & 0<x<a\\
+
+$$$\psi(x) = \begin{cases}Ae^{ikx}+Be^{-ikx} & x<0 \ f(x) & 0<x<a\
 Ce^{ikx} & x>a\end{cases}$$
 Note we don't have $e^{-ikx}$ in the case $x>a$ 
 because there is nothing coming from the right. 
@@ -22,3 +23,4 @@ we call this quantum tunnelling,
 because in the classical case, 
 we would have $T=0$, 
 but here we get $T>0$. 
+$$$

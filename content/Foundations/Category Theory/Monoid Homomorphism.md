@@ -1,1 +1,1 @@
-A [[Foundations/Category Theory/Functor]] between monoids is a [[Foundations/Category Theory/Monoid]] homomorphism
+A [[Functor]] between monoids is a [[Monoid]] homomorphism

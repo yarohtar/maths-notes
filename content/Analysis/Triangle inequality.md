@@ -1,2 +1,2 @@
 For any $x,y\in \mathbb{R}^n$:
-$$||x+y||\leq ||x||+||y||$$
+$||x+y||\leq ||x||+||y||$

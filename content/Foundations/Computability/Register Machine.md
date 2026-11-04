@@ -1,5 +1,5 @@
 Given a set of states $Q$ we define $Q$-instructions:
-For a natural number $k\in \mathbb{N}$ and $a\in \Sigma$ (usually $\Sigma=\{ 0,1 \}$) 
+For a natural number $k\in \mathbb{N}$ and $a\in \Sigma$ (usually $\Sigma=\{ 0,1 \}$)
 
 | Instruction            | Interpretation                                                                                                                             |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -9,41 +9,48 @@ For a natural number $k\in \mathbb{N}$ and $a\in \Sigma$ (usually $\Sigma=\{ 0,1
 | $-(k,q,q')$            | Check whether register $k$ is empty<br>- If so go to state $q$<br>- Otherwise, remove the final letter of its content and go to state $q'$ |
 
 ### Definition
-A pair $M=(Q,P)$ is called a register machine if $Q$ is a non-empty finite set of states with two special elements $q_{S}\neq q_{H}$ (start and halt states), and $P$ is a function with domain $Q$ and codomain the $Q$-instructions (so each $P(q)$ is a $Q$-instruction). 
+
+A pair $M=(Q,P)$ is called a register machine if $Q$ is a non-empty finite set of states with two special elements $q_{S}\neq q_{H}$ (start and halt states), and $P$ is a function with domain $Q$ and codomain the $Q$-instructions (so each $P(q)$ is a $Q$-instruction).
 The function $P$ is called the program of the register machine.
-For a fixed $q\in Q$, we refer to $(q,P(q))$ as the program line. 
+For a fixed $q\in Q$, we refer to $(q,P(q))$ as the program line.
 
 As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q)$ and we call this number the upper register index. (Note that this machine uses at most $n+1$ registers because we start from $0$)
-[[Foundations/Computability/Computation Sequence]]
-[[Foundations/Computability/Strong Equivalence of Register Machines]]
-[[Foundations/Computability/Partial Function]]
-[[Foundations/Computability/Question]]
+[[Computation Sequence]]
+[[Strong Equivalence of Register Machines]]
+[[Partial Function]]
+[[Question]]
+
 ## Standard operations
-[[Foundations/Computability/Subroutine Lemma]]
-[[Foundations/Computability/Case Distinction Lemma]]
-[[Foundations/Computability/Repeat Lemma]]
+
+[[Subroutine Lemma]]
+[[Case Distinction Lemma]]
+[[Repeat Lemma]]
 
 ## Computability
-[[Foundations/Computability/Computable]]
-[[Foundations/Computability/Computably Enumerable]]
+
+[[Computable]]
+[[Computably Enumerable]]
 
 ## Operations on natural numbers
-[[Foundations/Computability/Encoding Numbers in Binary Words]]
-[[Foundations/Computability/Truncation of Register Machine]]
-[[Foundations/Computability/Gödel's primitive recursive functions]]
-[[Foundations/Computability/Partial Recursive Functions]]
-[[Foundations/Computability/Splitting and Merging Words]]
+
+[[Encoding Numbers in Binary Words]]
+[[Truncation of Register Machine]]
+[[Gödel's primitive recursive functions]]
+[[Partial Recursive Functions]]
+[[Splitting and Merging Words]]
 
 ## Coding Langauges
-[[Foundations/Computability/Encoding Alphabets in Binary Words]]
-[[Foundations/Computability/Encoding Register Machines]]
-[[Foundations/Computability/The Software Principle]]
-[[Foundations/Computability/The s-m-n Theorem]]
-[[Foundations/Computability/Kleene's Recursion Theorem]]
+
+[[Encoding Alphabets in Binary Words]]
+[[Encoding Register Machines]]
+[[The Software Principle]]
+[[The s-m-n Theorem]]
+[[Kleene's Recursion Theorem]]
 
 ## Misc
-[[Foundations/Computability/Computability Hierarchy]]
-[[Foundations/Computability/Reduction Function]]
-[[Foundations/Computability/Turing Joint]]
-[[Foundations/Computability/Complete Language]]
-[[Foundations/Computability/Index Set]]
+
+[[Computability Hierarchy]]
+[[Reduction Function]]
+[[Turing Joint]]
+[[Complete Language]]
+[[Index Set]]

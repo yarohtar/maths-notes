@@ -1,9 +1,12 @@
 Let $A$ be a finite alphabet.
-The probability simplex is the set 
+The probability simplex is the set
+
 $$
 \mathcal{P}=\left\{  P\in[0,1]^{A } : \sum_{a\in A} P(a) = 1  \right\}
 $$
+
 For example, in $\mathbb{R}^{3}$ with $A=\{ a,b,c \}$ we have:
+
 ```tikz
 \begin{document}
 \begin{tikzpicture}
@@ -28,4 +31,3 @@ For example, in $\mathbb{R}^{3}$ with $A=\{ a,b,c \}$ we have:
 
 \end{document}
 ```
-

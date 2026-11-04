@@ -8,12 +8,15 @@ Define operator $X\ket{\psi}=x\ket{\psi}$ and $\braket{ x' | x }=\delta(x-x')$
 Formally this wouldn't really be allowed to be in our $\mathcal{H}$ because they are not normalizable. We would need to include distributions but we just kinda glance over that.
 
 Then we can expand any vector as
+
 $$
 \ket{\psi} = \int_{\mathbb{R}}\psi(x')\ket{x'} dx'
 $$
+
 Note that here $\psi(x')$ is the $\ket{x'}$ coordinate of the vector $\ket{\psi}$.
 
 We extract the wavefunction by projecting on $\ket{x}$
+
 $$
 \braket{ x | \psi } =\int \psi(x')\braket{ x | x' } dx'=\int \psi(x')\delta(x-x')dx'=\psi(x)
 $$

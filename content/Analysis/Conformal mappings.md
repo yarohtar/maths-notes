@@ -9,10 +9,12 @@ Now if we introduce a second curve $z_2(t)$, then we see it also gets rotated by
 The reverse is also true!
 
 ### Examples
+
 - $e^z$ maps rectangles to sectors of annuli
 - $\log z$ maps sectors of annuli to rectangles
 - $\log z$ will also map the upper half plane to the strip $0<y<\pi$ (or whatever the branch of $\log$ is)
 - [[Mobius map]] $f(z)={z-1\over z+1}$ swaps the imaginary axis and the unit circle, while keeping the real line fixed (useful.)
 
 ### Riemann Mapping Theorem
+
 Any simply connected domain that is not the whole $\mathbb C$ is conformally equivalent to the unit disk.
