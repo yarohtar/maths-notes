@@ -254,6 +254,11 @@ plugins:
     enabled: true
     options: {}
     order: 45
+  - source: ./local-plugins/site-meta # robots.txt + noindex/unlisted utility pages
+    enabled: true
+    options:
+      noindexSlugs: [feedback, no-page, tags/index]
+    order: 1 # must run before content-index (sitemap)
   - source: github:quartz-community/encrypted-pages
     enabled: true
     options:

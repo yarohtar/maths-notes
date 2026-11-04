@@ -1,0 +1,20 @@
+{
+  "name": "site-meta",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Search-engine metadata: emit robots.txt (with Sitemap line) and keep utility pages out of the sitemap/RSS/search with a noindex tag.",
+  "main": "./dist/index.js",
+  "exports": { ".": { "import": "./dist/index.js" }, "./package.json": "./package.json" },
+  "quartz": {
+    "name": "site-meta",
+    "displayName": "Site metadata (robots.txt, noindex)",
+    "category": "emitter",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 1,
+    "defaultEnabled": true,
+    "defaultOptions": { "noindexSlugs": ["feedback", "no-page", "tags/index"] }
+  }
+}
