@@ -1,7 +1,0 @@
-[[Euler-Lagrange]]
-[[Lagrange Multipliers for Functionals]]
-[[Principle of least action]]
-[[Noether Theorem]]
-[[Legendre Transform]]
-[[Hamiltonian]]
-[[Second variation of functionals]]
