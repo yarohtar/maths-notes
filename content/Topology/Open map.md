@@ -1,0 +1,1 @@
+$f:X\to Y$ is an open map if it maps open sets in $X$ to open sets in $Y$

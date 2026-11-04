@@ -1,0 +1,1 @@
+For $x\in X$ and $U\subset X$, then $U$ is the neighbourhood of $x$ if there is an open $V\subset X$ s.t. $x\in V\subset U$.
