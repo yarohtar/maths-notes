@@ -1,0 +1,20 @@
+{
+  "name": "link-resolver",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Resolve short wikilinks the way Obsidian does where Quartz's shortest-path resolution fails (folder notes, duplicate note names). Runs before crawl-links.",
+  "main": "./dist/index.js",
+  "exports": { ".": { "import": "./dist/index.js" }, "./package.json": "./package.json" },
+  "quartz": {
+    "name": "link-resolver",
+    "displayName": "Obsidian-style link resolution",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 55,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}
