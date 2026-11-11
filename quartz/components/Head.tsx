@@ -8,15 +8,25 @@ import { CustomOgImagesEmitterName } from "../../.quartz/plugins"
 import { createHash } from "node:crypto"
 import { readFileSync } from "node:fs"
 
-// Versioned icon URL: Cloudflare and browsers cache icons for hours, so a changed
-// quartz/static/icon.png must get a new URL to show up.
-let iconVersion = ""
-try {
-  iconVersion = createHash("sha256")
-    .update(readFileSync("quartz/static/icon.png"))
-    .digest("hex")
-    .slice(0, 8)
-} catch {}
+// Versioned icon URLs: Cloudflare and browsers cache icons for hours, so a changed
+// file in quartz/static must get a new URL to show up.
+const versioned = (file: string) => {
+  try {
+    const hash = createHash("sha256").update(readFileSync(`quartz/static/${file}`))
+    return `static/${file}?v=${hash.digest("hex").slice(0, 8)}`
+  } catch {
+    return `static/${file}`
+  }
+}
+// icon.svg: TeX lambda that follows light/dark mode (most browsers).
+// icon.png: same glyph in one mid-tone colour; the favicon plugin turns it into the
+//   48px /favicon.ico used where SVG icons aren't (Safari).
+// apple-touch-icon.png: on the page background, since iOS fills transparency with black.
+const icons = {
+  svg: versioned("icon.svg"),
+  ico: `favicon.ico${versioned("icon.png").replace(/^[^?]*/, "")}`,
+  touch: versioned("apple-touch-icon.png"),
+}
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
@@ -41,8 +51,7 @@ export default (() => {
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
-    const iconPath =
-      joinSegments(baseDir, "static/icon.png") + (iconVersion ? `?v=${iconVersion}` : "")
+    const iconPath = joinSegments(baseDir, icons.ico)
 
     // Url of current page
     // (the home page lives at "/", not "/index"; folder pages at "folder/", not "folder/index")
@@ -112,8 +121,9 @@ export default (() => {
         )}
 
         {cfg.baseUrl && fileData.slug !== "404" && <link rel="canonical" href={socialUrl} />}
-        <link rel="icon" href={iconPath} />
-        <link rel="apple-touch-icon" href={iconPath} />
+        <link rel="icon" href={iconPath} sizes="48x48" />
+        <link rel="icon" href={joinSegments(baseDir, icons.svg)} type="image/svg+xml" />
+        <link rel="apple-touch-icon" href={joinSegments(baseDir, icons.touch)} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
