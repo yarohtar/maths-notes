@@ -240,8 +240,7 @@ plugins:
     enabled: true
     options:
       includeAll: false
-      includedProperties:
-        - description
+      includedProperties: # "description" is left out: it's for search engines (<meta>), not the page
         - tags
         - aliases
       excludedProperties: []
