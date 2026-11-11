@@ -1,6 +1,7 @@
 ---
 publish: true
 title: Cambridge Maths Notes
+description: "Notes from my Cambridge Maths degree: definitions, theorems and proofs, densely linked so you can jump between related ideas."
 created: 2025-10-11T02:26:36.961+01:00
 modified: 2026-10-11T21:45:33.317Z
 ---

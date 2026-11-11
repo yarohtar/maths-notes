@@ -12,13 +12,17 @@ export default (() => {
     externalResources,
     ctx,
   }: QuartzComponentProps) => {
-    const titleSuffix = cfg.pageTitleSuffix ?? ""
+    // The home page title already names the site, so it gets no suffix
+    const titleSuffix = fileData.slug === "index" ? "" : (cfg.pageTitleSuffix ?? "")
     const title =
       (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
     const description =
       fileData.frontmatter?.socialDescription ??
       fileData.frontmatter?.description ??
-      unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
+      (fileData.description?.trim()
+        ? unescapeHTML(fileData.description.trim())
+        : // folder and tag pages have no text of their own; don't ship "No description provided"
+          `${fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title}: notes from my Cambridge Maths degree.`)
 
     const { css, js, additionalHead } = externalResources
 
@@ -28,8 +32,11 @@ export default (() => {
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
     // Url of current page
+    // (the home page lives at "/", not "/index"; folder pages at "folder/", not "folder/index")
     const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+      fileData.slug === "404"
+        ? url.toString()
+        : joinSegments(url.toString(), fileData.slug!.replace(/(^|\/)index$/, "$1"))
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
@@ -62,7 +69,7 @@ export default (() => {
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta name="og:site_name" content={cfg.pageTitle}></meta>
+        <meta property="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -78,7 +85,7 @@ export default (() => {
             <meta name="twitter:image" content={ogImageDefaultPath} />
             <meta
               property="og:image:type"
-              content={`image/${getFileExtension(ogImageDefaultPath) ?? "png"}`}
+              content={`image/${getFileExtension(ogImageDefaultPath)?.replace(/^\./, "") ?? "png"}`}
             />
           </>
         )}
@@ -91,7 +98,9 @@ export default (() => {
           </>
         )}
 
+        {cfg.baseUrl && fileData.slug !== "404" && <link rel="canonical" href={socialUrl} />}
         <link rel="icon" href={iconPath} />
+        <link rel="apple-touch-icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
