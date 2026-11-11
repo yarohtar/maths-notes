@@ -1,6 +1,6 @@
 ---
 publish: true
-title: Homepage
+title: Cambridge Maths Notes
 created: 2025-10-11T02:26:36.961+01:00
 modified: 2026-10-11T21:45:33.317Z
 ---
