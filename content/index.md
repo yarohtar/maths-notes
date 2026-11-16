@@ -3,16 +3,19 @@ publish: true
 title: Cambridge Maths Notes
 description: "Notes from my Cambridge Maths degree: definitions, theorems and proofs, densely linked so you can jump between related ideas."
 created: 2025-10-11T02:26:36.961+01:00
-modified: 2026-10-11T21:45:33.317Z
+modified: 2026-11-16T23:27:56.589Z
 ---
 
-On this website you will find my notes as I write them throughout my time in Cambridge.
+On this website you will find my notes as I took them throughout my time in Cambridge and beyond.
 
 > [!danger] Disclaimer
-> No content presented on this website is official. It is not endorsed by the University of Cambridge, the Maths Faculty, or any of the Lecturers.
-> It is not an accurate representation of what was lectured or what is examined.
-> While some notes were taken during lectures, a big part was created after lectures or during revision and heavily modified to suit my needs. In particular, all errors are my own.
-> You should also assume that no single course presented here is [[Complete]].
+> The notes on this website are in no way official.
+> They were taken by me, sometimes during lectures, sometimes during revision, and sometimes just for fun.
+> As such, most courses presented here are not [[Complete]], and don't necessarily represent what was lectured.
+
+> [!info] AI
+> No LLMs were used to write any of the notes.
+> AI is used to maintain the server, plugins, some styling, and some diagrams (though most of that was also done by hand).
 
 ## why?
 
@@ -24,19 +27,18 @@ That said, my main goals were:
 2. having a wikilink whenever a maths concept appears in text
 3. keeping myself entertained during lectures while i struggle with latex and plugins
 
-I have (so far) failed at (1), tried at (2), and sometimes succeeded at (3).
+I've had varying degrees of success with these goals, but I'm still looking to write more.
 Either way, this database might be useful for some of you.
 
 > [!tip] Navigation
-> Most of the time you should use the search bar (`Ctrl`+`K`) to find the note you need. To find related notes, look for the links in the text and the list of backlinks.
+> Most of the time you should use the search bar (`Ctrl`+`K`) to find the note you need.
+> To find related notes, look for the links in the text and the list of backlinks.
 > You can also click on the graph view and see all the connections - it's kinda fun.
 
 > [!info] The "Click me!" button
 > There is way too many files for me to check if the markdown, mathjax, tikzjax and everything else is rendering correctly. If you find that some page looks weird, click the button and I will check it out.
-> Two main issues that I know of are weird indenting after a list, and display math messing up the whole page.
-
-> [!warning] Another word of warning
-> Some courses are quite detailed, while others look like they have been frantically put together just before exams (because they were :p). I sometimes go back and reorganize stuff - if you want to see a specific course redone, let me know.
+> Two main issues that I know of are weird indenting after a list, and display math messing up the whole page, so please click the button if you see this.
+> For more serious issues raise one on [GitHub](https://github.com/yarohtar/maths-notes/issues)
 
 ## Part IA
 
@@ -94,7 +96,7 @@ Some of [[Combinatorics/Graphs/Graph Theory|Graph Theory]]
 
 - If you want to view them in the app, you can find the setup guide in [yarohtar/cam-maths-notes-obsidian](https://github.com/yarohtar/cam-maths-notes-obsidian)
 
-- This website was created using Jacky Zhao's [Quartz](https://quartz.jzhao.xyz/)
+- This website was generated using Jacky Zhao's [Quartz](https://quartz.jzhao.xyz/)
 
 - The commutative diagrams are rendered using [benrbray/tikzjax](https://github.com/benrbray/tikzjax)
   - which is a fork of [artisticat1/tikzjax](https://github.com/artisticat1/tikzjax/tree/ba892f23a2d280d018681a4f88b39f5a8648c7c7)
@@ -102,6 +104,6 @@ Some of [[Combinatorics/Graphs/Graph Theory|Graph Theory]]
       - which is a fork of Jim Fowler's [TikzJax](https://github.com/kisonecat/tikzjax)
         - which itself uses Jim Fowler's [web2js](https://github.com/kisonecat/web2js) and [dvi2html](https://github.com/kisonecat/dvi2html)
 
-## Contributions?
+## Contributions
 
-If you want to add your own stuff on here, or fix some of my old notes, let me know and we'll see what we can do. Setting this up might take some commitment, but I want the website to cover as much as possible, and would be happy to do it.
+You are welcome to add a [PR](https://github.com/yarohtar/cam-maths-notes-obsidian/pulls)
