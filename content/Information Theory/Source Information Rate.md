@@ -1,17 +1,24 @@
-The information rate $H$ of a [[Information Theory/Source]] 
-is the infimum of all rates at which it is [[Information Theory/Reliably encodable]]
+The information rate $H$ of a [[Source]]
+is the infimum of all rates at which it is [[Reliably encodable]]
+
 ### Lemma
-The [[Information Theory/Source Information Rate]] of a [[Information Theory/Discrete Memoryless Source]] 
-is at most the expected word length of an [[Information Theory/Optimal Code]].
+
+The [[Source Information Rate]] of a [[Discrete Memoryless Source]]
+is at most the expected word length of an [[Optimal Code]].
+
 #### Proof
+
 Let $c$ be an optimal code
 Let $S_{1},S_{2},\dots$ be codeword lengths when we encode $X_{1},X_{2},\dots$
 Let $\epsilon>0$
-Let 
+Let
+
 $$
 A_{n}=\{ x : c^{*}(x) \text{ has length less than }n\cdot(\mathbb{E}(S_{1})+\epsilon) \}
 $$
+
 Then
+
 $$
 \begin{align}
 \mathbb{P}((X_{1},\dots,X_{n})\in A_{n})  &  = \mathbb{P}\left( \sum_{i=1}^{n}S_{i}\leq n(\mathbb{E}(S_{1})+\epsilon) \right) \\
@@ -19,28 +26,41 @@ $$
  & \to 1 
 \end{align}
 $$
-by [[Probability/Weak Law of Large Numbers]].
 
-Now $c^{*}$ is injective, hence $\lvert A_{n} \rvert\leq 2^{n(\mathbb{E}(S_{1})+\epsilon)}$. 
+by [[Weak Law of Large Numbers]].
+
+Now $c^{*}$ is injective, hence $\lvert A_{n} \rvert\leq 2^{n(\mathbb{E}(S_{1})+\epsilon)}$.
 Making $A_{n}$ larger if necessary, we can assume $\lvert A_{n} \rvert=\lfloor 2^{n(\mathbb{E}(S_{i})+\epsilon)} \rfloor$
-Taking logarithms 
+Taking logarithms
+
 $$
 \frac{\log \lvert A_{n} \rvert }{n}\to \mathbb{E}(S_{1})+\epsilon
 $$
-So the source is [[Information Theory/Reliably encodable]] at rate $r=\mathbb{E}(S_{1})+\epsilon$ for all $\epsilon>0$. 
+
+So the source is [[Reliably encodable]] at rate $r=\mathbb{E}(S_{1})+\epsilon$ for all $\epsilon>0$.
 Hence the information rate is at most $\mathbb{E}(s_{1})$.
+
 ### Corollary
-A [[Information Theory/Discrete Memoryless Source]] has information rate less than $H(X)+1$.
+
+A [[Discrete Memoryless Source]] has information rate less than $H(X)+1$.
+
 #### Proof
-[[Information Theory/Shannon's noiseless coding theorem]]
+
+[[Shannon's noiseless coding theorem]]
+
 ### Proposition
-The information rate $H$ of a [[Information Theory/Discrete Memoryless Source]] is at most $H(X)$. 
+
+The information rate $H$ of a [[Discrete Memoryless Source]] is at most $H(X)$.
+
 #### Proof
-Encode $X_{1},X_{2},\dots$ in blocks of size $N$. 
-Let $Y_{1}=(X_{1},\dots,X_{N})$ etc. 
+
+Encode $X_{1},X_{2},\dots$ in blocks of size $N$.
+Let $Y_{1}=(X_{1},\dots,X_{N})$ etc.
 Then if $X$ has information rate $H$, $Y$ has information rate $NH$
 Apply the previous corollary:
+
 $$
 NH<H(Y)+1=H(X_{1},\dots,X_{N})+1=NH(X)+1
 $$
+
 to find $H<H(X)+\frac{1}{N}$ so $H\leq H(X)$.

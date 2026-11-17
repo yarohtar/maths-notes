@@ -3,19 +3,19 @@ https://www.dpmms.cam.ac.uk/~or257/teaching/notes/at.pdf
 
 A cts function will be called a map.
 
-[[Analysis/Gluing lemma]]
-[[Analysis/Lebesgue number lemma]]
-[[Homotopy/Finite cell complex]]
+[[Gluing lemma]]
+[[Lebesgue number lemma]]
+[[Finite cell complex]]
 
-[[Homotopy/Homotopy]]
-[[Homotopy/Paths]]
-[[Homotopy/Fundamental group]]
-[[Homotopy/Fundamental group isomorphisms]]
-[[Topology/Simply connected]]
-[[Homotopy/Covering Spaces]]
+[[Homotopy]]
+[[Paths]]
+[[Fundamental group]]
+[[Fundamental group isomorphisms]]
+[[Simply connected]]
+[[Covering Spaces]]
 
-[[Homotopy/Fundamental group of the circle]]
+[[Fundamental group of the circle]]
 
-[[Homotopy/Galois Correspondence]]
+[[Galois Correspondence]]
 
-[[Algebra/Group Theory/Free Group]]
+[[Free Group]]

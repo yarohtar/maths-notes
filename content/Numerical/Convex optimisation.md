@@ -1,13 +1,15 @@
 ## Definitions
-[[Algebra/Vector Spaces/Convex Set]]
-[[Analysis/Convex Function]]
+
+[[Convex Set]]
+[[Convex Function]]
 
 ## Convexity condition
-[[Analysis/Supporting hyperplane]]
-[[Analysis/Second-order condition]]
 
+[[Supporting hyperplane]]
+[[Second-order condition]]
 
 ## Methods for finding minimums
-[[Numerical/Gradient descent]]
-[[Numerical/Newton's method]]
-[[Numerical/Barrier method]]
+
+[[Gradient descent]]
+[[Newton's method]]
+[[Barrier method]]

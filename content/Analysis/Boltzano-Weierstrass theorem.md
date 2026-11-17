@@ -1,13 +1,18 @@
-Let $x_n$ be a [[Analysis/Bounded]] real sequence. 
+Let $x_n$ be a [[Bounded]] real sequence.
 Then $x_n$ contains a convergent subsequence.
+
 #### Proof
-By considering half intervals. 
+
+By considering half intervals.
 Alternatively, can use increasing bounded sequence converges property.
 
 ## $\mathbb{R}^n$ sequences
+
 ### Theorem
+
 Same statement as for Real sequences
 
 #### Proof
-To prove it, first find a subsequence such that the first coordinate converges. 
-Then find the subsequence of that subsequence s.t. the second coordinate converges.... 
+
+To prove it, first find a subsequence such that the first coordinate converges.
+Then find the subsequence of that subsequence s.t. the second coordinate converges....

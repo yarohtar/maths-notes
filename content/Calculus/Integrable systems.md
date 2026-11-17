@@ -1,3 +1,3 @@
-[[Calculus/Integrability of ODEs]]
-[[Calculus/Integrability of PDEs]]
-[[Calculus/Lie Symmetries]]
+[[Integrability of ODEs]]
+[[Integrability of PDEs]]
+[[Lie Symmetries]]

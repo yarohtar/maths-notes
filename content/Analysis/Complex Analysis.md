@@ -1,2 +1,2 @@
-[[Analysis/Cauchy-Riemann Equations]]
-[[Analysis/Power series]]
+[[Cauchy-Riemann Equations]]
+[[Power series]]

@@ -1,3 +1,2 @@
-A subset $S$ of a [[Foundations/Poset/Poset]] $X$ is a chain if 
-the [[Foundations/Computability/Partial Order]] of $X$ restricted to $S$ is a [[Foundations/Ordinals/Linear order]].
-
+A subset $S$ of a [[Poset]] $X$ is a chain if
+the [[Partial Order]] of $X$ restricted to $S$ is a [[Linear order]].

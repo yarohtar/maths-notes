@@ -1,7 +1,9 @@
-Let $X$, $Y$ be [[Analysis/Normed Space]]s with $Y$ [[Analysis/Complete]]. 
-Then $L(X,Y)$ is [[Analysis/Complete]].
+Let $X$, $Y$ be [[Normed Space]]s with $Y$ [[Complete]].
+Then $L(X,Y)$ is [[Complete]].
+
 #### Proof
-Given $(T_{n})$, a [[Analysis/Cauchy Sequence]] in $L(X,Y)$:
+
+Given $(T_{n})$, a [[Cauchy Sequence]] in $L(X,Y)$:
 Have $(T_{n}x)$ Cauchy in $Y$ for all $x\in X$ - since $\lVert T_{m}x-T_{n} x\rVert\leq \lVert T_{m}-T_{n} \rVert\lVert x \rVert$ so $T_{n}x\to T(x)$ for some $T(x)\in Y$.
 $T$ is linear by linearity of $T_{n}$ and taking pointwise limits.
 $T$ bounded: Given $\epsilon>0$, $\lVert T_{m}-T_{n} \rVert\leq \epsilon$ for all $m,n>n_{0}$ for some $n_{0}$.

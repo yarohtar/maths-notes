@@ -14,3 +14,4 @@ quartz/cli/tui/dist/
 content/README.md
 content/*Revision*
 
+__pycache__/

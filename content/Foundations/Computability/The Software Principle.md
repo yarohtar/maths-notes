@@ -1,4 +1,5 @@
-There is a register machine $U$, called a universal register machine, such that we have the [[Foundations/Computability/Computable]] [[Foundations/Computability/Partial Function]]
+There is a register machine $U$, called a universal register machine, such that we have the [[Computable]] [[Partial Function]]
+
 $$
 f_{U,2}(v,u)=\begin{cases}
 f_{M,k+1}(\vec{w}) & \text{if } v=code(M) \text{ for register machine }M \\
@@ -8,9 +9,9 @@ f_{M,k+1}(\vec{w}) & \text{if } v=code(M) \text{ for register machine }M \\
 \uparrow & \text{otherwise}
 \end{cases}
 $$
-where we use [[Foundations/Computability/Encoding Register Machines]] to prove this.
+
+where we use [[Encoding Register Machines]] to prove this.
 
 This allows us to extend our notations.
 Write $f_{v,k}(\vec{w})=f_{U,2}(v,code(q_{S},\vec{w}))$
-Similarly for [[Foundations/Computability/Domain of a Computable Function]] and [[Foundations/Computability/Truncation of Register Machine]].
-
+Similarly for [[Domain of a Computable Function]] and [[Truncation of Register Machine]].

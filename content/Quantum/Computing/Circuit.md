@@ -1,2 +1,2 @@
-A device consisting of [[Quantum/Computing/Logic Gates]]
-[[Quantum/Computing/Single qubit interference circuit]]
+A device consisting of [[Logic Gates]]
+[[Single qubit interference circuit]]

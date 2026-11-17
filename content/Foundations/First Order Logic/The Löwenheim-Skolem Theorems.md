@@ -1,2 +1,2 @@
-[[Foundations/First Order Logic/The Upwards Löwenheim-Skolem Theorem]]
-[[Foundations/First Order Logic/The Downward Löwenheim-Skolem Theorem]]
+[[The Upwards Löwenheim-Skolem Theorem]]
+[[The Downward Löwenheim-Skolem Theorem]]

@@ -1,5 +1,6 @@
 A Toeplitz matrix is one that is constant along diagonals.
 Example:
+
 $$
 \begin{pmatrix}
 1 & 2 & 3 \\

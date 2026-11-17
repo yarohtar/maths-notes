@@ -1,1 +1,1 @@
-A monad is a [[Foundations/Category Theory/Monoid]] in the [[Foundations/Category Theory/Category of Endofunctors]]
+A monad is a [[Monoid]] in the [[Category of Endofunctors]]

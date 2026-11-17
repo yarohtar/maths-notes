@@ -1,7 +1,7 @@
-[[Analysis/Fourier Series]]
-[[Calculus/Sturm-Liouville Theory]]
+[[Fourier Series]]
+[[Sturm-Liouville Theory]]
 
 [[Analysis/Fourier Transform]]
-[[Calculus/Poisson Summation Formula]]
-[[Calculus/Method of Characteristics]]
-[[Calculus/Green's Functions]]
+[[Poisson Summation Formula]]
+[[Method of Characteristics]]
+[[Green's Functions]]

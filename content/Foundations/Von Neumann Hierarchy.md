@@ -1,4 +1,5 @@
 Sets defined recursively as:
+
 $$
 \begin{gather}
 V_{0}=\varnothing \\
@@ -7,5 +8,6 @@ V_{\lambda} = \bigcup_{\alpha<\lambda} V_{\alpha} \\
 V=\bigcup_{\alpha \in \mathrm{Or d}} V_{\alpha}
 \end{gather}
 $$
-This is a [[Foundations/First Order Logic/Hierarchy]].
+
+This is a [[Hierarchy]].
 Moreover $V$ is the set theoretic universe.

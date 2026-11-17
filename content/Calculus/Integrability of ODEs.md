@@ -1,1 +1,1 @@
-[[Calculus/Classical Mechanics]]
+[[Classical Mechanics]]

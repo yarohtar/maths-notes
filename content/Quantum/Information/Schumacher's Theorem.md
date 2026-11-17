@@ -1,1 +1,1 @@
-[[Quantum/Information/Von Neumann Entropy]]
+[[Von Neumann Entropy]]

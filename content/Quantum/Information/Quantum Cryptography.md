@@ -1,1 +1,1 @@
-[[Quantum/Information/BB84]]
+[[BB84]]

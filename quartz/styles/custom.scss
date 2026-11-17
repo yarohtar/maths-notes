@@ -1,3 +1,17 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Wider search bar (Quartz default caps it at 14rem)
+.search {
+  max-width: 200rem !important;
+}
+
+// External link colours
+a.external {
+  color: var(--secondary);
+
+  &:hover {
+    color: var(--tertiary);
+  }
+}

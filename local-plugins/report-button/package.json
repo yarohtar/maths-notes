@@ -1,0 +1,31 @@
+{
+  "name": "report-button",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "\"Something looks off?\" button: increments this page's report counter via POST /api/report (backend in server/feedback).",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": { "import": "./dist/index.js" },
+    "./components": { "import": "./dist/components/index.js" },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": { "preact": "^10.0.0" },
+  "quartz": {
+    "name": "report-button",
+    "displayName": "Report button",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "ReportButton": {
+        "displayName": "Report button",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 10
+      }
+    }
+  }
+}

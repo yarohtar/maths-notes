@@ -1,0 +1,10 @@
+[Unit]
+Description=Weekly email of non-zero MathsNotes report counters
+
+[Service]
+Type=oneshot
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/var/www/maths-feedback
+EnvironmentFile=/etc/maths-feedback.env
+ExecStart=/var/www/maths-feedback/venv/bin/python weekly_email.py

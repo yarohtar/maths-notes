@@ -1,6 +1,7 @@
-Let $X$, $Y$ be [[Foundations/Ordinals/Well-ordered]] sets. 
-Then $X\sqcup Y$ is the set $X\times \{ 0 \}\cup Y\times \{ 1 \}$ 
+Let $X$, $Y$ be [[Well-Ordered]] sets.
+Then $X\sqcup Y$ is the set $X\times \{ 0 \}\cup Y\times \{ 1 \}$
 with well-order as follows:
+
 $$
 (x,i)<(y,j)\iff \begin{cases}
 i=j=0, x<y \text{ in } X \text{ or}\\

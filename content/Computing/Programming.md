@@ -1,1 +1,1 @@
-[[Computing/Programming Algorithms]]
+[[Programming Algorithms]]
