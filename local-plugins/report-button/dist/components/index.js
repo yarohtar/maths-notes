@@ -6,8 +6,9 @@ const css = `
 .report-button-box { margin: 0; padding: 0.75rem 1rem; border: 1px solid var(--lightgray); border-radius: 5px; box-sizing: border-box; }
 /* Below the desktop breakpoint the right sidebar is a row (graph | backlinks): wrap the box onto its own full-width line. */
 @media all and (max-width: 1200px) {
-  .sidebar.right:has(> .report-button-box) { flex-wrap: wrap; }
-  .sidebar.right > .report-button-box { flex: 1 1 100%; max-height: none; }
+  /* Selectors include #quartz-body to outrank Quartz's ".page > #quartz-body .sidebar.right > * { flex: 1 }". */
+  .page > #quartz-body .sidebar.right:has(> .report-button-box) { flex-wrap: wrap; }
+  .page > #quartz-body .sidebar.right > .report-button-box { flex: 1 1 100%; max-height: none; }
 }
 .report-button-box h3 { display: inline-block; margin: 0 0 0.5rem; font-size: 1.05rem; }
 .report-button-box p { margin: 0.5rem 0 0; font-size: 0.9rem; color: var(--darkgray); }
