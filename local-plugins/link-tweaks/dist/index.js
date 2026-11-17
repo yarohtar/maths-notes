@@ -2,8 +2,21 @@
 // when its `disableBrokenWikilinks` option is on.
 //   brokenLinksAsText: replace <a class="broken"> with a plain <span> (Quartz 4 behaviour)
 //   newTab: "all" | "external" | "none" - which links in note content get target="_blank"
-//           ("#heading" links on the same page are never affected)
+//           ("#heading" and mailto:/tel: links are never affected)
+//           With "external"/"all", a small client script also gives links outside note content
+//           (footer, sidebars) to other sites target="_blank".
 import { visit } from "unist-util-visit"
+
+// Links rendered by components (e.g. the footer) never pass through htmlPlugins, so handle them in the browser.
+const externalLinksScript = `
+document.addEventListener("nav", () => {
+  for (const a of document.querySelectorAll('a[href^="http"]')) {
+    if (a.target || a.host === location.host) continue
+    a.target = "_blank"
+    a.rel = "noopener noreferrer"
+  }
+})
+`
 
 export const LinkTweaks = (opts) => {
   const brokenLinksAsText = opts?.brokenLinksAsText ?? true
@@ -24,7 +37,7 @@ export const LinkTweaks = (opts) => {
               return
             }
 
-            if (href.startsWith("#")) return
+            if (href.startsWith("#") || /^(mailto|tel):/i.test(href)) return
             const isExternal = classes.includes("external")
             if (newTab === "all" || (newTab === "external" && isExternal)) {
               node.properties.target = "_blank"
@@ -33,6 +46,10 @@ export const LinkTweaks = (opts) => {
           })
         },
       ]
+    },
+    externalResources() {
+      if (newTab === "none") return {}
+      return { js: [{ script: externalLinksScript, loadTime: "afterDOMReady", contentType: "inline" }] }
     },
   }
 }

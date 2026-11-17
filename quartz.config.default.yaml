@@ -89,7 +89,7 @@ plugins:
     enabled: true
     options:
       brokenLinksAsText: true
-      newTab: none # "all" | "external" (Quartz 4 behaviour) | "none"
+      newTab: external # "all" | "external" (Quartz 4 behaviour) | "none"
     order: 65
   - source: github:quartz-community/description
     enabled: true
